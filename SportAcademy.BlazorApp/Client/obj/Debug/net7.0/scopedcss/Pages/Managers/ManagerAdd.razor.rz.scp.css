@@ -1,0 +1,17 @@
+.card-f[b-lktaekx3k7] {
+    width: 70%;
+    margin-top: 50px;
+    margin: 10px auto;
+}
+
+.form[b-lktaekx3k7] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.form-field[b-lktaekx3k7] {
+    width: 33%; /* Adjusted to show three fields in a row */
+    margin-bottom: 16px;
+}

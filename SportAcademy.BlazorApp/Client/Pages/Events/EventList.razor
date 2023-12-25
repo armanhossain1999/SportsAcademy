@@ -1,0 +1,113 @@
+﻿@page "/event"
+
+
+@inject HttpClient http
+@inject NavigationManager nvaManager
+@inject ISnackbar snackbar
+@inject IDialogService DialogService
+
+
+<MudCard Style="margin-top:20px; width:90%; margin:10px auto; background-color:white">
+ 
+    <MudCardHeader>
+        <CardHeaderAvatar>
+            <MudAvatar  Variant="Variant.Outlined"><MudImage Src="Pictures/Calendar.png" Style="width:30px; height:30px;"></MudImage></MudAvatar>
+        </CardHeaderAvatar>
+        <CardHeaderContent>
+            <MudText Typo="Typo.body1">Event</MudText>
+            <MudText Typo="Typo.body2">Event list</MudText>
+        </CardHeaderContent>
+        <CardHeaderActions>
+            <MudFab Size="Size.Small" Href="/Events/Add" StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary" />
+        </CardHeaderActions>
+    </MudCardHeader>
+
+    <MudCardContent>
+        @if (this.events is null)
+        {
+            <LoadingIndicator/>
+        }
+        else
+        {
+            <MudTable Items="@events" Hover="true" Breakpoint="Breakpoint.Sm" Loading="@_loading" LoadingProgressColor="Color.Info">
+                  <HeaderContent> 
+                    <MudTh>Picture</MudTh>
+                    <MudTh><MudTableSortLabel SortBy="new Func<Event, object>(x=>x.EventName)">Event Name</MudTableSortLabel></MudTh>
+                    <MudTh>StartDate</MudTh>
+                    <MudTh>EndDate</MudTh>
+                    <MudTh>Description</MudTh>
+                    <MudTh>Location</MudTh>
+                    <MudTh>Edit/Delete</MudTh>
+                </HeaderContent>
+                <RowTemplate>
+                    <MudTd> <img class="img-thumnail rounded-circle" src="/Pictures/@context.Picture" style="width:40px;" /></MudTd>
+                    <MudTh>@context.EventName</MudTh>
+                    <MudTh>@context.StartDate?.ToString("yyyy-mm-dd")</MudTh>
+                    <MudTh>@context.EndDate?.ToString("yyyy-mm-dd")</MudTh>
+                    <MudTh>@context.Description</MudTh>
+                    <MudTh>@context.Location</MudTh>
+                    <MudTh>
+                        <MudIconButton Size="Size.Small" Href="@GetLink(context.EventId)" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Edit" Variant="Variant.Outlined" Color="Color.Primary"></MudIconButton>
+                        <MudIconButton OnClick="@(()=>ConfirmDelete(@context.EventId))" Size="Size.Small" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Delete" Variant="Variant.Outlined" Color="Color.Secondary"></MudIconButton>
+                    
+                    </MudTh>
+                </RowTemplate>  
+                <PagerContent>
+                    <MudTablePager PageSizeOptions="new int[] {5, 10, 25, 50, 100 }" HorizontalAlignment="HorizontalAlignment.Right" />
+
+                </PagerContent>
+            </MudTable>
+            <MudSwitch @bind-Checked="_loading">Show Loading</MudSwitch>
+        }
+    </MudCardContent>
+</MudCard>
+
+
+
+@code {
+    private bool _loading;
+
+    public List<Event>? events;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var data = await this.http.GetFromJsonAsync<List<Event>>("/api/Events");
+        if (data is null)
+        {
+            this.snackbar.Configuration.PositionClass = Defaults.Classes.Position.BottomCenter;
+            this.snackbar.Add("Cannot load events.", Severity.Error);
+        }
+        else
+        {
+            this.events = data;
+        }
+    }
+    private string GetLink(int id)
+    {
+        return $"/Event/Edit/{id}";
+    }
+    private async void ConfirmDelete(int id)
+    {
+        var confirm = this.DialogService.Show<ConfirmDialog>();
+        var result = await confirm.Result;
+        if (!result.Canceled)
+        {
+            await DeleteEvent(id);
+        }
+
+    }
+    private async Task DeleteEvent(int id)
+    {
+         var response = await this.http.DeleteAsync($"/api/Events/{id}");
+         if (response.IsSuccessStatusCode)
+         {
+             if (this.events is null) { }
+             else
+             {
+                 int index = this.events.FindIndex(b => b.EventId == id);
+                 if (index >= 0) this.events.RemoveAt(index);
+                 this.StateHasChanged();
+             }
+         }
+    }
+}

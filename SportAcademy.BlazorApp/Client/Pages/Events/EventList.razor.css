@@ -1,0 +1,23 @@
+﻿.list-card {
+    margin-top: 90px;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Adjust the margin or padding as needed */
+.left-content,
+.right-content {
+    margin-right: 16px; /* Adjust the spacing as needed */
+}

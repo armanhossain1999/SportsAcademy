@@ -1,0 +1,146 @@
+﻿@page "/playerStatistic"
+@inject HttpClient http
+@inject NavigationManager nvaManager
+@inject ISnackbar snackbar
+@inject IDialogService DialogService
+
+
+<MudCard Style="margin-top:20px; width:90%; margin:10px auto; background-color:lightgoldenrodyellow">
+
+    <MudCardHeader>
+        <CardHeaderAvatar>
+            <MudAvatar Variant="Variant.Outlined"><MudImage Src="Pictures/bar-chart.png" Style="width:30px; height:30px;"></MudImage></MudAvatar>
+        </CardHeaderAvatar>
+        <CardHeaderContent>
+            <MudText Typo="Typo.body1">PlayerStatictics</MudText>
+            <MudText Typo="Typo.body2">Player Statictics Details</MudText>
+        </CardHeaderContent>
+        <CardHeaderActions>
+            <MudFab Size="Size.Small" Href="/playerStatistic/Add" StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary" />
+        </CardHeaderActions>
+    </MudCardHeader>
+
+    <MudCardContent>
+        @if (this.playerStatistics is null)
+        {
+            <LoadingIndicator />
+        }
+        else
+        {
+            <MudTable Items="@playerStatistics">
+                <HeaderContent>
+                    <MudTh>Player Name</MudTh>
+                    <MudTh>Matches</MudTh>
+                    <MudTh>Innings</MudTh>
+                    <MudTh>Runs</MudTh>
+                    <MudTh>Balls</MudTh>
+                    <MudTh>Avg</MudTh>
+                    <MudTh>50s</MudTh>
+                    <MudTh>100s</MudTh>
+                    <MudTh>6s</MudTh>
+                    <MudTh>4s</MudTh>
+                    <MudTh>Highest</MudTh>
+                    <MudTh>Wickets</MudTh>
+                    <MudTh>Maidens</MudTh>
+                    <MudTh>Eco</MudTh>
+                    <MudTh>Action</MudTh>
+                </HeaderContent>
+                <RowTemplate>
+                    <MudTd>@GetPlayerName(context.PlayerId)</MudTd>
+                    <MudTd>@context.Matches</MudTd>
+                    <MudTd>@context.Innings</MudTd>
+                    <MudTd>@context.Runs</MudTd>
+                    <MudTd>@context.Balls</MudTd>
+                    <MudTd>@context.Average</MudTd>
+                    <MudTd>@context.Fifty</MudTd>
+                    <MudTd>@context.Hundred</MudTd>
+                    <MudTd>@context.Sixs</MudTd>
+                    <MudTd>@context.Fours</MudTd>
+                    <MudTd>@context.Highest</MudTd>
+                    <MudTd>@context.Wicket</MudTd>
+                    <MudTd>@context.Maidens</MudTd>
+                    <MudTd>@context.Economy</MudTd>
+                    <MudTd>
+                        <MudIconButton Size="Size.Small" Href="@GetLink(context.PlayerStatisticId)" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Edit" Variant="Variant.Outlined" Color="Color.Primary"></MudIconButton>
+                        <MudIconButton OnClick="@(()=>ConfirmDelete(@context.PlayerStatisticId))" Size="Size.Small" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Delete" Variant="Variant.Outlined" Color="Color.Secondary"></MudIconButton>
+
+                    </MudTd>
+                </RowTemplate>
+                <PagerContent>
+                    <MudTablePager PageSizeOptions="new int[] {5, 10, 25, 50, 100 }" HorizontalAlignment="HorizontalAlignment.Right" />
+
+                </PagerContent>
+            </MudTable>
+        }
+    </MudCardContent>
+</MudCard>
+
+
+
+@code {
+    public List<PlayerStatistic>? playerStatistics;
+    public Dictionary<int, string> playerNames = new Dictionary<int, string>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Fetch Player Statistics
+        var data = await http.GetFromJsonAsync<List<PlayerStatistic>>("/api/PlayerStatistics");
+        if (data is null)
+        {
+            snackbar.Configuration.PositionClass = Defaults.Classes.Position.BottomCenter;
+            snackbar.Add("Cannot load player statistics", Severity.Error);
+        }
+        else
+        {
+            playerStatistics = data;
+
+            // Fetch Player Names
+            var playersData = await http.GetFromJsonAsync<List<Player>>("/api/Players");
+            if (playersData != null)
+            {
+                foreach (var player in playersData)
+                {
+                    playerNames[player.PlayerId] = player.PlayerName;
+                }
+            }
+        }
+    }
+
+    // Method to get player name based on player ID
+    private string GetPlayerName(int playerId)
+    {
+        if (playerNames.ContainsKey(playerId))
+        {
+            return playerNames[playerId];
+        }
+        return "Unknown";
+    }
+    private string GetLink(int id)
+    {
+        return $"/PlayerStatistics/Edit/{id}";
+    }
+    private async void ConfirmDelete(int id)
+    {
+        var confirm = this.DialogService.Show<ConfirmDialog>();
+        var result = await confirm.Result;
+        if (!result.Canceled)
+        {
+            await DeletePlayerStatistic(id);
+        }
+
+    }
+    private async Task DeletePlayerStatistic(int id)
+    {
+        var response = await this.http.DeleteAsync($"/api/PlayerStatistics/{id}");
+        if (response.IsSuccessStatusCode)
+        {
+            if (this.playerStatistics is null) { }
+            else
+            {
+                int index = this.playerStatistics.FindIndex(b => b.PlayerStatisticId == id);
+                if (index >= 0) this.playerStatistics.RemoveAt(index);
+                this.StateHasChanged();
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.card-f[b-pf63nepp4x] {
+    width: 60%;
+    margin-top: 50px;
+    margin: 10px auto;
+}
+
+.form[b-pf63nepp4x] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.form-field[b-pf63nepp4x] {
+    width: 48%;
+    margin-bottom: 16px;
+}

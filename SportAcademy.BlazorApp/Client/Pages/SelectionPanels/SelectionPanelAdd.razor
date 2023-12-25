@@ -1,0 +1,93 @@
+﻿@page "/SelectionPanel/Add"
+
+
+@inject HttpClient http
+@inject ISnackbar snackbar;
+
+
+<MudCard Class="card-f" Style="width: 60%; margin-top:40px; margin: 10px auto; background-color:antiquewhite">
+    <MudCardHeader>
+        <CardHeaderContent>
+            <MudText style="text-align:center;" Typo="Typo.h6">Add new Selection Panel</MudText>
+        </CardHeaderContent>
+    </MudCardHeader>
+    <MudCardContent>
+        <EditForm Model="@selectionPanel" OnValidSubmit="@HandleValidSubmit">
+            <DataAnnotationsValidator />
+            <div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin-bottom: 16px;">
+                <div style="width: 48%; margin-bottom: 16px;">
+                    <MudSelect @ref="mudSelectCoach" @bind-Value="selectionPanel.CoachId" T="int" Label="Coach" Variant="Variant.Text">
+                        @if (this.coaches is not null)
+                        {
+                            @foreach (var item in coaches)
+                            {
+                                <MudSelectItem Value="@item.CoachId">@item.CoachName</MudSelectItem>
+                            }
+                        }
+                        <MudSelectItem Value="0">Select one</MudSelectItem>
+                    </MudSelect>
+                </div>
+                <div style="width: 48%; margin-bottom: 16px;">
+                    <MudSelect @ref="mudSelectMedicalAdvisor" @bind-Value="selectionPanel.MedicalAdvisorId" T="int" Label="Medical Advisor Panel" Variant="Variant.Text">
+                        @if (this.medicalAdvisors is not null)
+                        {
+                            @foreach (var item in medicalAdvisors)
+                            {
+                                <MudSelectItem Value="@item.MedicalAdvisorId">@item.MedicalAdvisorName</MudSelectItem>
+                            }
+                        }
+                        <MudSelectItem Value="0">Select one</MudSelectItem>
+                    </MudSelect>
+                </div>
+                <div style="width: 48%; margin-bottom: 16px;">
+                    <MudTextField Label="Selection Panel Name" @bind-Value="selectionPanel.SelectionPanelName" For="@(() => selectionPanel.SelectionPanelName)" />
+                </div>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding-top: 10px;">
+                <MudButton Variant="Variant.Filled" Href="/SelectionPanel" Color="Color.Dark">Back to</MudButton>
+                <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Save</MudButton>
+            </div>
+        </EditForm>
+    </MudCardContent>
+</MudCard>
+@code {
+    private SelectionPanel selectionPanel = new SelectionPanel();
+
+    private List<Coach>? coaches;
+    private List<MedicalAdvisor>? medicalAdvisors;
+    MudSelect<int> mudSelectCoach = null!;
+    MudSelect<int> mudSelectMedicalAdvisor = null!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        coaches = await http.GetFromJsonAsync<List<Coach>>("api/SelectionPanels/Coaches");
+        medicalAdvisors = await http.GetFromJsonAsync<List<MedicalAdvisor>>("api/SelectionPanels/MedicalAdvisors");
+    }
+
+
+    private async void HandleValidSubmit(EditContext editContext)
+    {
+
+        await this.Save();
+
+    }
+    private async Task Save()
+    {
+        var response = await this.http.PostAsJsonAsync<SelectionPanel>("/api/SelectionPanels", this.selectionPanel);
+        if (response.IsSuccessStatusCode)
+        {
+            this.snackbar.Clear();
+            this.snackbar.Configuration.PositionClass = Defaults.Classes.Position.BottomCenter;
+            this.snackbar.Add("Data saved.", Severity.Success);
+            this.selectionPanel = new SelectionPanel();
+            this.StateHasChanged();
+        }
+        else
+        {
+            this.snackbar.Clear();
+            this.snackbar.Configuration.PositionClass = Defaults.Classes.Position.BottomCenter;
+            this.snackbar.Add("Failed to save.", Severity.Warning);
+        }
+    }
+
+}

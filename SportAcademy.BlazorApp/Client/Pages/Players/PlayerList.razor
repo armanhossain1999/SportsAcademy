@@ -1,0 +1,276 @@
+﻿@page "/player"
+
+@inject HttpClient http
+@inject NavigationManager nvaManager
+@inject ISnackbar snackbar
+@inject IDialogService DialogService
+
+<MudCard Style="margin-top:20px; width:100%; margin:10px auto; background-color:#566573">
+    <MudCardHeader>
+        <CardHeaderAvatar>
+            <MudAvatar Variant="Variant.Outlined">
+                <MudImage Src="Pictures/office-worker.png" Style="width:35px; height:35px;">
+                </MudImage>
+            </MudAvatar>
+        </CardHeaderAvatar>
+        <CardHeaderContent>
+            <MudText Style="Color:white;" Typo="Typo.body1">Player</MudText>
+            <MudText Style="Color:white;" Typo="Typo.body2">Player list</MudText>
+        </CardHeaderContent>
+        <CardHeaderActions>
+            <MudFab Size="Size.Small" Href="/Player/Add" StartIcon="@Icons.Material.Filled.Add" Color="Color.Info" />
+        </CardHeaderActions>
+    </MudCardHeader>
+
+    <MudCardContent>
+        @if (this.players is null)
+        {
+            <LoadingIndicator />
+        }
+        else
+        {
+            <MudTable Items="@players">
+                <HeaderContent>
+                    <MudTh></MudTh>
+                    <MudTh>Picture</MudTh>
+                    <MudTh><MudTableSortLabel SortBy="new Func<Player, object>(x=>x.PlayerName)">Player Name</MudTableSortLabel></MudTh>
+                    <MudTh>Team</MudTh>
+                    <MudTh>Category</MudTh>
+                    <MudTh>Reg Id</MudTh>
+                    <MudTh>Birth Date</MudTh>
+                    <MudTh>Phone</MudTh>
+                    <MudTh>Email</MudTh>
+                    <MudTh>Address</MudTh>
+                    <MudTh>Actions</MudTh>
+                </HeaderContent>
+                <RowTemplate>
+                    <MudTd>
+                        @if (this.selectedPlayer.Contains(context.PlayerId))
+                        {
+                            <MudIconButton Icon="@Icons.Material.Filled.ArrowDropDown" OnClick="@(() => UnSelectPlayer(@context.PlayerId))"></MudIconButton>
+                        }
+                        else
+                        {
+                            <MudIconButton Icon="@Icons.Material.Filled.ArrowRight" OnClick="@(() => SelectPlayer(@context.PlayerId))"></MudIconButton>
+                        }
+                    </MudTd>
+                    <MudTd> <img class="img-thumnail rounded-circle" src="/Pictures/@context.Picture" style="width:40px;" /></MudTd>
+                    <MudTd>@context.PlayerName</MudTd>
+                    <MudTd>@(teamNames.ContainsKey(context.TeamId) ? teamNames[context.TeamId] : "Unknown")</MudTd>
+                        <MudTd>@(categoriNames.ContainsKey(context.CategoryId)? categoriNames[context.CategoryId] : "Unknown")</MudTd>
+                        <MudTd>@context.RegistrationNumber</MudTd>
+                        <MudTd>@context.BirthDate?.ToString("yyyy-mm-dd")</MudTd>
+                        <MudTd>@context.Phone</MudTd>
+                        <MudTd>@context.Email</MudTd>
+                        <MudTd>@context.Address</MudTd>
+
+                        <MudTd>
+                            <MudIconButton Size="Size.Small" Href="@GetLink(context.PlayerId)" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Edit" Variant="Variant.Outlined" Color="Color.Primary"></MudIconButton>
+                            <MudIconButton OnClick="@(()=>ConfirmDelete(@context.PlayerId))" Size="Size.Small" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Delete" Variant="Variant.Outlined" Color="Color.Secondary"></MudIconButton>
+
+                        </MudTd>
+                    </RowTemplate>
+
+                <ChildRowContent>
+                    @if (this.selectedPlayer.Contains(context.PlayerId))
+                    {
+                        <!-- Render child table for PlayerStatistics -->
+                        <MudTr>
+                            <MudTd Colspan="12">
+                                <MudCard Style="width:100%;">
+                                    <MudCardHeader>
+                                        <CardHeaderContent>
+                                            <MudText Typo="Typo.h5" Style="text-align:start;">Player Statistics</MudText>
+                                            <MudText Typo="Typo.h6" Style="text-align:center; background-color:#566573; color:white; ">Batting</MudText>
+                                        </CardHeaderContent>
+                                    </MudCardHeader>                         
+                                    <MudCardContent Class="pa-0" >
+                                        <MudTable Items="@context.PlayerStatistics" Context="playerStat">
+                                            <HeaderContent>
+                                                <MudTh>Matches</MudTh>
+                                                <MudTh>Innings</MudTh>
+                                                <MudTh>Runs</MudTh>
+                                                <MudTh>Balls</MudTh>
+                                                <MudTh>Avg</MudTh>
+                                                <MudTh>50s</MudTh>
+                                                <MudTh>100s</MudTh>
+                                                <MudTh>6s</MudTh>
+                                                <MudTh>4s</MudTh>
+                                                <MudTh>Highest</MudTh>                                      
+                                                <MudTh>Ducks</MudTh>
+                                                <MudTh>Action</MudTh>
+                                            </HeaderContent>
+                                            <RowTemplate>
+                                                <MudTd>@playerStat.Matches</MudTd>
+                                                <MudTd>@playerStat.Innings</MudTd>
+                                                <MudTd>@playerStat.Runs</MudTd>
+                                                <MudTd>@playerStat.Balls</MudTd>
+                                                <MudTd>@playerStat.Average</MudTd>
+                                                <MudTd>@playerStat.Fifty</MudTd>
+                                                <MudTd>@playerStat.Hundred</MudTd>
+                                                <MudTd>@playerStat.Sixs</MudTd>
+                                                <MudTd>@playerStat.Fours</MudTd>
+                                                <MudTd>@playerStat.Highest</MudTd>
+                                                <MudTd>@playerStat.Ducks</MudTd>                                             
+                                                <MudTd>
+                                                    <MudIconButton Size="Size.Small" Href="@GetPSLink(@playerStat.PlayerStatisticId)" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Edit" Variant="Variant.Outlined" Color="Color.Primary"></MudIconButton>
+@*                                                     <MudIconButton OnClick="@(()=>ConfirmPSDelete(@playerStat.PlayerStatisticId))" Size="Size.Small" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Delete" Variant="Variant.Outlined" Color="Color.Secondary"></MudIconButton>
+ *@                                                </MudTd>
+                                            </RowTemplate>
+                                        </MudTable>               
+                                    </MudCardContent>
+                                </MudCard>
+                            </MudTd>    
+                        </MudTr>
+                        <MudTr>
+                            <MudTd Colspan="12">
+                                <MudCard Style="width:100%;">
+                                    <MudCardHeader>
+                                        <CardHeaderContent>
+                                            <MudText Typo="Typo.h6" Style="text-align:center;background-color:#566573; color:white;">Bowling</MudText>
+                                        </CardHeaderContent>
+                                    </MudCardHeader>
+                                    <MudCardContent Class="pa-0">
+                                        <MudTable Items="@context.PlayerStatistics" Context="playerStat">
+                                            <HeaderContent>
+                                                <MudTh>Matches</MudTh>
+                                                <MudTh>Innings</MudTh>
+                                                <MudTh>Wickets</MudTh>
+                                                <MudTh>Maidens</MudTh>
+                                                <MudTh>Eco</MudTh>
+                                                <MudTh>Action</MudTh>
+                                            </HeaderContent>
+                                            <RowTemplate>
+                                                <MudTd>@playerStat.Matches</MudTd>
+                                                <MudTd>@playerStat.Innings</MudTd>
+                                                <MudTd>@playerStat.Wicket</MudTd>
+                                                <MudTd>@playerStat.Maidens</MudTd>
+                                                <MudTd>@playerStat.Economy</MudTd>
+                                                <MudTd>
+                                                    <MudIconButton Size="Size.Small" Href="@GetPSLink(@playerStat.PlayerStatisticId)" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Edit" Variant="Variant.Outlined" Color="Color.Primary"></MudIconButton>
+@*                                                     <MudIconButton OnClick="@(()=>ConfirmPSDelete(@playerStat.PlayerStatisticId))" Size="Size.Small" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Delete" Variant="Variant.Outlined" Color="Color.Secondary"></MudIconButton>
+ *@                                                </MudTd>
+                                            </RowTemplate>
+                                        </MudTable>
+                                    </MudCardContent>
+                                </MudCard>
+                            </MudTd>
+                        </MudTr>
+                    }
+                </ChildRowContent>
+                <PagerContent>
+                    <MudTablePager PageSizeOptions="new int[] {5, 10, 25, 50, 100 }" HorizontalAlignment="HorizontalAlignment.Right" />
+                </PagerContent>
+            </MudTable>
+        }
+    </MudCardContent>
+</MudCard>
+
+@code {
+    public List<Player>? players;
+    public List<PlayerStatistic>? playerStatistics;
+     public Dictionary<int, string> teamNames = new Dictionary<int, string>();
+     public Dictionary<int, string> categoriNames = new Dictionary<int, string>();
+    List<int> selectedPlayer = new List<int>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var data = await this.http.GetFromJsonAsync<List<Player>>("api/Players/PlayerStatistics/Include");
+    if (data is null)
+        {
+            this.snackbar.Configuration.PositionClass = Defaults.Classes.Position.BottomCenter;
+            this.snackbar.Add("Cannot load players", Severity.Error);
+        }
+        else
+        {
+            this.players = data;
+             //Fetch team Names
+             var teamData = await this.http.GetFromJsonAsync<List<Team>>("/api/Teams");
+             if (teamData != null)
+             {
+                 foreach (var team in teamData)
+                 {
+                     teamNames[team.TeamId] = team.TeamName;
+                 }
+             }
+             //Fetch category Names
+             var categoryData = await this.http.GetFromJsonAsync<List<Category>>("/api/Categories");
+             if (categoryData != null)
+             {
+                 foreach (var category in categoryData)
+                 {
+                     categoriNames[category.CategoryId] = category.CategoryName;
+                 }
+             }
+        }
+    }
+
+
+    private void SelectPlayer(int id)
+    {
+        this.selectedPlayer.Add(id);
+        this.StateHasChanged();
+    }
+    private void UnSelectPlayer(int id)
+    {
+        this.selectedPlayer.Remove(id);
+        this.StateHasChanged();
+    }
+
+    private string GetLink(int id)
+    {
+        return $"/Player/Edit/{id}";
+    }
+    private string GetPSLink(int id)
+    {
+        return $"/PlayerStatistics/Edit/{id}";
+    }
+    private async void ConfirmDelete(int id)
+    {
+        var confirm = this.DialogService.Show<ConfirmDialog>();
+        var result = await confirm.Result;
+        if (!result.Canceled)
+        {
+            await DeletePlayer(id);
+        }
+
+    }
+    private async void ConfirmPSDelete(int id)
+    {
+        var confirm = this.DialogService.Show<ConfirmDialog>();
+        var result = await confirm.Result;
+        if (!result.Canceled)
+        {
+            await DeletePSPlayer(id);
+        }
+
+    }
+    private async Task DeletePlayer(int id)
+    {
+        var response = await this.http.DeleteAsync($"/api/Players/{id}");
+        if (response.IsSuccessStatusCode)
+        {
+            if (this.players is null) { }
+            else
+            {
+                int index = this.players.FindIndex(b => b.PlayerId == id);
+                if (index >= 0) this.players.RemoveAt(index);
+                this.StateHasChanged();
+            }
+        }
+    }
+    private async Task DeletePSPlayer(int id)
+    {
+        var response = await this.http.DeleteAsync($"/api/PlayerStatistics/{id}");
+        if (response.IsSuccessStatusCode)
+        {
+            if (this.playerStatistics is null) { }
+            else
+            {
+                int index = this.playerStatistics.FindIndex(b => b.PlayerStatisticId == id);
+                if (index >= 0) this.playerStatistics.RemoveAt(index);
+                this.StateHasChanged();
+            }
+        }
+    }
+}

@@ -1,0 +1,146 @@
+﻿@page "/event/edit/{id:int}"
+
+@inject HttpClient http
+@inject ISnackbar snackbar
+@inject IJSRuntime js
+
+<div class="card-f">
+    <MudCard Style=" background-color: white;">
+        <MudCardHeader>
+            <CardHeaderContent>
+                <MudText Typo="Typo.h6" Style="text-align:center">Edit Event</MudText>
+            </CardHeaderContent>
+        </MudCardHeader>
+
+        <MudCardContent>
+            @if (events is null)
+            {
+                <LoadingIndicator />
+            }
+            else
+            {
+                <EditForm Model="@events" OnSubmit="@HandleValidSubmit">
+                    <DataAnnotationsValidator />
+
+                    <div class="form">
+                        <div class="form-field">
+                            <MudTextField Variant="Variant.Text" Label="Event Name" @bind-Value="events.EventName" For="@(() => events.EventName)" />
+                        </div>
+
+                        <div class="form-field">
+                            <MudDatePicker Variant="Variant.Text" Label="Start Date" @bind-Date="events.StartDate" DateFormat="dd/MM/yyyy" For="@(() => events.StartDate)" />
+                        </div>
+                        <div class="form-field">
+                            <MudDatePicker Variant="Variant.Text" Label="End Date" @bind-Date="events.EndDate" DateFormat="dd/MM/yyyy" For="@(() => events.EndDate)" />
+                        </div>
+                        <div class="form-field">
+                            <MudTextField Variant="Variant.Text" Label="Description" @bind-Value="events.Description" For="@(() => events.Description)" />
+                        </div>
+
+                        <div class="form-field">
+                            <MudTextField Variant="Variant.Text" Label="Location" @bind-Value="events.Location" For="@(() => events.Location)" />
+                        </div>
+
+                        <div class="form-field">
+                            <MudTextField Variant="Variant.Text" Label="Picture"
+                                          @bind-Value="events.Picture" OnAdornmentClick="@OpenFilePicker" Adornment="Adornment.End" For="@(() => events.Picture)" AdornmentIcon="@Icons.Material.Filled.Image" />
+
+                        </div>
+                    </div>
+
+                    <div style="display: flex; justify-content: space-between; padding-top: 10px;">
+                        <MudButton Variant="Variant.Filled" Href="/event" Color="Color.Dark">Back to List</MudButton>
+                        <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Save</MudButton>
+                    </div>
+
+                </EditForm>
+            }
+        </MudCardContent>
+    </MudCard>
+</div>
+<InputFile style="display:none" @ref="uploadControl" OnChange="@((InputFileChangeEventArgs args) => OnInputFileChange(args))" />
+
+
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+    private Event events { get; set; } = default!;
+    private InputFile? uploadControl;
+    private IBrowserFile? file;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var data = await this.http.GetFromJsonAsync<Event>($"/api/Events/{id}");
+        if (data is null)
+        {
+            this.snackbar.Clear();
+            this.snackbar.Configuration.PositionClass = Defaults.Classes.Position.BottomCenter;
+            this.snackbar.Add("Failed to load bus.", Severity.Error);
+        }
+        else
+        {
+            this.events = data;
+        }
+    }
+
+    private void OnInputFileChange(InputFileChangeEventArgs e)
+    {
+        this.file = e.File;
+        this.events.Picture = e.File.Name;
+
+    }
+    public async Task OpenFilePicker()
+    {
+        // var x = uploadControl?.Element;
+        await js.InvokeAsync<object>("elClick", uploadControl?.Element);
+    }
+    private async void HandleValidSubmit(EditContext editContext)
+    {
+        if (file is not null)
+        {
+            var uploadResponse = await UploadImage();
+            this.events.Picture = uploadResponse.ImageName;
+        }
+
+        await Save();
+    }
+    public async Task<UploadResponse> UploadImage()
+    {
+
+        if (file is not null)
+        {
+            var content = new MultipartFormDataContent();
+            var fileContent = new StreamContent(file.OpenReadStream(long.MaxValue));
+
+            fileContent.Headers.ContentType = new MediaTypeHeaderValue(file.ContentType);
+            content.Add(content: fileContent, name: "\"file\"", fileName: file.Name);
+            var response = await http.PostAsync("api/Events/Upload", content);
+            var r = await response.Content.ReadFromJsonAsync<UploadResponse>();
+            if (r is null) return new UploadResponse();
+            else return r;
+        }
+
+        return new UploadResponse();
+    }
+    private async Task Save()
+    {
+        var response = await this.http.PutAsJsonAsync<Event>($"/api/Events/{id}", this.events);
+        if (response.IsSuccessStatusCode)
+        {
+            this.snackbar.Clear();
+            this.snackbar.Configuration.PositionClass = Defaults.Classes.Position.BottomCenter;
+            this.snackbar.Add("Data saved.", Severity.Success);
+
+
+        }
+        else
+        {
+            this.snackbar.Clear();
+            this.snackbar.Configuration.PositionClass = Defaults.Classes.Position.BottomCenter;
+            this.snackbar.Add("Failed to save.", Severity.Warning);
+        }
+    }
+}
+
+

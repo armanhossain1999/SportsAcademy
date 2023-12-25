@@ -1,0 +1,228 @@
+﻿@page "/dashboard"
+
+
+
+<div style="display:flex; justify-content:space-between; margin:10px;" >
+    <div style="display: flex; gap: 16px;">
+
+        <MudCard Style="width:20%; background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);">
+            <MudCardContent>
+                <div style="display:flex; justify-content:space-between;">
+                    <MudText Typo="Typo.h5" style="font-weight: bold;">Events 20</MudText>
+                </div>
+                <MudProgressLinear Color="Color.Default" Rounded="true" Size="Size.Large" Value="20" Style="margin-bottom:5px" />
+                <MudText Typo="Typo.body2">Event found on a stone house door.</MudText>
+            </MudCardContent>
+        </MudCard>
+
+        <MudCard Style="width:20%; background: linear-gradient(to bottom, #66ff99 0%, #ffcc00 100%);">
+            <MudCardContent>
+                <div style="display:flex; justify-content:space-between;">
+                    <MudText Typo="Typo.h5" style="font-weight: bold;">Teans 15</MudText>
+                </div>
+                <MudProgressLinear Color="Color.Default" Rounded="true" Size="Size.Large" Value="15" Style="margin-bottom:5px" />
+                <MudText Typo="Typo.body2">Event found on a stone house door.</MudText>
+            </MudCardContent>
+        </MudCard>
+
+        <MudCard Style="width:20%; background: linear-gradient(to bottom, #ffcc00 0%, #ff6666 100%);">
+            <MudCardContent>
+                <div style="display:flex; justify-content:space-between;">
+                    <MudText Typo="Typo.h5" style="font-weight: bold;">Players 200</MudText>
+                </div>
+                <MudProgressLinear Color="Color.Default" Rounded="true" Size="Size.Large" Value="70" Style="margin-bottom:5px" />
+                <MudText Typo="Typo.body2">Event found on a stone house door.</MudText>
+            </MudCardContent>
+        </MudCard>
+
+        <MudCard Style="width:20%; background: linear-gradient(to bottom, #9966ff 0%, #ff99cc 100%);">
+            <MudCardContent>
+                <div style="display:flex; justify-content:space-between;">
+                    <MudText Typo="Typo.h5" style="font-weight: bold;">Courses 30</MudText>
+                </div>
+                <MudProgressLinear Color="Color.Default" Rounded="true" Size="Size.Large" Value="30" Style="margin-bottom:5px" />
+                <MudText Typo="Typo.body2">Event found on a stone house door.</MudText>
+            </MudCardContent>
+        </MudCard>
+
+        <MudCard Style="width:20%; background: linear-gradient(to bottom, #66ff99 0%, #ffcc00 100%);">
+            <MudCardContent>
+                <div style="display:flex; justify-content:space-between;">
+                    <MudText Typo="Typo.h5" style="font-weight: bold;">Coaches 20</MudText>
+                </div>
+                <MudProgressLinear Color="Color.Default" Rounded="true" Size="Size.Large" Value="20" Style="margin-bottom:5px" />
+                <MudText Typo="Typo.body2">Event found on a stone house door.</MudText>
+            </MudCardContent>
+        </MudCard>
+    </div>
+</div>
+
+<div style="display:flex; justify-content:space-between; margin:20px 10px 20px 10px; ">
+    <MudPaper Class="pa-4" Style="width:33%">
+        <MudChart ChartType="ChartType.Bar" ChartSeries="@Series" @bind-SelectedIndex="Index2" XAxisLabels="@XAxisLabels" Width="100%" Height="200px"></MudChart>
+        <MudText Typo="Typo.h6">Selected portion of the chart: @Index2</MudText>
+
+    </MudPaper>
+
+
+        <MudPaper Class="pa-4" Style="width:33%; background-color: #1C2833">
+        <MudChart ChartType="ChartType.Pie" InputData="@data" @bind-SelectedIndex="Index" InputLabels="@labels" Width="200px" Height="200px" />
+            <MudText Typo="Typo.h6" style="text-align:center">Selected portion of the chart: @Index </MudText>
+
+    </MudPaper>
+
+    <MudPaper Class="pa-4" Style="width:33%">
+        <MudChart ChartType="ChartType.Donut" Width="200px" Height="200px" InputData="@data3" InputLabels="@labels3">
+            <CustomGraphics>
+                <text class="donut-inner-text" x="47%" y="35%" style="color:white" dominant-baseline="middle" text-anchor="middle" fill="black" font-family="Helvetica" font-size="2">Total</text>
+                <text class="donut-inner-text" x="47%" y="50%" style="color:white" dominant-baseline="middle" text-anchor="middle" fill="black" font-family="Helvetica" font-size="5">@data3.Sum().ToString()</text>
+                <MudText Typo="Typo.h6" style="text-align:center">Selected portion of the chart: @Index </MudText>
+                </CustomGraphics>
+        </MudChart>
+    </MudPaper>
+</div>
+
+    <MudContainer>
+        <MudPaper  Style="width: 500px; height: 500px; overflow-y: auto; padding: 0;">
+            <div style="display: flex; align-items: center; justify-content: space-between; height: 56px; padding: 8px 16px; background-color: #4e69a2; color: #fff;">
+                <div style="display: flex; align-items: center;">
+                    <img src="Pictures/student-avatar-user-profile-icon.jpg" alt="Profile" style="width: 40px; height: 40px; border-radius: 50%; margin-right: 12px;" />
+                    <MudText Typo="Typo.h6" Style="font-weight:bold">Captain Zahirul </MudText>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <!-- Add your audio and video call icons here -->
+                    <img src="Pictures/call_FILL0_wght400_GRAD0_opsz24.png" alt="Audio Call" style="margin-right: 12px; width: 24px; height: 24px;" />
+                    <img src="Pictures/video_call_FILL0_wght400_GRAD0_opsz24.png" alt="Video Call" style="width: 24px; height: 24px;" />
+                </div>
+            </div>
+
+            <div style="height: calc(75% - 30px); overflow-y: auto; display: flex; flex-direction: column-reverse;">
+                <!-- Chat messages display area -->
+                @foreach (var message in chatMessages.AsEnumerable().Reverse())
+            {
+                <div style="margin-bottom: 8px; align-self: @(message.Sender == "You" ? "flex-end" : "flex-start");">
+                    <div style="display: flex; align-items: flex-end;">
+                        @if (message.Sender != "You")
+                        {
+                            <div style="margin-right: 8px;">
+                                <img src="Pictures/student-avatar-user-profile-icon.jpg" style="width: 20px; height: 20px; border-radius: 50%;" />
+                            </div>
+                        }
+                        <div style="max-width: 80%; word-wrap: break-word; border: 1px solid #ddd; border-radius: 8px; padding: 8px; background-color: @(message.Sender == "You" ? "#DCF8C6" : "#fff");">
+                            <strong>@message.Sender:</strong> @message.Content
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <div style="margin-top: 8px; display: flex; padding: 6px 6px; margin-bottom:5px;">
+            <MudTextField Variant="Variant.Filled" Label="Type a message" @bind-Value="newMessage"/>
+            <MudButton Variant="Variant.Filled" OnClick="SendMessage">Send</MudButton>
+        </div>
+    </MudPaper>
+</MudContainer>
+
+
+
+
+<div style="display:flex; justify-content:space-between; margin:20px 10px 20px 10px; ">
+    <MudPaper Class="pa-4" Style="width:33%">
+        <MudChart ChartType="ChartType.Bar" ChartSeries="@Series" @bind-SelectedIndex="Index2" XAxisLabels="@XAxisLabels" Width="100%" Height="200px"></MudChart>
+        <MudText Typo="Typo.h6">Selected portion of the chart: @Index2</MudText>
+
+        </MudPaper>
+
+
+        <MudPaper Class="pa-4" Style="width:33%; background-color: #1C2833">
+            <MudChart ChartType="ChartType.Pie" InputData="@data" @bind-SelectedIndex="Index" InputLabels="@labels" Width="200px" Height="200px" />
+            <MudText Typo="Typo.h6" style="text-align:center">Selected portion of the chart: @Index </MudText>
+
+        </MudPaper>
+
+        <MudPaper Class="pa-4" Style="width:33%">
+            <MudChart ChartType="ChartType.Donut" Width="200px" Height="200px" InputData="@data3" InputLabels="@labels3">
+                <CustomGraphics>
+                    <text class="donut-inner-text" x="47%" y="35%" style="color:white" dominant-baseline="middle" text-anchor="middle" fill="black" font-family="Helvetica" font-size="2">Total</text>
+                    <text class="donut-inner-text" x="47%" y="50%" style="color:white" dominant-baseline="middle" text-anchor="middle" fill="black" font-family="Helvetica" font-size="5">@data3.Sum().ToString()</text>
+                <MudText Typo="Typo.h6" style="text-align:center">Selected portion of the chart: @Index </MudText>
+                </CustomGraphics>
+            </MudChart>
+        </MudPaper>
+    </div>
+
+@code {
+    private List<ChatMessage> chatMessages = new List<ChatMessage>
+    {
+        new ChatMessage { Sender = "Zahirul", Content = "Hello there!" },
+        new ChatMessage { Sender = "You", Content = "Hi Zahirul! How are you?" },
+        new ChatMessage { Sender = "Zahirul", Content = "I'm good, thanks! How about you?" }
+    };
+
+    private string newMessage = string.Empty;
+
+    private void SendMessage()
+    {
+        if (!string.IsNullOrWhiteSpace(newMessage))
+        {
+            chatMessages.Add(new ChatMessage { Sender = "You", Content = newMessage });
+            newMessage = string.Empty;
+        }
+    }
+
+    private class ChatMessage
+    {
+        public string? Sender { get; set; }
+        public string? Content { get; set; }
+    }
+}
+
+
+@code {
+    private int Index2 = -1; //default value cannot be 0 -> first selectedindex is 0.
+
+    public List<ChartSeries> Series = new List<ChartSeries>()
+    {
+        new ChartSeries() { Name = "United States", Data = new double[] { 40, 20, 25, 27, 46, 60, 48, 80, 15 } },
+        new ChartSeries() { Name = "Germany", Data = new double[] { 19, 24, 35, 13, 28, 15, 13, 16, 31 } },
+        new ChartSeries() { Name = "Sweden", Data = new double[] { 8, 6, 11, 13, 4, 16, 10, 16, 18 } },
+    };
+    public string[] XAxisLabels = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep" };
+
+    public double[] data3 = { 25, 77, 28, 5 };
+    public string[] labels3 = { "Oil", "Coal", "Gas", "Biomass" };
+
+    private int Index = -1; //default value cannot be 0 -> first selectedindex is 0.
+    int dataSize = 4;
+    double[] data = { 77, 25, 20, 5 };
+    string[] labels = { "Uranium", "Plutonium", "Thorium", "Caesium", "Technetium", "Promethium",
+                        "Polonium", "Astatine", "Radon", "Francium", "Radium", "Actinium", "Protactinium",
+                        "Neptunium", "Americium", "Curium", "Berkelium", "Californium", "Einsteinium", "Mudblaznium" };
+
+    Random random = new Random();
+
+    void RandomizeData()
+    {
+        var new_data = new double[dataSize];
+        for (int i = 0; i < new_data.Length; i++)
+            new_data[i] = random.NextDouble() * 100;
+        data = new_data;
+        StateHasChanged();
+    }
+
+    void AddDataSize()
+    {
+        if (dataSize < 20)
+        {
+            dataSize = dataSize + 1;
+            RandomizeData();
+        }
+    }
+    void RemoveDataSize()
+    {
+        if (dataSize > 0)
+        {
+            dataSize = dataSize - 1;
+            RandomizeData();
+        }
+    }
+}

@@ -1,0 +1,124 @@
+/* /Pages/Events/EventAdd.razor.rz.scp.css */
+.card-f[b-jechgvqeoo] {
+    width: 60%;
+    margin-top: 50px;
+    margin: 10px auto;
+}
+
+.form[b-jechgvqeoo] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.form-field[b-jechgvqeoo] {
+    width: 48%;
+    margin-bottom: 16px;
+}
+/* /Pages/Events/EventEdit.razor.rz.scp.css */
+.card-f[b-pf63nepp4x] {
+    width: 60%;
+    margin-top: 50px;
+    margin: 10px auto;
+}
+
+.form[b-pf63nepp4x] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.form-field[b-pf63nepp4x] {
+    width: 48%;
+    margin-bottom: 16px;
+}
+/* /Pages/Events/EventList.razor.rz.scp.css */
+.list-card[b-8dimy5ulwx] {
+    margin-top: 90px;
+}
+
+.left-content[b-8dimy5ulwx] {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.right-content[b-8dimy5ulwx] {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Adjust the margin or padding as needed */
+.left-content[b-8dimy5ulwx],
+.right-content[b-8dimy5ulwx] {
+    margin-right: 16px; /* Adjust the spacing as needed */
+}
+/* /Pages/Managers/ManagerAdd.razor.rz.scp.css */
+.card-f[b-lktaekx3k7] {
+    width: 70%;
+    margin-top: 50px;
+    margin: 10px auto;
+}
+
+.form[b-lktaekx3k7] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.form-field[b-lktaekx3k7] {
+    width: 33%; /* Adjusted to show three fields in a row */
+    margin-bottom: 16px;
+}
+/* /Pages/Managers/ManagerEdit.razor.rz.scp.css */
+.card-f[b-7a3j6sbjqa] {
+    width: 60%;
+    margin-top: 50px;
+    margin: 10px auto;
+}
+
+.form[b-7a3j6sbjqa] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.form-field[b-7a3j6sbjqa] {
+    width: 48%;
+    margin-bottom: 16px;
+}
+/* /Pages/Managers/ManagerList.razor.rz.scp.css */
+.list-card[b-il8bpe6x34]{
+    margin-top:90px;
+}
+.left-content[b-il8bpe6x34] {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.right-content[b-il8bpe6x34] {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Adjust the margin or padding as needed */
+.left-content[b-il8bpe6x34],
+.right-content[b-il8bpe6x34] {
+    margin-right: 16px; /* Adjust the spacing as needed */
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
+.appbar[b-ree4g4eetf] {
+    background-color: red;
+    padding:50px;
+}

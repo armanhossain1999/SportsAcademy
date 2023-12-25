@@ -1,0 +1,17 @@
+.card-f[b-7a3j6sbjqa] {
+    width: 60%;
+    margin-top: 50px;
+    margin: 10px auto;
+}
+
+.form[b-7a3j6sbjqa] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.form-field[b-7a3j6sbjqa] {
+    width: 48%;
+    margin-bottom: 16px;
+}

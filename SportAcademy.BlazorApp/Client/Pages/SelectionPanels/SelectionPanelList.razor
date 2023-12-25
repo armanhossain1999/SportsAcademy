@@ -1,0 +1,128 @@
+﻿@page "/selectionpanel"
+@inject HttpClient http
+@inject NavigationManager nvaManager
+@inject ISnackbar snackbar
+@inject IDialogService DialogService
+
+
+<MudCard Style="margin-top:20px; width:90%; margin:10px auto; background-color:lightgrey">
+
+    <MudCardHeader>
+        <CardHeaderAvatar>
+            <MudAvatar Variant="Variant.Outlined"><MudImage Src="Pictures/person.png" Style="width:30px; height:30px;"></MudImage></MudAvatar>
+        </CardHeaderAvatar>
+        <CardHeaderContent>
+            <MudText Typo="Typo.body1">Selection Panel</MudText>
+            <MudText Typo="Typo.body2">Member list</MudText>
+        </CardHeaderContent>
+        <CardHeaderActions>
+            <MudFab Size="Size.Small" Href="/SelectionPanel/Add" StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary" />
+        </CardHeaderActions>
+    </MudCardHeader>
+
+    <MudCardContent>
+        @if (this.selectionPanels is null)
+        {
+            <LoadingIndicator />
+        }
+        else
+        {
+            <MudTable Items="@selectionPanels">
+                <HeaderContent>
+                    <MudTh><MudTableSortLabel SortBy="new Func<SelectionPanel, object>(x=>x.SelectionPanelName)">Selection Panel Name</MudTableSortLabel></MudTh>
+                    <MudTh>Coach</MudTh>
+                    <MudTh>Medical Advisor</MudTh>
+                    <MudTh>Actions</MudTh>
+                </HeaderContent>
+                <RowTemplate>
+                    <MudTh>@context.SelectionPanelName</MudTh>
+                    <MudTh>@(coachNames.ContainsKey(context.CoachId) ? coachNames[context.CoachId] : "Unknown")</MudTh>
+                        <MudTh>@(medicalAdvisorNames.ContainsKey(context.MedicalAdvisorId) ? medicalAdvisorNames[context.MedicalAdvisorId] : "Unknown")</MudTh>
+
+                        <MudTh>
+                            <MudIconButton Size="Size.Small" Href="@GetLink(context.SelectionPanelId)" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Edit" Variant="Variant.Outlined" Color="Color.Primary"></MudIconButton>
+                            <MudIconButton OnClick="@(()=>ConfirmDelete(@context.SelectionPanelId))" Size="Size.Small" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Delete" Variant="Variant.Outlined" Color="Color.Secondary"></MudIconButton>
+
+                        </MudTh>
+                    </RowTemplate>
+                    <PagerContent>
+                        <MudTablePager PageSizeOptions="new int[] {5, 10, 25, 50, 100 }" HorizontalAlignment="HorizontalAlignment.Right" />
+
+                    </PagerContent>
+                </MudTable>
+        }
+    </MudCardContent>
+</MudCard>
+
+
+
+@code {
+    public List<SelectionPanel>? selectionPanels;
+    public Dictionary<int, string> coachNames = new Dictionary<int, string>();
+    public Dictionary<int, string> medicalAdvisorNames = new Dictionary<int, string>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Fetch Selection Panels
+        var data = await this.http.GetFromJsonAsync<List<SelectionPanel>>("/api/SelectionPanels");
+
+        if (data is null)
+        {
+            this.snackbar.Configuration.PositionClass = Defaults.Classes.Position.BottomCenter;
+            this.snackbar.Add("Cannot load selectionPanel", Severity.Error);
+        }
+        else
+        {
+            this.selectionPanels = data;
+
+            // Fetch Coach Names
+            var coachData = await this.http.GetFromJsonAsync<List<Coach>>("/api/Coaches");
+            if (coachData != null)
+            {
+                foreach (var coach in coachData)
+                {
+                    coachNames[coach.CoachId] = coach.CoachName;
+                }
+            }
+
+            // Fetch Medical Advisor Names
+            var medicalAdvisorData = await this.http.GetFromJsonAsync<List<MedicalAdvisor>>("/api/MedicalAdvisors");
+            if (medicalAdvisorData != null)
+            {
+                foreach (var advisor in medicalAdvisorData)
+                {
+                    medicalAdvisorNames[advisor.MedicalAdvisorId] = advisor.MedicalAdvisorName;
+                }
+            }
+        }
+    }
+
+    private string GetLink(int id)
+    {
+        return $"/SelectionPanel/Edit/{id}";
+    }
+    private async void ConfirmDelete(int id)
+    {
+        var confirm = this.DialogService.Show<ConfirmDialog>();
+        var result = await confirm.Result;
+        if (!result.Canceled)
+        {
+            await DeleteSelectionPanel(id);
+        }
+
+    }
+    private async Task DeleteSelectionPanel(int id)
+    {
+        var response = await this.http.DeleteAsync($"/api/SelectionPanels/{id}");
+        if (response.IsSuccessStatusCode)
+        {
+            if (this.selectionPanels is null) { }
+            else
+            {
+                int index = this.selectionPanels.FindIndex(b => b.SelectionPanelId == id);
+                if (index >= 0) this.selectionPanels.RemoveAt(index);
+                this.StateHasChanged();
+            }
+        }
+    }
+}

@@ -1,0 +1,143 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = SportAcademy.BlazorApp.Client
+build_property.RootNamespace = SportAcademy.BlazorApp.Client
+build_property.ProjectDir = D:\SportAcademy\SportAcademy.BlazorApp\Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\SportAcademy\SportAcademy.BlazorApp\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Dialogs/ConfirmDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = RGlhbG9nc1xDb25maXJtRGlhbG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Dialogs/EventListDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = RGlhbG9nc1xFdmVudExpc3REaWFsb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/Admission/AdmissionForm.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaXNzaW9uXEFkbWlzc2lvbkZvcm0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/Dashboard/Dashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkXERhc2hib2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/Payments/PaymentSystem.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudHNcUGF5bWVudFN5c3RlbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/PlayerStatictics/PlayerStaticticAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyU3RhdGljdGljc1xQbGF5ZXJTdGF0aWN0aWNBZGQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/PlayerStatictics/PlayerStaticticEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyU3RhdGljdGljc1xQbGF5ZXJTdGF0aWN0aWNFZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/PlayerStatictics/PlayerStaticticList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyU3RhdGljdGljc1xQbGF5ZXJTdGF0aWN0aWNMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/Players/PlayerAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyc1xQbGF5ZXJBZGQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/Players/PlayerEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyc1xQbGF5ZXJFZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/Players/PlayerList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyc1xQbGF5ZXJMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/Security/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VjdXJpdHlcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/SelectionPanels/SelectionPanelAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VsZWN0aW9uUGFuZWxzXFNlbGVjdGlvblBhbmVsQWRkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/SelectionPanels/SelectionPanelEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VsZWN0aW9uUGFuZWxzXFNlbGVjdGlvblBhbmVsRWRpdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/SelectionPanels/SelectionPanelList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VsZWN0aW9uUGFuZWxzXFNlbGVjdGlvblBhbmVsTGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/Settings/Setting-list.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2V0dGluZ3NcU2V0dGluZy1saXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/Teams/TeamAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbXNcVGVhbUFkZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/Teams/TeamEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbXNcVGVhbUVkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/Teams/TeamList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbXNcVGVhbUxpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Shared/LoadingIndicator.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvYWRpbmdJbmRpY2F0b3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/Events/EventAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzXEV2ZW50QWRkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-jechgvqeoo
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/Events/EventEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzXEV2ZW50RWRpdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-pf63nepp4x
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/Events/EventList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzXEV2ZW50TGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-8dimy5ulwx
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/Managers/ManagerAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlcnNcTWFuYWdlckFkZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-lktaekx3k7
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/Managers/ManagerEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlcnNcTWFuYWdlckVkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-7a3j6sbjqa
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Pages/Managers/ManagerList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlcnNcTWFuYWdlckxpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-il8bpe6x34
+
+[D:/SportAcademy/SportAcademy.BlazorApp/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ree4g4eetf

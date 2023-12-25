@@ -1,0 +1,188 @@
+﻿@page "/Managers/Add"
+
+@inject HttpClient http
+@inject ISnackbar snackbar;
+@inject IJSRuntime js
+
+<div class="card-f">
+    <MudCard Style="background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);">
+           
+                <MudText style="text-align:center;" Typo="Typo.h6">Add new Manager</MudText>
+                
+        <MudCardContent>
+            <EditForm Model="@manager" OnValidSubmit="@HandleValidSubmit">
+                <DataAnnotationsValidator />
+
+                <div class="form">
+                    <div class="form-field">
+                        <MudTextField Variant="Variant.Filled" Label="Manager Name" @bind-Value="manager.ManagerName" For="@(() => manager.ManagerName)" />
+                    </div>
+
+                    <div class="form-field">
+                        <MudDatePicker Variant="Variant.Filled" Label="Join Date" @bind-Date="manager.JoinDate" DateFormat="dd/MM/yyyy" For="@(() => manager.JoinDate)" />
+                    </div>
+
+                    <div class="form-field">
+                        <MudTextField Variant="Variant.Filled" Label="Email" @bind-Value="manager.Email" For="@(() => manager.Email)" />
+                    </div>
+
+                    <div class="form-field">
+                        <MudTextField Variant="Variant.Filled" Label="Phone" @bind-Value="manager.Phone" For="@(() => manager.Phone)" />
+                    </div>
+
+                    <div class="form-field">
+                        <MudTextField Variant="Variant.Filled" Label="Address" @bind-Value="manager.Address" For="@(() => manager.Address)" />
+                    </div>
+
+                    <div class="form-field">
+                        <MudTextField Variant="Variant.Filled" Label="Picture" @bind-Value="manager.Picture" OnAdornmentClick="@OpenFilePicker" Adornment="Adornment.End" For="@(() => manager.Picture)" AdornmentIcon="@Icons.Material.Filled.Image" />
+                    </div>
+
+                    <MudText style="text-align: center; width: 100%;" Typo="Typo.h6">Add new Event</MudText>
+
+                    <div class="form-field" style="width: 100%; margin-bottom: 16px;">
+                        <MudSelect @ref="mudSelectSelectionPanel" @bind-Value="events.SelectionPanelId" T="int" Label="Selection Panel" Variant="Variant.Filled">
+                            @if (this.selectionPanels is not null)
+                            {
+                                @foreach (var item in selectionPanels)
+                                {
+                                    <MudSelectItem Value="@item.SelectionPanelId">@item.SelectionPanelName</MudSelectItem>
+                                }
+                            }
+                            <MudSelectItem Value="0">Select one</MudSelectItem>
+                        </MudSelect>
+                    </div>
+
+                    <div class="form-field">
+                        <MudTextField Variant="Variant.Filled" Label="Event Name" @bind-Value="events.EventName" For="@(() => events.EventName)" />
+                    </div>
+
+                    <div class="form-field">
+                        <MudTextField Variant="Variant.Filled" Label="Picture" @bind-Value="events.Picture" OnAdornmentClick="@OpenFilePickerEvent" Adornment="Adornment.End" For="@(() => events.Picture)" AdornmentIcon="@Icons.Material.Filled.Image" />
+                    </div>
+
+                    <div class="form-field">
+                        <MudDatePicker Variant="Variant.Filled" Label="Start Date" @bind-Date="events.StartDate" DateFormat="dd/MM/yyyy" For="@(() => events.StartDate)" />
+                    </div>
+
+                    <div class="form-field">
+                        <MudDatePicker Variant="Variant.Filled" Label="End Date" @bind-Date="events.EndDate" DateFormat="dd/MM/yyyy" For="@(() => events.EndDate)" />
+                    </div>
+
+                    <div class="form-field">
+                        <MudTextField Variant="Variant.Filled" Label="Description" @bind-Value="events.Description" For="@(() => events.Description)" />
+                    </div>
+
+                    <div class="form-field">
+                        <MudTextField Variant="Variant.Filled" Label="Location" @bind-Value="events.Location" For="@(() => events.Location)" />
+                    </div>
+
+                    
+                </div>
+                <div style="display: flex; justify-content: space-between; padding-top: 10px;">
+                    <MudButton Variant="Variant.Filled" Href="/manager" Color="Color.Dark" Style="width: 470px;">Back to list</MudButton>
+                    <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Dark" Style="width: 470px;" Class="ml-auto">Save</MudButton>
+                </div>
+            </EditForm>
+        </MudCardContent>
+    </MudCard>
+</div>
+<InputFile style="display:none" @ref="uploadControl" OnChange="@((InputFileChangeEventArgs args) => OnInputFileChange(args))" />
+<InputFile style="display:none" @ref="uploadControlevent" OnChange="@((InputFileChangeEventArgs args) => OnInputFileChangeEvent(args))" />
+
+@JsonSerializer.Serialize(this.manager);
+@JsonSerializer.Serialize(this.events);
+
+@code {
+    private Manager manager = new Manager();
+    private Event events = new Event();
+    private InputFile? uploadControl;
+    private IBrowserFile? file;
+
+    private InputFile? uploadControlevent;
+    private IBrowserFile? fileEvent;
+
+
+    private List<SelectionPanel>? selectionPanels;
+    MudSelect<int> mudSelectSelectionPanel = null!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        selectionPanels = await http.GetFromJsonAsync<List<SelectionPanel>>("api/Events/SelectionPanels");
+    }
+    //manager
+    private void OnInputFileChange(InputFileChangeEventArgs e)
+    {
+        this.file = e.File;
+        this.manager.Picture = e.File.Name;
+
+    }
+    public async Task OpenFilePicker()
+    {
+        await js.InvokeAsync<object>("elClick", uploadControl?.Element);
+    }
+    
+    private async void HandleValidSubmit(EditContext editContext)
+    {
+        var r = await UploadImage();
+        this.manager.Picture = r.ImageName;
+        await this.Save();
+
+    }
+    //event
+    private void OnInputFileChangeEvent(InputFileChangeEventArgs e)
+    {
+        this.file = e.File;
+        this.events.Picture = e.File.Name;
+
+    }
+    
+    public async Task OpenFilePickerEvent()
+    {
+        await js.InvokeAsync<object>("elClick", uploadControlevent?.Element);
+    }
+
+    private async void HandleValidSubmitEvent(EditContext editContext)
+    {
+        var r = await UploadImage();
+        this.events.Picture = r.ImageName;
+        await this.Save();
+
+    }
+
+    public async Task<UploadResponse> UploadImage()
+    {
+        if (file is not null)
+        {
+            var content = new MultipartFormDataContent();
+            var fileContent = new StreamContent(file.OpenReadStream(long.MaxValue));
+
+            fileContent.Headers.ContentType = new MediaTypeHeaderValue(file.ContentType);
+            content.Add(content: fileContent, name: "\"file\"", fileName: file.Name);
+            var response = await http.PostAsync("api/Managers/Upload", content);
+            var r = await response.Content.ReadFromJsonAsync<UploadResponse>();
+            if (r is null) return new UploadResponse();
+            else return r;
+        }
+
+        return new UploadResponse();
+    }
+    private async Task Save()
+    {
+        var response = await this.http.PostAsJsonAsync<Manager>("/api/Managers", this.manager);
+        if (response.IsSuccessStatusCode)
+        {
+            this.snackbar.Clear();
+            this.snackbar.Configuration.PositionClass = Defaults.Classes.Position.BottomCenter;
+            this.snackbar.Add("Data saved.", Severity.Success);
+            this.manager = new Manager();
+            this.StateHasChanged();
+        }
+        else
+        {
+            this.snackbar.Clear();
+            this.snackbar.Configuration.PositionClass = Defaults.Classes.Position.BottomCenter;
+            this.snackbar.Add("Failed to save.", Severity.Warning);
+        }
+    }
+}

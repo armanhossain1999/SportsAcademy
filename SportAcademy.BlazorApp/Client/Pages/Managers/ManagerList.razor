@@ -1,0 +1,202 @@
+﻿@page "/manager"
+
+@inject HttpClient http
+@inject NavigationManager nvaManager
+@inject ISnackbar snackbar
+@inject IDialogService DialogService
+
+<MudCard Style="margin-top:20px; width:90%; margin:10px auto; background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);">
+    <MudCardHeader>
+        <CardHeaderAvatar>
+            <MudAvatar Variant="Variant.Outlined">
+                <MudImage Src="Pictures/office-worker.png" Style="width:35px; height:35px;">
+                </MudImage>
+            </MudAvatar>
+        </CardHeaderAvatar>
+        <CardHeaderContent>
+            
+            <MudText Typo="Typo.body1">Manager</MudText>
+            <MudText Typo="Typo.body2">Manager list</MudText>
+       
+
+           @*  <div style="display:flex; justify-content:right">
+                <MudTextField Variant="Variant.Filled" @bind-Value="_searchString" Placeholder="Search" Adornment="Adornment.End" Immediate="true"
+                              AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0">
+                </MudTextField>
+            </div> *@
+
+        </CardHeaderContent>
+
+        <CardHeaderActions>
+            <MudFab Size="Size.Small" Href="/Managers/Add" StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary" />
+        </CardHeaderActions>
+    </MudCardHeader>
+
+    <MudCardContent>
+        @if (this.managers is null)
+        {
+            <LoadingIndicator />
+        }
+        else
+        {
+            <MudTable Items="@managers">
+                <HeaderContent>
+                    <MudTh>Event</MudTh>
+                    <MudTh>Picture</MudTh>
+                    <MudTh>
+                        <MudTableSortLabel SortBy="new Func<Manager, object>(x => x.ManagerId)">ManagerName</MudTableSortLabel>
+                    </MudTh>
+                    <MudTh>Join Date</MudTh>
+                    <MudTh>Email</MudTh>
+                    <MudTh>Phone</MudTh>
+                    <MudTh>Address</MudTh>
+                    <MudTh>Edit/Delete</MudTh>
+                </HeaderContent>
+                <RowTemplate>
+                    <MudTd>
+                        @if (this.selectedManager.Contains(context.ManagerId))
+                        {
+                            <MudIconButton Icon="@Icons.Material.Filled.ArrowDropDown" OnClick="@(() => UnSelectManager(@context.ManagerId))"></MudIconButton>
+                        }
+                        else
+                        {
+                            <MudIconButton Icon="@Icons.Material.Filled.ArrowRight" OnClick="@(() => SelectManager(@context.ManagerId))"></MudIconButton>
+                        }
+                    </MudTd>
+                    <MudTd>
+                        <img class="img-thumbnail rounded-circle" src="/Pictures/@context.Picture" style="width:40px;" />
+                    </MudTd>
+                    <MudTd>@context.ManagerName</MudTd>
+                        <MudTd>@context.JoinDate?.ToString("yyyy-MM-dd")</MudTd>
+                        <MudTd>@context.Email</MudTd>
+                        <MudTd>@context.Phone</MudTd>
+                        <MudTd>@context.Address</MudTd>
+                        <MudTd>
+                            <MudIconButton Size="Size.Small" Href="@GetLink(context.ManagerId)" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Edit" Variant="Variant.Outlined" Color="Color.Primary"></MudIconButton>
+                            <MudIconButton OnClick="@(() => ConfirmDelete(@context.ManagerId))" Size="Size.Small" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Delete" Variant="Variant.Outlined" Color="Color.Secondary"></MudIconButton>
+                        </MudTd>
+                    </RowTemplate>
+
+                    <ChildRowContent >
+                        @if (this.selectedManager.Contains(context.ManagerId))
+                    {
+                        <MudTr>
+                            <MudTd Colspan="9">
+                                <!-- Render events only if the manager is selected -->
+                                <MudCard >
+                                    <MudCard Style="background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);">
+                                        <MudCardHeader>
+                                            <CardHeaderContent>
+                                                <MudText Typo="Typo.h6" Style="text-align:center;">Events</MudText>
+                                            </CardHeaderContent>
+                                        </MudCardHeader>
+                                        <MudCardContent Class="pa-0" style="width:100%">
+                                            <MudTable Items="@context.Events" Context="eventContext">
+                                                <HeaderContent>
+                                                    <MudTh>Picture</MudTh>
+                                                    <MudTh><MudTableSortLabel SortBy="new Func<Event, object>(x => x.EventName)">Event Name</MudTableSortLabel></MudTh>
+                                                    <MudTh>StartDate</MudTh>
+                                                    <MudTh>EndDate</MudTh>
+                                                    <MudTh>Description</MudTh>
+                                                    <MudTh>Location</MudTh>
+                                                    <MudTh>Edit/Delete</MudTh>
+                                                </HeaderContent>
+                                                <RowTemplate>
+                                                    <MudTd><img class="img-thumbnail rounded-circle" src="/Pictures/@eventContext.Picture" style="width:40px;" /></MudTd>
+                                                    <MudTd>@eventContext.EventName</MudTd>
+                                                    <MudTd>@eventContext.StartDate?.ToString("yyyy-MM-dd")</MudTd>
+                                                    <MudTd>@eventContext.EndDate?.ToString("yyyy-MM-dd")</MudTd>
+                                                    <MudTd>@eventContext.Description</MudTd>
+                                                    <MudTd>@eventContext.Location</MudTd>
+                                                    <MudTd>
+                                                        <MudIconButton Size="Size.Small" Href="@GetLinke(eventContext.EventId)" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Edit" Variant="Variant.Outlined" Color="Color.Primary"></MudIconButton>
+                                                        <MudIconButton OnClick="@(() => ConfirmDelete(eventContext.EventId))" Size="Size.Small" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Delete" Variant="Variant.Outlined" Color="Color.Secondary"></MudIconButton>
+                                                    </MudTd>
+                                                </RowTemplate>
+                                            </MudTable>
+                                        </MudCardContent>
+                                    </MudCard>
+                                </MudCard>
+                            </MudTd>
+                        </MudTr>
+                    }
+                </ChildRowContent> 
+                <PagerContent>
+                    <MudTablePager PageSizeOptions="new int[] {5, 10, 25, 50, 100 }" HorizontalAlignment="HorizontalAlignment.Right" />
+                </PagerContent>
+            </MudTable>
+        }
+    </MudCardContent>
+</MudCard>
+
+@code {
+    public List<Manager>? managers;
+    public List<Event>? events;
+    List<int> selectedManager = new List<int>();
+    private string? _searchString;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var data = await this.http.GetFromJsonAsync<List<Manager>>("/api/Managers/Events/Include");
+
+        if (data is null)
+        {
+            this.snackbar.Configuration.PositionClass = Defaults.Classes.Position.BottomCenter;
+            this.snackbar.Add("Cannot load managers.", Severity.Error);
+        }
+        else
+        {
+            this.managers = data;
+        }
+    }
+
+
+    private void SelectManager(int id)
+    {
+        this.selectedManager.Add(id);
+        this.StateHasChanged();
+    }
+    private void UnSelectManager(int id)
+    {
+        this.selectedManager.Remove(id);
+        this.StateHasChanged();
+    }
+
+    private string GetLink(int id)
+    {
+        return $"/Managers/Edit/{id}";
+    }
+    private string GetLinke(int id)
+    {
+        return $"/Event/Edit/{id}";
+    }
+
+
+    private async void ConfirmDelete(int id)
+    {
+        var confirm = this.DialogService.Show<ConfirmDialog>();
+        var result = await confirm.Result;
+        if (!result.Canceled)
+        {
+            await DeleteManager(id);
+        }
+
+    }
+    private async Task DeleteManager(int id)
+    {
+        var response = await this.http.DeleteAsync($"/api/Managers/{id}");
+        if (response.IsSuccessStatusCode)
+        {
+            if (this.managers is null) { }
+            else
+            {
+                int index = this.managers.FindIndex(b => b.ManagerId == id);
+                if (index >= 0) this.managers.RemoveAt(index);
+                this.StateHasChanged();
+            }
+        }
+    }
+
+   
+
+}

@@ -1,0 +1,820 @@
+﻿@page "/Setting_list"
+
+@inject HttpClient http
+@inject NavigationManager nvaManager
+@inject ISnackbar snackbar
+@inject IDialogService DialogService
+
+<div class="card-container" style="display:flex; justify-content:space-between; flex-wrap:wrap">
+    <div class="card" style=" width: calc(50% - 20px); margin: 10px;">
+        <MudCard Style="margin-top:20px; width:100%; margin:10px auto; background-color:skyblue">
+
+            <MudCardHeader>
+                <CardHeaderAvatar>
+                    <MudAvatar Variant="Variant.Outlined"><MudImage Src="Pictures/sportall.png" Style="width:30px; height:30px;"></MudImage></MudAvatar>
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.body1">Sports</MudText>
+                    <MudText Typo="Typo.body2">Sports List</MudText>
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <MudFab Size="Size.Small" Href="/Sports/Add" StartIcon="@Icons.Material.Filled.Add" Color="Color.Success" />
+                </CardHeaderActions>
+            </MudCardHeader>
+
+            <MudCardContent>
+                @if (this.sports is null)
+                {
+                        <LoadingIndicator />
+                }
+                else
+                {
+                    <MudTable Items="@sports">
+                            <HeaderContent>
+                                <MudTh><MudTableSortLabel SortBy="new Func<Sport, object>(x=>x.SportsName)">Sports Name</MudTableSortLabel></MudTh>
+                                <MudTh>Actions</MudTh>
+                            </HeaderContent>
+                            <RowTemplate>
+                                <MudTd>@context.SportsName</MudTd>
+                                <MudTd>
+                                <MudIconButton Size="Size.Small" Href="@GetSportLink(context.SportId)" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Edit" Variant="Variant.Outlined" Color="Color.Primary"></MudIconButton>
+                                <MudIconButton OnClick="@(()=>ConfirmSDelete(@context.SportId))" Size="Size.Small" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Delete" Variant="Variant.Outlined" Color="Color.Secondary"></MudIconButton>
+
+                                </MudTd>
+                            </RowTemplate>
+                            <PagerContent>
+                                <MudTablePager PageSizeOptions="new int[] {5, 10, 25, 50, 100 }" HorizontalAlignment="HorizontalAlignment.Right" />
+
+                            </PagerContent>
+                        </MudTable>
+                }
+              <MudCard>
+                    <MudContainer Style="margin-top:10px">
+                        <MudText style="text-align:center;" Typo="Typo.h6">Add new Sports</MudText>
+
+                        <EditForm Model="@sport">
+                            <DataAnnotationsValidator />
+
+                            <div style="margin-bottom:10px;">
+                                <MudTextField Label="Sports Name" Variant="Variant.Filled" @bind-Value="sport.SportsName" For="@(() => sport.SportsName)" />
+                            </div>
+
+                            <div style="display: flex; justify-content: space-between; margin-top:10px;">
+                                <MudButton Variant="Variant.Filled" Href="/player" Color="Color.Dark" Style="width:245px;margin-bottom:20px;">Back to</MudButton>
+                                <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Dark" Style="width:245px;margin-bottom:20px;" Class="ml-auto">Save</MudButton>
+                            </div>
+                        </EditForm>
+                    </MudContainer>
+              </MudCard>
+            </MudCardContent>                                         
+         </MudCard>
+    </div>
+    <div class="card" style=" width: calc(50% - 20px); margin: 10px;">
+        <MudCard Style="margin-top:20px; width:100%; margin:10px auto; background-color:aquamarine">
+
+            <MudCardHeader>
+                <CardHeaderAvatar>
+                    <MudAvatar Variant="Variant.Outlined"><MudImage Src="Pictures/category.png" Style="width:30px; height:30px;"></MudImage></MudAvatar>
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.body1">Category</MudText>
+                    <MudText Typo="Typo.body2">Category list</MudText>
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <MudFab Size="Size.Small" Href="/Category/Add" StartIcon="@Icons.Material.Filled.Add" Color="Color.Info" />
+                </CardHeaderActions>
+            </MudCardHeader>
+
+            <MudCardContent>
+                @if (this.categories is null)
+                {
+                        <LoadingIndicator />
+                }
+                else
+                {
+                    <MudTable Items="@categories">
+                            <HeaderContent>
+                                <MudTh><MudTableSortLabel SortBy="new Func<Category, object>(x=>x.CategoryName)">Category Name</MudTableSortLabel></MudTh>
+                                <MudTh>Actions</MudTh>
+                            </HeaderContent>
+                            <RowTemplate>
+                                <MudTd>@context.CategoryName</MudTd>
+                                <MudTd>
+                                <MudIconButton Size="Size.Small" Href="@GetCategoryLink(context.CategoryId)" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Edit" Variant="Variant.Outlined" Color="Color.Primary"></MudIconButton>
+                                    <MudIconButton OnClick="@(()=>ConfirmCDelete(@context.CategoryId))" Size="Size.Small" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Delete" Variant="Variant.Outlined" Color="Color.Secondary"></MudIconButton>
+
+                                </MudTd>
+                            </RowTemplate>
+                            <PagerContent>
+                                <MudTablePager PageSizeOptions="new int[] {5, 10, 25, 50, 100 }" HorizontalAlignment="HorizontalAlignment.Right" />
+
+                            </PagerContent>
+                        </MudTable>
+                }
+                <MudCard>
+                    <MudContainer Style="margin-top:10px">
+                        <MudText style="text-align:center;" Typo="Typo.h6">Add new Category</MudText>
+
+                        <EditForm Model="@category">
+                            <DataAnnotationsValidator />
+
+                            <div style="margin-bottom:10px;">
+                                <MudTextField Label="Category Name" Variant="Variant.Filled" @bind-Value="category.CategoryName" For="@(() => category.CategoryName)" />
+                            </div>
+
+                            <div style="display: flex; justify-content: space-between; margin-top:10px;">
+                                <MudButton Variant="Variant.Filled" Href="/player" Color="Color.Dark" Style="width:245px;margin-bottom:20px;">Back to</MudButton>
+                                <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Dark" Style="width:245px;margin-bottom:20px;" Class="ml-auto">Save</MudButton>
+                            </div>
+                        </EditForm>
+                    </MudContainer>
+                </MudCard>
+            </MudCardContent>
+        </MudCard>
+    </div>
+    <div class="card" style=" width: calc(50% - 20px); margin: 10px;">
+        <MudCard Style=" margin-top:20px; width:100%; margin:10px auto; background-color:hotpink">
+
+            <MudCardHeader>
+                <CardHeaderAvatar>
+                    <MudAvatar Variant="Variant.Outlined"><MudImage Src="Pictures/cricketformat.png" Style="width:30px; height:30px;"></MudImage></MudAvatar>
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.body1">Cricket Format</MudText>
+                    <MudText Typo="Typo.body2">Cricket Format list</MudText>
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <MudFab Size="Size.Small" Href="/CricketFormat/Add" StartIcon="@Icons.Material.Filled.Add" Color="Color.Transparent" />
+                </CardHeaderActions>
+            </MudCardHeader>
+
+            <MudCardContent>
+                @if (this.cricketFormats is null)
+                {
+                    <LoadingIndicator />
+                }
+                else
+                {
+                    <MudTable Items="@cricketFormats">
+                        <HeaderContent>
+                            <MudTh>Sport</MudTh>
+                            <MudTh><MudTableSortLabel SortBy="new Func<CricketFormat, object>(x=>x.FormatName)">Cricket Format</MudTableSortLabel></MudTh>
+                            <MudTh>Actions</MudTh>
+                        </HeaderContent>
+                        <RowTemplate>
+                            <MudTh>@(sportNames.ContainsKey(context.SportId) ? sportNames[context.SportId] : "Unknown")</MudTh>
+                            <MudTd>@context.FormatName</MudTd>
+                                <MudTd>
+                                    <MudIconButton Size="Size.Small" Href="@GetCricketFormatLink(context.CricketFormatId)" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Edit" Variant="Variant.Outlined" Color="Color.Primary"></MudIconButton>
+                                    <MudIconButton OnClick="@(()=>ConfirmCFDelete(@context.CricketFormatId))" Size="Size.Small" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Delete" Variant="Variant.Outlined" Color="Color.Secondary"></MudIconButton>
+
+                                </MudTd>
+                            </RowTemplate>
+                            <PagerContent>
+                                <MudTablePager PageSizeOptions="new int[] {5, 10, 25, 50, 100 }" HorizontalAlignment="HorizontalAlignment.Left" />
+
+                            </PagerContent>
+                        </MudTable>
+                }
+                <MudCard>
+                    <MudContainer Style="margin-top:10px">
+                        <MudText style="text-align:center;" Typo="Typo.h6">Add new Cricket Format</MudText>
+
+                        <EditForm Model="@cricketFormat">
+                            <DataAnnotationsValidator />
+
+                            <div style="margin-bottom:10px;">
+                                <MudTextField Label="Cricket Formats" Variant="Variant.Filled" @bind-Value="cricketFormat.FormatName" For="@(() => cricketFormat.FormatName)" />
+                            </div>
+
+                            <div style="display: flex; justify-content: space-between; margin-top:10px;">
+                                <MudButton Variant="Variant.Filled" Href="/player" Color="Color.Dark" Style="width:245px;margin-bottom:20px;">Back to</MudButton>
+                                <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Dark" Style="width:245px;margin-bottom:20px;" Class="ml-auto">Save</MudButton>
+                            </div>
+                        </EditForm>
+                    </MudContainer>
+                </MudCard>
+            </MudCardContent>
+        </MudCard>
+      
+    </div>
+    <div class="card" style=" width: calc(50% - 20px); margin: 10px;">
+        <MudCard Style="margin-top:20px; width:100%; margin:10px auto; background-color:pink">
+
+            <MudCardHeader>
+                <CardHeaderAvatar>
+                    <MudAvatar Variant="Variant.Outlined"><MudImage Src="Pictures/coachspecial.png" Style="width:30px; height:30px;"></MudImage></MudAvatar>
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.body1">Coach Specialization</MudText>
+                    <MudText Typo="Typo.body2">Coach Specialization list</MudText>
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <MudFab Size="Size.Small" Href="/CoachSpecialization/Add" StartIcon="@Icons.Material.Filled.Add" Color="Color.Success" />
+                </CardHeaderActions>
+            </MudCardHeader>
+
+            <MudCardContent>
+                @if (this.coachSpecializations is null)
+                {
+                    <LoadingIndicator />
+                }
+                else
+                {
+                    <MudTable Items="@coachSpecializations">
+                        <HeaderContent>
+                            <MudTh>Coach</MudTh>
+                            <MudTh><MudTableSortLabel SortBy="new Func<CoachSpecialization, object>(x=>x.SpecializedIn)">Coach Specialized</MudTableSortLabel></MudTh>                           
+                            <MudTh>Actions</MudTh>
+                        </HeaderContent>
+                        <RowTemplate>
+                            <MudTh>@(coachNames.ContainsKey(context.CoachId) ? coachNames[context.CoachId] : "Unknown")</MudTh>
+                            <MudTd>@context.SpecializedIn</MudTd>
+                            <MudTd>
+                                    <MudIconButton Size="Size.Small" Href="@GetCoachSpecializationLink(context.CoachSpecializationId)" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Edit" Variant="Variant.Outlined" Color="Color.Primary"></MudIconButton>
+                                    <MudIconButton OnClick="@(()=>ConfirmCSDelete(@context.CoachSpecializationId))" Size="Size.Small" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Delete" Variant="Variant.Outlined" Color="Color.Secondary"></MudIconButton>
+
+                            </MudTd>
+                        </RowTemplate>
+                        <PagerContent>
+                            <MudTablePager PageSizeOptions="new int[] {5, 10, 25, 50, 100 }" HorizontalAlignment="HorizontalAlignment.Right" />
+
+                        </PagerContent>
+                    </MudTable>
+                }
+                <MudCard>
+                    <MudContainer Style="margin-top:10px">
+                        <MudText style="text-align:center;" Typo="Typo.h6">Add new Coach Specializations</MudText>
+
+                        <EditForm Model="@coachSpecialization">
+                            <DataAnnotationsValidator />
+
+                            <div style="margin-bottom:10px;">
+                                <MudTextField Label="Coach Specialization" Variant="Variant.Filled" @bind-Value="coachSpecialization.SpecializedIn" For="@(() => coachSpecialization.SpecializedIn)" />
+                            </div>
+
+                            <div style="display: flex; justify-content: space-between; margin-top:10px;">
+                                <MudButton Variant="Variant.Filled" Href="/player" Color="Color.Dark" Style="width:245px;margin-bottom:20px;">Back to</MudButton>
+                                <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Dark" Style="width:245px;margin-bottom:20px;" Class="ml-auto">Save</MudButton>
+                            </div>
+                        </EditForm>
+                    </MudContainer>
+                </MudCard>
+            </MudCardContent>
+        </MudCard>
+    </div>
+    <div class="card" style=" flex:2; width: calc(50% - 20px); margin: 10px;">
+        <MudCard Style="margin-top:20px; width:100%; margin:10px auto; background-color:darkgray">
+
+            <MudCardHeader>
+                <CardHeaderAvatar>
+                    <MudAvatar Variant="Variant.Outlined"><MudImage Src="Pictures/playerrole.png" Style="width:30px; height:30px;"></MudImage></MudAvatar>
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.body1">Player Role</MudText>
+                    <MudText Typo="Typo.body2">Player Role list</MudText>
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <MudFab Size="Size.Small" Href="/Category/Add" StartIcon="@Icons.Material.Filled.Add" Color="Color.Error" />
+                </CardHeaderActions>
+            </MudCardHeader>
+
+            <MudCardContent>
+                @if (this.playerRoles is null)
+                {
+                    <LoadingIndicator />
+                }
+                else
+                {
+                    <MudTable Items="@playerRoles">
+                        <HeaderContent>
+                            <MudTh><MudTableSortLabel SortBy="new Func<PlayerRole, object>(x=>x.RoleName)">Player Role</MudTableSortLabel></MudTh>
+                            <MudTh>Actions</MudTh>
+                        </HeaderContent>
+                        <RowTemplate>
+                            <MudTd>@context.RoleName</MudTd>
+                                <MudTd>
+                                    <MudIconButton Size="Size.Small" Href="@GetPlayerRoleLink(context.PlayerRoleId)" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Edit" Variant="Variant.Outlined" Color="Color.Primary"></MudIconButton>
+                                    <MudIconButton OnClick="@(()=>ConfirmPRDelete(@context.PlayerRoleId))" Size="Size.Small" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Delete" Variant="Variant.Outlined" Color="Color.Secondary"></MudIconButton>
+
+                                </MudTd>
+                            </RowTemplate>
+                            <PagerContent>
+                                <MudTablePager PageSizeOptions="new int[] {5, 10, 25, 50, 100 }" HorizontalAlignment="HorizontalAlignment.Right" />
+
+                            </PagerContent>
+                        </MudTable>
+                }
+                <MudCard>
+                    <MudContainer Style="margin-top:10px">
+                        <MudText style="text-align:center;" Typo="Typo.h6">Add new Player Role</MudText>
+
+                        <EditForm Model="@playerRole">
+                            <DataAnnotationsValidator />
+
+                            <div style="margin-bottom:10px;">
+                                <MudTextField Label="Player Role Name" Variant="Variant.Filled" @bind-Value="playerRole.RoleName" For="@(() => playerRole.RoleName)" />
+                            </div>
+
+                            <div style="display: flex; justify-content: space-between; margin-top:10px;">
+                                <MudButton Variant="Variant.Filled" Href="/player" Color="Color.Dark" Style="width:245px;margin-bottom:20px;">Back to</MudButton>
+                                <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Dark" Style="width:245px;margin-bottom:20px;" Class="ml-auto">Save</MudButton>
+                            </div>
+                        </EditForm>
+                    </MudContainer>
+                </MudCard>
+            </MudCardContent>
+        </MudCard>
+    </div>
+    <div class="card" style="flex:2; width: calc(50% - 20px); margin: 10px;">
+        <MudCard Style="margin-top:20px; width:100%; margin:10px auto; background-color:wheat"> 
+
+            <MudCardHeader>
+                <CardHeaderAvatar>
+                    <MudAvatar Variant="Variant.Outlined"><MudImage Src="Pictures/equipment.png" Style="width:30px; height:30px;"></MudImage></MudAvatar>
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.body1">Equipment</MudText>
+                    <MudText Typo="Typo.body2">Equipment list</MudText>
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <MudFab Size="Size.Small" Href="/CricketFormat/Add" StartIcon="@Icons.Material.Filled.Add" Color="Color.Tertiary" />
+                </CardHeaderActions>
+            </MudCardHeader>
+
+            <MudCardContent>
+                @if (this.equipment is null)
+                {
+                    <LoadingIndicator />
+                }
+                else
+                {
+                    <MudTable Items="@equipment">
+                        <HeaderContent>
+                            <MudTh>Training Session</MudTh>
+                            <MudTh><MudTableSortLabel SortBy="new Func<Equipment, object>(x=>x.EquipmentName)">Equipment Name</MudTableSortLabel></MudTh>
+                            <MudTh>Actions</MudTh>
+                        </HeaderContent>
+                        <RowTemplate>
+                            <MudTd>@(trainingequipments.ContainsKey(context.TrainingSessionId) ? trainingequipments[context.TrainingSessionId] : "Unknown")</MudTd>
+                            <MudTd>@context.EquipmentName</MudTd>
+                           
+                            
+                                <MudTd>
+                                    <MudIconButton Size="Size.Small" Href="@GetEquipmentLink(context.EquipmentId)" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Edit" Variant="Variant.Outlined" Color="Color.Primary"></MudIconButton>
+                                    <MudIconButton OnClick="@(()=>ConfirmEDelete(@context.EquipmentId))" Size="Size.Small" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Delete" Variant="Variant.Outlined" Color="Color.Secondary"></MudIconButton>
+
+                                </MudTd>
+                            </RowTemplate>
+                            <PagerContent>
+                                <MudTablePager PageSizeOptions="new int[] {5, 10, 25, 50, 100 }" HorizontalAlignment="HorizontalAlignment.Right" />
+
+                            </PagerContent>
+                        </MudTable>
+                }
+                <MudCard>
+                    <MudContainer Style="margin-top:10px">
+                        <MudText style="text-align:center;" Typo="Typo.h6">Add new Equipment</MudText>
+
+                        <EditForm Model="@equipments">
+                            <DataAnnotationsValidator />
+
+                            <div style="margin-bottom:10px;">
+                                <MudTextField Label="Equipment Name" Variant="Variant.Filled" @bind-Value="equipments.EquipmentName" For="@(() => equipments.EquipmentName)" />
+                            </div>
+
+                            <div style="display: flex; justify-content: space-between; margin-top:10px;">
+                                <MudButton Variant="Variant.Filled" Href="/player" Color="Color.Dark" Style="width:245px;margin-bottom:20px;">Back to</MudButton>
+                                <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Dark" Style="width:245px;margin-bottom:20px;" Class="ml-auto">Save</MudButton>
+                            </div>
+                        </EditForm>
+                    </MudContainer>
+                </MudCard>
+            </MudCardContent>
+        </MudCard>
+    </div>
+</div>
+<div>
+    <MudCard Style="margin-top:20px; width:98.5%; margin:10px auto; background-color:palegreen">
+
+        <MudCardHeader>
+            <CardHeaderAvatar>
+                <MudAvatar Variant="Variant.Outlined"><MudImage Src="Pictures/trainingsession.png" Style="width:30px; height:30px;"></MudImage></MudAvatar>
+            </CardHeaderAvatar>
+            <CardHeaderContent>
+                <MudText Typo="Typo.body1">Training Session</MudText>
+                <MudText Typo="Typo.body2">Training Session list</MudText>
+            </CardHeaderContent>
+            <CardHeaderActions>
+                <MudFab Size="Size.Small" Href="/TrainingSession/Add" StartIcon="@Icons.Material.Filled.Add" Color="Color.Warning" />
+            </CardHeaderActions>
+        </MudCardHeader>
+
+        <MudCardContent>
+            @if (this.trainingSession is null)
+            {
+                <LoadingIndicator />
+            }
+            else
+            {
+                <MudTable Items="@trainingSession">
+                    <HeaderContent>
+                        <MudTh><MudTableSortLabel SortBy="new Func<TrainingSession, object>(x=>x.Title)">Training Session</MudTableSortLabel></MudTh>
+                        <MudTh>Title</MudTh>
+                        <MudTh>Session Time</MudTh>
+                        <MudTh>Coach</MudTh>
+                        <MudTh>Description</MudTh>
+                        <MudTh>Actions</MudTh>
+                    </HeaderContent>
+                    <RowTemplate>
+                        <MudTd>@context.Title</MudTd>
+                            <MudTd>@context.SessionTime?.ToString("yyyy-MM-dd")</MudTd>
+                            <MudTd>@(coachNames.ContainsKey(context.CoachId) ? coachNames[context.CoachId] : "Unknown")</MudTd>
+                            <MudTd>@context.Description</MudTd>
+                            <MudTd>
+                                <MudIconButton Size="Size.Small" Href="@GetTrainingSessionLink(context.TrainingSessionId)" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Edit" Variant="Variant.Outlined" Color="Color.Primary"></MudIconButton>
+                                <MudIconButton OnClick="@(()=>ConfirmTSDelete(@context.TrainingSessionId))" Size="Size.Small" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Delete" Variant="Variant.Outlined" Color="Color.Secondary"></MudIconButton>
+
+                            </MudTd>
+                        </RowTemplate>
+                        <PagerContent>
+                            <MudTablePager PageSizeOptions="new int[] {5, 10, 25, 50, 100 }" HorizontalAlignment="HorizontalAlignment.Right" />
+
+                        </PagerContent>
+                    </MudTable>
+            }
+            <MudCard>
+                <MudContainer Style="margin-top:10px">
+                    <MudText style="text-align:center;" Typo="Typo.h6">Add new Training Session</MudText>
+
+                    <EditForm Model="@trainingSessions">
+                        <DataAnnotationsValidator />
+                        <div class="row" style="display:flex; justify-content:space-between;">
+                            <div style="width: 24%; margin-bottom: 10px;">
+                                <MudSelect @ref="mudSelectcoaches" @bind-Value="trainingSessions.CoachId" T="int" Label="Coach Name" Variant="Variant.Filled">
+                                    @if (this.coaches is not null)
+                                    {
+                                        @foreach (var item in coaches)
+                                        {
+                                            <MudSelectItem Value="@item.CoachId">@item.CoachName</MudSelectItem>
+                                        }
+                                    }
+                                    <MudSelectItem Value="0">Select one</MudSelectItem>
+                                </MudSelect>
+                            </div>
+
+                            <div style="width: 24%; margin-bottom:10px;">
+                                <MudTextField Label="Title" Variant="Variant.Filled" @bind-Value="trainingSessions.Title" For="@(() => trainingSessions.Title)" />
+                            </div>
+
+                            <div style="width: 24%; margin-bottom:10px;">
+                                <MudDatePicker Label="Session Time" Variant="Variant.Filled"  @bind-Date="trainingSessions.SessionTime" DateFormat="dd/MM/yyyy" For="@(() => trainingSessions.SessionTime)" />
+                            </div>
+                            <div style="width: 24%; margin-bottom:10px;">
+                                <MudTextField Label="Description" Variant="Variant.Filled" @bind-Value="trainingSessions.Description" For="@(() => trainingSessions.Description)" />
+                            </div>
+
+
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-top:10px;">
+                            <MudButton Variant="Variant.Filled" Href="/player" Color="Color.Dark" Style="width:245px;margin-bottom:20px;">Back to</MudButton>
+                            <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Dark" Style="width:245px;margin-bottom:20px;" Class="ml-auto">Save</MudButton>
+                        </div>
+                    </EditForm>
+                </MudContainer>
+            </MudCard>
+        </MudCardContent>
+    </MudCard>
+</div>
+
+
+
+
+
+@code {
+    private Sport sport = new Sport();
+    private Category category = new Category();
+    private PlayerRole playerRole = new PlayerRole();
+    private CoachSpecialization coachSpecialization = new CoachSpecialization();
+    private CricketFormat cricketFormat = new CricketFormat();
+    private Equipment equipments = new Equipment();
+    private TrainingSession trainingSessions = new TrainingSession();
+
+    public List<Sport>? sports;
+    public List<Category>? categories;
+    public List<PlayerRole>? playerRoles;
+    public List<CoachSpecialization>? coachSpecializations;
+    public List<CricketFormat>? cricketFormats;
+    public List<Equipment>? equipment;
+    public List<TrainingSession>? trainingSession;
+
+    public List<Coach>? coaches;
+    MudSelect<int> mudSelectcoaches = null!;
+
+    public Dictionary<int, string> coachNames = new Dictionary<int, string>();
+    public Dictionary<int, string> sportNames = new Dictionary<int, string>();
+    public Dictionary<int, string> trainingequipments = new Dictionary<int, string>();
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        var data = await this.http.GetFromJsonAsync<List<Sport>>("/api/Sports");
+        var data2 = await this.http.GetFromJsonAsync<List<Category>>("/api/Categories");
+        var data3 = await this.http.GetFromJsonAsync<List<PlayerRole>>("/api/PlayerRoles");
+        var data4 = await this.http.GetFromJsonAsync<List<CoachSpecialization>>("/api/CoachSpecializations");
+        var data5 = await this.http.GetFromJsonAsync<List<CricketFormat>>("/api/CricketFormats");
+        var data6 = await this.http.GetFromJsonAsync<List<Equipment>>("/api/Equipments");
+        var data7 = await this.http.GetFromJsonAsync<List<TrainingSession>>("/api/TrainingSessions");
+
+        if (data is null || data2 is null || data3 is null || data4 is null || data5 is null || data6 is null)
+        {
+            this.snackbar.Configuration.PositionClass = Defaults.Classes.Position.BottomCenter;
+            this.snackbar.Add("Cannot Load Data.", Severity.Error);
+        }
+        else
+        {
+            this.sports = data;
+            this.categories = data2;
+            this.playerRoles = data3;
+            this.coachSpecializations = data4;
+            this.cricketFormats = data5;
+            this.equipment = data6;
+            this.trainingSession = data7;
+            // Fetch Coach Names
+            var coachData = await this.http.GetFromJsonAsync<List<Coach>>("/api/Coaches");
+            if (coachData != null)
+            {
+                foreach (var coach in coachData)
+                {
+                    coachNames[coach.CoachId] = coach.CoachName;
+                }
+            }
+            // Fetch sportNames
+            var sportData = await this.http.GetFromJsonAsync<List<Sport>>("/api/Sports");
+            if (sportData != null)
+            {
+                foreach (var sport in sportData)
+                {
+                    sportNames[sport.SportId] = sport.SportsName;
+                }
+            }
+            // Fetch TrainingSessionTitle
+            var trainingData = await this.http.GetFromJsonAsync<List<TrainingSession>>("/api/TrainingSessions");
+            if (trainingData != null)
+            {
+                foreach (var title in trainingData)
+                {
+                    trainingequipments[title.TrainingSessionId] = title.Title;
+                }
+            }
+        }
+    }
+    private string GetSportLink(int id)
+    {
+        return $"/Sport/Edit/{id}";
+
+    }
+    private string GetCategoryLink(int id)
+    {
+        return $"/Category/Edit/{id}";
+
+    }
+    private string GetPlayerRoleLink(int id)
+    {
+        return $"/PlayerRole/Edit/{id}";
+
+    }
+    private string GetCoachSpecializationLink(int id)
+    {
+        return $"/CoachSpecialization/Edit/{id}";
+
+    }
+    
+    private string GetCricketFormatLink(int id)
+    {
+        return $"/CricketFormat/Edit/{id}";
+
+    }
+    private string GetEquipmentLink(int id)
+    {
+        return $"/Equipment/Edit/{id}";
+
+    }
+    private string GetTrainingSessionLink(int id)
+    {
+        return $"/TrainingSession/Edit/{id}";
+
+    }
+  
+    //private async void ConfirmSDelete(int id)
+    //{
+    //    var confirm = this.DialogService.Show<ConfirmDialog>();
+    //    var result = await confirm.Result;
+    //    if (!result.Canceled)
+    //    {
+    //        await DeleteSport(id);          
+    //    }
+
+    //}
+    //private async void ConfirmCDelete(int id)
+    //{
+    //    var confirm = this.DialogService.Show<ConfirmDialog>();
+    //    var result = await confirm.Result;
+    //    if (!result.Canceled)
+    //    {
+    //        await DeleteCategory(id);
+    //    }
+
+    //}
+    //private async Task DeleteSport(int id)
+    //{
+    //    var response = await this.http.DeleteAsync($"/api/Sports/{id}");
+    //    if (response.IsSuccessStatusCode)
+    //    {
+    //        if (this.sports is null) { }
+    //        else
+    //        {
+    //            int index = this.sports.FindIndex(b => b.SportId == id);
+    //            if (index >= 0) this.sports.RemoveAt(index);
+    //            this.StateHasChanged();
+    //        }
+    //    }
+    //}
+    //private async Task DeleteCategory(int id)
+    //{
+    //    var response = await this.http.DeleteAsync($"/api/Categories/{id}");
+    //    if (response.IsSuccessStatusCode)
+    //    {
+    //        if (this.categories is null) { }
+    //        else
+    //        {
+    //            int index = this.categories.FindIndex(b => b.CategoryId == id);
+    //            if (index >= 0) this.categories.RemoveAt(index);
+    //            this.StateHasChanged();
+    //        }
+    //    }
+    //}
+    private async void ConfirmSDelete(int id)
+    {
+        var confirm = this.DialogService.Show<ConfirmDialog>();
+        var result = await confirm.Result;
+        if (!result.Canceled)
+        {
+            await DeleteSport(id);
+        }
+    }
+
+    private async void ConfirmCDelete(int id)
+    {
+        var confirm = this.DialogService.Show<ConfirmDialog>();
+        var result = await confirm.Result;
+        if (!result.Canceled)
+        {
+            await DeleteCategory(id);
+        }
+    }
+    private async void ConfirmPRDelete(int id)
+    {
+        var confirm = this.DialogService.Show<ConfirmDialog>();
+        var result = await confirm.Result;
+        if (!result.Canceled)
+        {
+            await DeletePlayerRole(id);
+        }
+    }
+    private async void ConfirmCSDelete(int id)
+    {
+        var confirm = this.DialogService.Show<ConfirmDialog>();
+        var result = await confirm.Result;
+        if (!result.Canceled)
+        {
+            await DeleteCricketFormat(id);
+        }
+    }
+     private async void ConfirmCFDelete(int id)
+    {
+        var confirm = this.DialogService.Show<ConfirmDialog>();
+        var result = await confirm.Result;
+        if (!result.Canceled)
+        {
+            await DeleteCoachSpecialization(id);
+        }
+    }
+    private async void ConfirmEDelete(int id)
+    {
+        var confirm = this.DialogService.Show<ConfirmDialog>();
+        var result = await confirm.Result;
+        if (!result.Canceled)
+        {
+            await DeleteEquipment(id);
+        }
+    }
+    private async void ConfirmTSDelete(int id)
+    {
+        var confirm = this.DialogService.Show<ConfirmDialog>();
+        var result = await confirm.Result;
+        if (!result.Canceled)
+        {
+            await DeleteTrainingSession(id);
+        }
+    }
+    
+    private async Task DeleteSport(int id)
+    {
+        var response = await this.http.DeleteAsync($"/api/Sports/{id}");
+        if (response.IsSuccessStatusCode && this.sports != null)
+        {
+            int index = this.sports.FindIndex(s => s.SportId == id);
+            if (index >= 0)
+            {
+                this.sports.RemoveAt(index);
+                this.StateHasChanged();
+            }
+        }
+    }
+
+    private async Task DeleteCategory(int id)
+    {
+        var response = await this.http.DeleteAsync($"/api/Categories/{id}");
+        if (response.IsSuccessStatusCode && this.categories != null)
+        {
+            int index = this.categories.FindIndex(c => c.CategoryId == id);
+            if (index >= 0)
+            {
+                this.categories.RemoveAt(index);
+                this.StateHasChanged();
+            }
+        }
+    }
+
+    private async Task DeletePlayerRole(int id)
+    {
+        var response = await this.http.DeleteAsync($"/api/PlayerRoles/{id}");
+        if (response.IsSuccessStatusCode && this.playerRoles != null)
+        {
+            int index = this.playerRoles.FindIndex(c => c.PlayerRoleId == id);
+            if (index >= 0)
+            {
+                this.playerRoles.RemoveAt(index);
+                this.StateHasChanged();
+            }
+        }
+    }
+    private async Task DeleteCoachSpecialization(int id)
+    {
+        var response = await this.http.DeleteAsync($"/api/CoachSpecializations/{id}");
+        if (response.IsSuccessStatusCode && this.coachSpecializations != null)
+        {
+            int index = this.coachSpecializations.FindIndex(c => c.CoachSpecializationId == id);
+            if (index >= 0)
+            {
+                this.coachSpecializations.RemoveAt(index);
+                this.StateHasChanged();
+            }
+        }
+    }
+    private async Task DeleteCricketFormat(int id)
+    {
+        var response = await this.http.DeleteAsync($"/api/CricketFormats/{id}");
+        if (response.IsSuccessStatusCode && this.cricketFormats != null)
+        {
+            int index = this.cricketFormats.FindIndex(c => c.CricketFormatId == id);
+            if (index >= 0)
+            {
+                this.cricketFormats.RemoveAt(index);
+                this.StateHasChanged();
+            }
+        }
+    }
+    private async Task DeleteEquipment(int id)
+    {
+        var response = await this.http.DeleteAsync($"/api/Equipments/{id}");
+        if (response.IsSuccessStatusCode && this.equipment != null)
+        {
+            int index = this.equipment.FindIndex(c => c.EquipmentId == id);
+            if (index >= 0)
+            {
+                this.equipment.RemoveAt(index);
+                this.StateHasChanged();
+            }
+        }
+    }
+    private async Task DeleteTrainingSession(int id)
+    {
+        var response = await this.http.DeleteAsync($"/api/TrainingSessions/{id}");
+        if (response.IsSuccessStatusCode && this.trainingSession != null)
+        {
+            int index = this.trainingSession.FindIndex(c => c.TrainingSessionId == id);
+            if (index >= 0)
+            {
+                this.trainingSession.RemoveAt(index);
+                this.StateHasChanged();
+            }
+        }
+    }
+    
+    
+
+    
+}
+

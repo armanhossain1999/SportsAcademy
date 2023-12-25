@@ -1,0 +1,116 @@
+﻿@page "/"
+
+
+
+<MudCarousel Class="mud-width-full" Style="height:300px;" ShowArrows="@arrows" ShowBullets="@bullets" EnableSwipeGesture="@enableSwipeGesture" AutoCycle="@autocycle" TData="object">
+    <MudCarouselItem  Transition="transition" Color="@Color.Primary">
+        <div class="d-flex" style="height:100%">
+            <MudImage Src="Buses/Arrival _ Zero-emission solutions (2).jpg" Alt="Swedish Farm House"  />
+            <MudImage Src="Buses/Russian trolleybus PKTS-6281 _Admiral_ (ПКТС-6281 _Адмирал_).jpg" Alt="Swedish Farm House" />
+            <MudImage Src="Buses/Arrival Maintenance.jpg" Alt="Swedish Farm House" />
+        </div>
+    </MudCarouselItem>
+    <MudCarouselItem  Transition="transition" Color="@Color.Secondary">
+        <div class="d-flex" style="height:100%;">
+            <MudImage Src="Buses/Arrival _ Zero-emission solutions (2).jpg" Alt="Swedish Farm House" />
+            <MudImage Src="Buses/Russian trolleybus PKTS-6281 _Admiral_ (ПКТС-6281 _Адмирал_).jpg" Alt="Swedish Farm House" />
+            <MudImage Src="Buses/Arrival Maintenance.jpg" Alt="Swedish Farm House" />
+        </div>
+    </MudCarouselItem>
+    <MudCarouselItem  Transition="transition">
+        <div class="d-flex" style="height:100%;">
+            <MudImage Src="Buses/Arrival _ Zero-emission solutions (2).jpg" Alt="Swedish Farm House" />
+            <MudImage Src="Buses/Russian trolleybus PKTS-6281 _Admiral_ (ПКТС-6281 _Адмирал_).jpg" Alt="Swedish Farm House" />
+            <MudImage Src="Buses/Arrival Maintenance.jpg" Alt="Swedish Farm House" />
+        </div>
+    </MudCarouselItem>
+</MudCarousel>
+
+<MudExpansionPanels>
+    <MudExpansionPanel Text="Upcoming Events" Style="font-weight:bold;" MaxHeight="500" IsExpandedChanged="ExpandedChanged">
+        <div style="display:flex; justify-content:space-between; margin:10px;">
+            <MudCard Style="width:24%">
+                <MudCardMedia Image="Images/Stadium du Littoral _ Olgga Architects.jpg" Height="200" />
+                <MudCardContent>
+                    <MudText Typo="Typo.h6">Training Camp</MudText>
+                    <MudText Typo="Typo.body2">Event found on a stone house door.</MudText>
+                    <MudText Typo="Typo.body2">This photo was taken in a small village in Istra Croatia.</MudText>
+                </MudCardContent>
+                <MudCardActions>
+                    <MudButton Variant="Variant.Text" Color="Color.Primary">Apply Now</MudButton>
+                    <MudSpacer />
+                    <MudButton Variant="Variant.Text" Color="Color.Primary">Details</MudButton>                 
+                </MudCardActions>
+            </MudCard>
+            <MudCard Style="width:24%">
+                <MudCardMedia Image="Images/Gallery of Sports Park Stozice _ SADAR + VUGA  - 8 (1).jpg" Height="200" />
+                <MudCardContent>
+                    <MudText Typo="Typo.h6">Team Building Workshop</MudText>
+                    <MudText Typo="Typo.body2">Event found on a stone house door.</MudText>
+                    <MudText Typo="Typo.body2">This photo was taken in a small village in Istra Croatia.</MudText>
+                </MudCardContent>
+                <MudCardActions>
+                    <MudButton Variant="Variant.Text" Color="Color.Primary">Apply Now</MudButton>
+                    <MudSpacer />
+                    <MudButton Variant="Variant.Text" Color="Color.Primary">Details</MudButton>                   
+                </MudCardActions>
+            </MudCard>
+            <MudCard Style="width:24%">
+                <MudCardMedia Image="Images/Cricket Ground Equipment.jpg" Height="200" />
+                <MudCardContent>
+                    <MudText Typo="Typo.h6">Team Strategy Session</MudText>
+                    <MudText Typo="Typo.body2">Event found on a stone house door.</MudText>
+                    <MudText Typo="Typo.body2">This photo was taken in a small village in Istra Croatia.</MudText>
+                </MudCardContent>
+                <MudCardActions>
+                    <MudButton Variant="Variant.Text" Color="Color.Primary">Apply Now</MudButton>
+                    <MudSpacer />
+                    <MudButton Variant="Variant.Text" Color="Color.Primary">Details</MudButton>                 
+                </MudCardActions>
+            </MudCard>
+            <MudCard Style="width:24%">
+                <MudCardMedia Image="Images/Fortuna Sittard.jpg" Height="200" />
+                <MudCardContent>
+                    <MudText Typo="Typo.h6">Injury Prevention </MudText>
+                    <MudText Typo="Typo.body2">Event found on a stone house door.</MudText>
+                    <MudText Typo="Typo.body2">This photo was taken in a small village in Istra Croatia.</MudText>
+                </MudCardContent>
+                <MudCardActions>
+                    <MudButton Variant="Variant.Text" Color="Color.Primary">Apply Now</MudButton>
+                    <MudSpacer />
+                    <MudButton Variant="Variant.Text" Color="Color.Primary">Details</MudButton>                
+                </MudCardActions>
+            </MudCard>
+        </div>
+        @_panelContent
+    </MudExpansionPanel>
+</MudExpansionPanels>
+
+
+@code {
+    private bool arrows = true;
+    private bool bullets = true;
+    private bool enableSwipeGesture = true;
+    private bool autocycle = true;
+    private Transition transition = Transition.Slide;
+
+    private RenderFragment? _panelContent;
+
+    private async Task ExpandedChanged(bool newVal)
+    {
+        if (newVal)
+        {
+            await Task.Delay(600);
+            _panelContent = _bigAsyncContent;
+        }
+        else
+        {
+            // Reset after a while to prevent sudden collapse.
+            Task.Delay(350).ContinueWith(t => _panelContent = null).AndForget();
+        }
+    }
+    private RenderFragment _bigAsyncContent = __builder =>
+       {
+
+       };
+}

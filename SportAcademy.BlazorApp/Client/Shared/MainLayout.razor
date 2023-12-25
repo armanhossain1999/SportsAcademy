@@ -1,0 +1,63 @@
+﻿@inherits LayoutComponentBase
+
+<MudThemeProvider/>
+<MudDialogProvider/>
+<MudSnackbarProvider/>
+
+<MudLayout>
+    <MudAppBar Color="Color.Dark" Elevation="1">
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e)=> DrawerToggle())" />
+
+        <MudText Style="font-family:cursive;  font-size:large">SEA</MudText>
+        <MudSpacer />
+
+        <MudBadge Content="100" Color="Color.Default" Overlap="true" Class="mx-6 my-4">
+            <MudIcon Icon="@Icons.Material.Filled.Email" Color="Color.Default" />
+        </MudBadge>
+        <MudMenu ActivationEvent="MouseEvent.MouseOver" AnchorOrigin="Origin.BottomLeft" TransformOrigin="Origin.BottomCenter" Dense>
+            
+            <ActivatorContent>
+                <MudChip Icon="@Icons.Material.Filled.AccountBox" Style="color:aliceblue"></MudChip>
+            </ActivatorContent>
+
+            <ChildContent>
+                <MudMenuItem Icon="@Icons.Material.Filled.Login" Href="/login">Login</MudMenuItem>
+                <MudMenuItem Icon="@Icons.Material.Filled.Logout">Logout</MudMenuItem>
+            </ChildContent>
+        </MudMenu>
+    </MudAppBar>
+    <MudDrawer Width="230px" Color="Color.Dark" @bind-Open="@_drawerOpen" Variant="@DrawerVariant.Temporary">
+        <MudDrawerHeader>
+            <MudText Typo="Typo.h6" Style="color:aliceblue;display:flex;justify-content:center;">SportsEdge</MudText>           
+        </MudDrawerHeader>     
+        <MudNavMenu Style="color:aliceblue;">          
+            <MudNavLink Href="/dashboard" Icon="@Icons.Material.Filled.Dashboard" Match="NavLinkMatch.Prefix" IconColor="Color.Inherit">Deshboard</MudNavLink>
+            <MudNavLink Href="/" Icon="@Icons.Material.Filled.Home" Match="NavLinkMatch.Prefix" IconColor="Color.Inherit">Home</MudNavLink>
+            <MudNavLink Href="/manager" Icon="@Icons.Material.Outlined.Person" Match="NavLinkMatch.Prefix" IconColor="Color.Inherit">Manager</MudNavLink>
+            <MudNavLink Href="/event" Icon="@Icons.Material.Filled.Event" Match="NavLinkMatch.Prefix" IconColor="Color.Inherit">Event</MudNavLink>
+            <MudNavLink Href="/selectionpanel" Icon="@Icons.Material.Filled.Person" Match="NavLinkMatch.Prefix" IconColor="Color.Inherit">Selection Panel</MudNavLink>
+            <MudNavLink Href="/player" Icon="@Icons.Material.Filled.SportsHandball" Match="NavLinkMatch.Prefix" IconColor="Color.Inherit">Players</MudNavLink>
+            <MudNavLink Href="/playerStatistic" Icon="@Icons.Material.Filled.StackedBarChart" Match="NavLinkMatch.Prefix" IconColor="Color.Inherit">Player Statistics</MudNavLink>
+            <MudNavLink Href="/teams" Icon="@Icons.Material.Filled.Group" Match="NavLinkMatch.Prefix" IconColor="Color.Inherit">Teams</MudNavLink>
+            <MudNavLink Href="/admission" Icon="@Icons.Material.Filled.LocalLibrary" Match="NavLinkMatch.Prefix" IconColor="Color.Inherit">Admission</MudNavLink>
+            <MudNavLink Href="/payment" Icon="@Icons.Material.Filled.Payment" Match="NavLinkMatch.Prefix" IconColor="Color.Inherit">Payment</MudNavLink>
+            <MudNavLink Href="/Setting_list" Icon="@Icons.Material.Filled.Settings" Match="NavLinkMatch.Prefix" IconColor="Color.Inherit">Settings</MudNavLink>
+        </MudNavMenu>
+    </MudDrawer>
+    <MudMainContent>
+            @Body
+    </MudMainContent>
+
+</MudLayout>
+
+
+@code {
+
+    bool _drawerOpen = false;
+    void DrawerToggle()
+    {
+        _drawerOpen = !_drawerOpen;
+    }
+
+
+}

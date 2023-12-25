@@ -1,0 +1,114 @@
+﻿@page "/teams"
+@inject HttpClient http
+@inject NavigationManager nvaManager
+@inject ISnackbar snackbar
+@inject IDialogService DialogService
+
+
+<MudCard Style="margin-top:20px; width:90%; margin:10px auto; background-color:lightgrey">
+
+    <MudCardHeader>
+        <CardHeaderAvatar>
+            <MudAvatar Variant="Variant.Outlined"><MudImage Src="Pictures/football-team.png" Style="width:30px; height:30px;"></MudImage></MudAvatar>
+        </CardHeaderAvatar>
+        <CardHeaderContent>
+            <MudText Typo="Typo.body1">Team</MudText>
+            <MudText Typo="Typo.body2">Team list</MudText>
+        </CardHeaderContent>
+        <CardHeaderActions>
+            <MudFab Size="Size.Small" Href="/Teams/Add" StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary" />
+        </CardHeaderActions>
+    </MudCardHeader>
+
+    <MudCardContent>
+        @if (this.teams is null)
+        {
+            <LoadingIndicator />
+        }
+        else
+        {
+            <MudTable Items="@teams">
+                <HeaderContent>
+                    <MudTh>TeamLogo</MudTh>
+                    <MudTh><MudTableSortLabel SortBy="new Func<Team, object>(x=>x.TeamName)">Team Name</MudTableSortLabel></MudTh>
+                    <MudTh>Sport</MudTh>
+                    <MudTh>Captain</MudTh>
+                    <MudTh>Actions</MudTh>
+                </HeaderContent>
+                <RowTemplate>
+                    <MudTd> <img class="img-thumnail rounded-circle" src="/Pictures/@context.TeamLogo" style="width:40px;" /></MudTd>
+                    <MudTd>@context.TeamName</MudTd>
+                    <MudTh>@(sportNames.ContainsKey(context.SportId)? sportNames[context.SportId] : "Unknown")</MudTh>
+                    <MudTd>@context.Captain</MudTd>
+                    <MudTd>
+                        <MudIconButton Size="Size.Small" Href="@GetLink(context.TeamId)" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Edit" Variant="Variant.Outlined" Color="Color.Primary"></MudIconButton>
+                        <MudIconButton OnClick="@(()=>ConfirmDelete(@context.TeamId))" Size="Size.Small" ButtonType="ButtonType.Button" Icon="@Icons.Material.Filled.Delete" Variant="Variant.Outlined" Color="Color.Secondary"></MudIconButton>
+
+                    </MudTd>
+                </RowTemplate>
+                <PagerContent>
+                    <MudTablePager PageSizeOptions="new int[] {5, 10, 25, 50, 100 }" HorizontalAlignment="HorizontalAlignment.Right" />
+
+                </PagerContent>
+            </MudTable>
+        }
+    </MudCardContent>
+</MudCard>
+
+
+
+@code {
+    public List<Team>? teams;
+    public Dictionary<int, string> sportNames = new Dictionary<int, string>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var data = await this.http.GetFromJsonAsync<List<Team>>("/api/Teams");
+        if (data is null)
+        {
+            this.snackbar.Configuration.PositionClass = Defaults.Classes.Position.BottomCenter;
+            this.snackbar.Add("Cannot load teams.", Severity.Error);
+        }
+        else
+        {
+            this.teams = data;
+            // Fetch Sport Names
+            var sportData = await this.http.GetFromJsonAsync<List<Sport>>("/api/Sports");
+            if (sportData != null)
+            {
+                foreach (var sport in sportData)
+                {
+                    sportNames[sport.SportId] = sport.SportsName;
+                }
+            }
+        }
+    }
+    private string GetLink(int id)
+    {
+        return $"/Team/Edit/{id}";
+    }
+    private async void ConfirmDelete(int id)
+    {
+        var confirm = this.DialogService.Show<ConfirmDialog>();
+        var result = await confirm.Result;
+        if (!result.Canceled)
+        {
+            await DeleteTeam(id);
+        }
+
+    }
+    private async Task DeleteTeam(int id)
+    {
+        var response = await this.http.DeleteAsync($"/api/Teams/{id}");
+        if (response.IsSuccessStatusCode)
+        {
+            if (this.teams is null) { }
+            else
+            {
+                int index = this.teams.FindIndex(b => b.TeamId == id);
+                if (index >= 0) this.teams.RemoveAt(index);
+                this.StateHasChanged();
+            }
+        }
+    }
+}

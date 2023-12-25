@@ -1,0 +1,151 @@
+﻿
+@page "/Managers/edit/{id:int}"
+@inject HttpClient http
+@inject ISnackbar snackbar
+@inject IJSRuntime js
+
+<div class="card-f">
+    <MudCard Style=" background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);">
+        <MudCardHeader>
+            <CardHeaderContent>
+                <MudText style="text-align:center;" Typo="Typo.h6">Edit Manager</MudText>
+            </CardHeaderContent>
+        </MudCardHeader>
+
+        <MudCardContent>
+            @if (manager is null)
+            {
+                <LoadingIndicator />
+            }
+            else
+            {
+                <EditForm Model="@manager" OnSubmit="@HandleValidSubmit">
+                    <DataAnnotationsValidator />
+
+                    <div class="form">
+                        <div class="form-field">
+                            <MudTextField Variant="Variant.Filled" Label="Manager Name" @bind-Value="manager.ManagerName" For="@(() => manager.ManagerName)" />
+                        </div>
+
+                        <div class="form-field">
+                            <MudDatePicker Variant="Variant.Filled" Label="Join Date" @bind-Date="manager.JoinDate" DateFormat="dd/MM/yyyy" For="@(() => manager.JoinDate)" />
+                        </div>
+
+                        <div class="form-field">
+                            <MudTextField Variant="Variant.Filled" Label="Email" @bind-Value="manager.Email" For="@(() => manager.Email)" />
+                        </div>
+
+                        <div class="form-field">
+                            <MudTextField Variant="Variant.Filled" Label="Phone" @bind-Value="manager.Phone" For="@(() => manager.Phone)" />
+                        </div>
+
+                        <div class="form-field">
+                            <MudTextField Variant="Variant.Filled" Label="Address" @bind-Value="manager.Address" For="@(() => manager.Address)" />
+                        </div>
+                        <div class="form-field">
+                            <MudTextField Variant="Variant.Filled" Label="Picture"
+                                          @bind-Value="manager.Picture" OnAdornmentClick="@OpenFilePicker" Adornment="Adornment.End" For="@(() => manager.Picture)" AdornmentIcon="@Icons.Material.Filled.Image" />
+
+                        </div>
+                    </div>
+
+                    <div style="display: flex; justify-content: space-between; padding-top: 10px;">
+                        <MudButton Variant="Variant.Filled" Href="/manager" Color="Color.Dark" Style="width: 350px;">Back to List</MudButton>
+                        <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Dark" Style="width: 350px;" Class="ml-auto">Save</MudButton>
+                    </div>
+
+                </EditForm>
+            }
+        </MudCardContent>
+    </MudCard>
+</div>
+<InputFile style="display:none" @ref="uploadControl" OnChange="@((InputFileChangeEventArgs args) => OnInputFileChange(args))" />
+
+
+
+@code {
+        [Parameter]
+        public int id { get; set; }
+    private Manager manager { get; set; } = default!;
+    private InputFile? uploadControl;
+    private IBrowserFile? file;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var data = await this.http.GetFromJsonAsync<Manager>($"/api/Managers/{id}");
+        if (data is null)
+        {
+            this.snackbar.Clear();
+            this.snackbar.Configuration.PositionClass = Defaults.Classes.Position.BottomCenter;
+            this.snackbar.Add("Failed to load bus.", Severity.Error);
+        }
+        else
+        {
+            this.manager = data;
+        }
+    }
+    //private async void HandleValidSubmit(EditContext editContext)
+    //{
+
+    //    await this.Save();
+
+    //}
+    private void OnInputFileChange(InputFileChangeEventArgs e)
+    {
+        this.file = e.File;
+        this.manager.Picture = e.File.Name;
+
+    }
+    public async Task OpenFilePicker()
+    {
+        // var x = uploadControl?.Element;
+        await js.InvokeAsync<object>("elClick",  uploadControl?.Element);
+    }
+    private async void HandleValidSubmit(EditContext editContext)
+    {
+        if (file is not null)
+        {
+            var uploadResponse = await UploadImage();
+            this.manager.Picture = uploadResponse.ImageName;
+        }
+
+        await Save();
+    }
+    public async Task<UploadResponse> UploadImage()
+    {
+
+        if (file is not null)
+        {
+            var content = new MultipartFormDataContent();
+            var fileContent = new StreamContent(file.OpenReadStream(long.MaxValue));
+
+            fileContent.Headers.ContentType = new MediaTypeHeaderValue(file.ContentType);
+            content.Add(content: fileContent, name: "\"file\"", fileName: file.Name);
+            var response = await http.PostAsync("api/Managers/Upload", content);
+            var r = await response.Content.ReadFromJsonAsync<UploadResponse>();
+            if (r is null) return new UploadResponse();
+            else return r;
+        }
+
+        return new UploadResponse();
+    }
+    private async Task Save()
+    {
+        var response = await this.http.PutAsJsonAsync<Manager>($"/api/Managers/{id}", this.manager);
+        if (response.IsSuccessStatusCode)
+        {
+            this.snackbar.Clear();
+            this.snackbar.Configuration.PositionClass = Defaults.Classes.Position.BottomCenter;
+            this.snackbar.Add("Data saved.", Severity.Success);
+
+
+        }
+        else
+        {
+            this.snackbar.Clear();
+            this.snackbar.Configuration.PositionClass = Defaults.Classes.Position.BottomCenter;
+            this.snackbar.Add("Failed to save.", Severity.Warning);
+        }
+    }
+}
+
