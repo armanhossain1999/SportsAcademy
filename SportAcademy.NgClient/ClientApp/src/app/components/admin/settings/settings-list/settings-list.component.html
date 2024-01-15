@@ -1,0 +1,489 @@
+<div class="full-card-container">
+    <!--Sports-->
+    <mat-card class="full-card sports">
+        <mat-card-header>
+            <div mat-card-avatar>
+                <img src="../../../../assets/my-qr-code-svgrepo-com.svg" style="width: 30px" />
+            </div>
+            <mat-card-title class="header">Sports</mat-card-title>
+            <mat-card-subtitle class="subtitle">List of Sports</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <mat-table [dataSource]="dataSource" matSort>
+                <ng-container matColumnDef="sportId">
+                    <mat-header-cell class="header" mat-header-cell *matHeaderCellDef>ID</mat-header-cell>
+                    <mat-cell mat-cell *matCellDef="let element">{{ element.sportId }}</mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="sportsName">
+                    <mat-header-cell class="header" *matHeaderCellDef>Sports</mat-header-cell>
+                    <mat-cell *matCellDef="let element">{{element.sportsName}}</mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="actions">
+                    <mat-header-cell class="header" *matHeaderCellDef>Edit/Delete</mat-header-cell>
+                    <mat-cell *matCellDef="let element">
+                        <button mat-icon-button (click)="editSports(element)"
+                            style="margin-right: 5px;"><mat-icon>edit</mat-icon></button>
+                        <button type="button" mat-icon-button color="warn"
+                            (click)="sportsDelete(element)"><mat-icon>delete</mat-icon></button>
+                    </mat-cell>
+                </ng-container>
+
+                <mat-header-row *matHeaderRowDef="columns"></mat-header-row>
+                <mat-row *matRowDef="let row; columns: columns"></mat-row>
+            </mat-table>
+            <mat-paginator class="paginator" [pageSizeOptions]="[5, 10, 25, 100]" [pageSize]="5" showFirstLastButtons
+                #sportsPaginator></mat-paginator>
+        </mat-card-content>
+        <div>
+            <form [formGroup]="sportsForm" (ngSubmit)="saveSports()">
+                <div>
+                    <mat-form-field class="f-w-s">
+                        <mat-label>Sports Name</mat-label>
+                        <input matInput type="text" formControlName="sportsName" />
+                        <mat-error *ngIf="sportsControls['sportsName'].hasError('required')">
+                            sportsName is <strong>required</strong>
+                        </mat-error>
+                    </mat-form-field>
+                    <div class="p-f-w">
+                        <button class="backbtn" mat-raised-button (click)="resetForms()">Reset the Form</button>
+                        <button class="savebtn" type="submit" mat-raised-button>Save to database</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </mat-card>
+
+    <!--CricketFormat-->
+    <mat-card class="full-card cricketFormat">
+        <mat-card-header>
+            <div mat-card-avatar>
+                <img src="../../../../assets/my-qr-code-svgrepo-com.svg" style="width: 30px" />
+            </div>
+            <mat-card-title class="header">Cricket Format</mat-card-title>
+            <mat-card-subtitle>List of Cricket Formats</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <mat-table [dataSource]="cricketFormatDataSource" matSort>
+
+                <ng-container matColumnDef="cricketFormatId">
+                    <mat-header-cell class="header" mat-header-cell *matHeaderCellDef>ID</mat-header-cell>
+                    <mat-cell mat-cell *matCellDef="let element">{{ element.cricketFormatId }}</mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="formatName">
+                    <mat-header-cell class="header" *matHeaderCellDef>Format</mat-header-cell>
+                    <mat-cell *matCellDef="let element">{{element.formatName}}</mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="actions">
+                    <mat-header-cell class="header" *matHeaderCellDef>Edit/Delete</mat-header-cell>
+                    <mat-cell *matCellDef="let element">
+                        <button mat-icon-button (click)="editCricketFormat(element)"
+                            style="margin-right: 5px;"><mat-icon>edit</mat-icon></button>
+                        <button type="button" mat-icon-button color="warn"
+                            (click)="cricketFormatDelete(element)"><mat-icon>delete</mat-icon></button>
+                    </mat-cell>
+                </ng-container>
+
+                <mat-header-row *matHeaderRowDef="cricketFormatsColumns"></mat-header-row>
+                <mat-row *matRowDef="let row; columns: cricketFormatsColumns"></mat-row>
+            </mat-table>
+            <mat-paginator class="paginator" [pageSizeOptions]="[5, 10, 25, 100]" [pageSize]="5" showFirstLastButtons
+                #cricketFormatsPaginator></mat-paginator>
+        </mat-card-content>
+        <div>
+            <form [formGroup]="cricketFormatForm" (ngSubmit)="saveCricketFormat()">
+                <div>
+                    <mat-form-field class="f-w">
+                        <mat-label>Sports</mat-label>
+                        <mat-select formControlName="sportId">
+                            <mat-option *ngFor="let sport of sports" [value]="sport.sportId">
+                                {{ sport.sportsName }}
+                            </mat-option>
+                        </mat-select>
+                        <mat-error *ngIf="f['sportId'].touched && f['sportId'].hasError('required')">
+                            Sports is <strong>required</strong>
+                        </mat-error>
+                    </mat-form-field>
+
+                    <mat-form-field class="f-w-cf">
+                        <mat-label>formatName</mat-label>
+                        <input matInput type="text" formControlName="formatName" />
+                        <mat-error *ngIf="cricketFormateControls['formatName'].hasError('required')">
+                            Format Name is <strong>required</strong>
+                        </mat-error>
+                    </mat-form-field>
+                    <div class="p-f-w">
+                        <button class=" backbtn" mat-raised-button (click)="resetForms()"
+                            style="margin-bottom: 0px;">Reset the Form</button>
+                        <button class=" savebtn" type="submit" mat-raised-button>Save to database</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </mat-card>
+
+    <!--Category-->
+    <mat-card class="full-card category">
+        <mat-card-header>
+            <div mat-card-avatar>
+                <img src="../../../../assets/my-qr-code-svgrepo-com.svg" style="width: 30px" />
+            </div>
+            <mat-card-title class="header">Category</mat-card-title>
+            <mat-card-subtitle>List of Categoris</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <mat-table [dataSource]="categoryDataSource" matSort>
+
+                <ng-container matColumnDef="categoryId">
+                    <mat-header-cell class="header" mat-header-cell *matHeaderCellDef>ID</mat-header-cell>
+                    <mat-cell mat-cell *matCellDef="let element">{{ element.categoryId }}</mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="categoryName">
+                    <mat-header-cell class="header" *matHeaderCellDef>Sports</mat-header-cell>
+                    <mat-cell *matCellDef="let element">{{element.categoryName}}</mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="actions">
+                    <mat-header-cell class="header" *matHeaderCellDef>Edit/Delete</mat-header-cell>
+                    <mat-cell *matCellDef="let element">
+                        <button mat-icon-button (click)="editCategory(element)"
+                            style="margin-right: 5px;"><mat-icon>edit</mat-icon></button>
+                        <button type="button" mat-icon-button color="warn"
+                            (click)="CategoryDelete(element)"><mat-icon>delete</mat-icon></button>
+                    </mat-cell>
+                </ng-container>
+
+                <mat-header-row *matHeaderRowDef="categoriescolumns"></mat-header-row>
+                <mat-row *matRowDef="let row; columns: categoriescolumns"></mat-row>
+            </mat-table>
+            <mat-paginator class="paginator" [pageSizeOptions]="[5, 10, 25, 100]" [pageSize]="5" showFirstLastButtons
+                #categoriesPaginator></mat-paginator>
+        </mat-card-content>
+        <div>
+            <form [formGroup]="categoriesForm" (ngSubmit)="saveCategory()">
+                <div>
+                    <mat-form-field class="f-w-s">
+                        <mat-label>CategoryName</mat-label>
+                        <input matInput type="text" formControlName="categoryName" />
+                        <mat-error *ngIf="categoriesControls['categoryName'].hasError('required')">
+                            Category Name is <strong>required</strong>
+                        </mat-error>
+                    </mat-form-field>
+                    <div class="p-f-w">
+                        <button class="backbtn" mat-raised-button (click)="resetForms()">Reset the Form</button>
+                        <button class="savebtn" type="submit" mat-raised-button>Save to database</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </mat-card>
+</div>
+
+<!--TrainingSession-->
+<div class="full-card-trainingSession-container ">
+
+    <mat-card class="full-card-trainingSession trainingSession">
+        <mat-card-header>
+            <div mat-card-avatar>
+                <img src="../../../../assets/my-qr-code-svgrepo-com.svg" style="width: 30px" />
+            </div>
+            <mat-card-title class="header">Training Session</mat-card-title>
+            <mat-card-subtitle>List of Training Session</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <mat-table [dataSource]="trainingSessionDataSource" matSort>
+
+                <ng-container matColumnDef="title">
+                    <mat-header-cell class="header" mat-header-cell *matHeaderCellDef>Title</mat-header-cell>
+                    <mat-cell mat-cell *matCellDef="let element">{{ element.title }}</mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="coachName">
+                    <mat-header-cell class="header" *matHeaderCellDef mat-sort-header>Coach</mat-header-cell>
+                    <mat-cell *matCellDef="let element">
+                        {{ getCoachName(element.coachId)}}
+                    </mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="sessionTime">
+                    <mat-header-cell class="header" *matHeaderCellDef>Session Time</mat-header-cell>
+                    <mat-cell *matCellDef="let element">{{element.sessionTime | date: 'dd-MM-yyyy'}}</mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="description">
+                    <mat-header-cell class="header" *matHeaderCellDef>Description</mat-header-cell>
+                    <mat-cell *matCellDef="let element">{{element.description}}</mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="actions">
+                    <mat-header-cell class="header" *matHeaderCellDef>Edit/Delete</mat-header-cell>
+                    <mat-cell *matCellDef="let element">
+                        <button mat-icon-button (click)="editTrainingSession(element)"
+                            style="margin-right: 5px;"><mat-icon>edit</mat-icon></button>
+                        <button type="button" mat-icon-button color="warn"
+                            (click)="deleteTrainingSession(element)"><mat-icon>delete</mat-icon></button>
+                    </mat-cell>
+                </ng-container>
+
+                <mat-header-row *matHeaderRowDef="trainingSessionsColumns"></mat-header-row>
+                <mat-row *matRowDef="let row; columns: trainingSessionsColumns"></mat-row>
+            </mat-table>
+            <mat-paginator class="paginator" [pageSizeOptions]="[5, 10, 25, 100]" [pageSize]="5" showFirstLastButtons
+                #trainingSessionPaginator style="margin-bottom: 10px;"></mat-paginator>
+        </mat-card-content>
+        <div>
+            <form [formGroup]="trainingSessionForm" (ngSubmit)="saveTrainingSession()">
+                <div>
+                    <mat-form-field class="f-w-ts">
+                        <mat-label>Coach Name</mat-label>
+                        <mat-select formControlName="coachId">
+                            <mat-option *ngFor="let coach of coaches" [value]="coach.coachId">
+                                {{ coach.coachName }}
+                            </mat-option>
+                        </mat-select>
+                        <mat-error
+                            *ngIf="trainingSessionForm.controls['coachId'].touched && trainingSessionForm.controls['coachId'].hasError('required')">
+                            Coach is <strong>required</strong>
+                        </mat-error>
+                    </mat-form-field>
+
+                    <mat-form-field class="f-w-ts">
+                        <mat-label>Title</mat-label>
+                        <input matInput type="text" formControlName="title" />
+                        <mat-error *ngIf="trainingSessionForm.controls['title'].hasError('required')">
+                            Title is <strong>required</strong>
+                        </mat-error>
+                    </mat-form-field>
+
+                    <mat-form-field class="f-w-ts">
+                        <mat-label>Session Time</mat-label>
+                        <input matInput [matDatepicker]="sessionTimeDatePicker" formControlName="sessionTime" />
+                        <mat-datepicker-toggle matSuffix [for]="sessionTimeDatePicker"></mat-datepicker-toggle>
+                        <mat-datepicker #sessionTimeDatePicker></mat-datepicker>
+                        <mat-error *ngIf="trainingSessionForm.controls['sessionTime'].hasError('required')">
+                            SessionTime is <strong>required</strong>
+                        </mat-error>
+                    </mat-form-field>
+
+                    <mat-form-field class="f-w-ts">
+                        <mat-label>Description</mat-label>
+                        <input matInput type="text" formControlName="description" />
+                        <mat-error *ngIf="trainingSessionForm.controls['description'].hasError('required')">
+                            Description is <strong>required</strong>
+                        </mat-error>
+                    </mat-form-field>
+
+                    <div class="p-f-w">
+                        <button class="backbtn tsbtn" mat-raised-button (click)="resetForms()">Reset the Form</button>
+                        <button class="savebtn tsbtn" type="submit" mat-raised-button>Save to database</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </mat-card>
+</div>
+
+<div class="full-card-container">
+    <!--PlayerRole-->
+    <mat-card class="full-card playerRole">
+        <mat-card-header>
+            <div mat-card-avatar>
+                <img src="../../../../assets/my-qr-code-svgrepo-com.svg" style="width: 30px" />
+            </div>
+            <mat-card-title class="header">Player Roles</mat-card-title>
+            <mat-card-subtitle>List of Player Roles</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <mat-table [dataSource]="playerRolesDataSource" matSort>
+                <ng-container matColumnDef="playerRoleId">
+                    <mat-header-cell class="header" mat-header-cell *matHeaderCellDef>ID</mat-header-cell>
+                    <mat-cell mat-cell *matCellDef="let element">{{ element.playerRoleId }}</mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="roleName">
+                    <mat-header-cell class="header" *matHeaderCellDef>Roles</mat-header-cell>
+                    <mat-cell *matCellDef="let element">{{element.roleName}}</mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="actions">
+                    <mat-header-cell class="header" *matHeaderCellDef>Edit/Delete</mat-header-cell>
+                    <mat-cell *matCellDef="let element">
+                        <button mat-icon-button (click)="editPlayerRole(element)"
+                            style="margin-right: 5px;"><mat-icon>edit</mat-icon></button>
+                        <button type="button" mat-icon-button color="warn"
+                            (click)="deletePlayerRole(element)"><mat-icon>delete</mat-icon></button>
+                    </mat-cell>
+                </ng-container>
+
+                <mat-header-row *matHeaderRowDef="playerRolesColumns"></mat-header-row>
+                <mat-row *matRowDef="let row; columns: playerRolesColumns"></mat-row>
+            </mat-table>
+            <mat-paginator class="paginator" [pageSizeOptions]="[5, 10, 25, 100]" [pageSize]="5" showFirstLastButtons
+                #playerRolePaginator></mat-paginator>
+        </mat-card-content>
+        <div>
+            <form [formGroup]="playerRoleForm" (ngSubmit)="savePlayerRole()">
+                <div>
+                    <mat-form-field class="f-w-s">
+                        <mat-label>Role Name</mat-label>
+                        <input matInput type="text" formControlName="roleName" />
+                        <mat-error *ngIf="playerRolesControls['roleName'].hasError('required')">
+                            Role Name is <strong>required</strong>
+                        </mat-error>
+                    </mat-form-field>
+                    <div class="p-f-w">
+                        <button class="backbtn" mat-raised-button (click)="resetForms()">Reset the Form</button>
+                        <button class="savebtn" type="submit" mat-raised-button>Save to database</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </mat-card>
+
+    <!--Equipments-->
+    <mat-card class="full-card equipments">
+        <mat-card-header>
+            <div mat-card-avatar>
+                <img src="../../../../assets/my-qr-code-svgrepo-com.svg" style="width: 30px" />
+            </div>
+            <mat-card-title class="header">Equipments</mat-card-title>
+            <mat-card-subtitle class="subtitle">List of Equipments</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <mat-table [dataSource]="equipmentsDataSource" matSort>
+                <ng-container matColumnDef="equipmentId">
+                    <mat-header-cell class="header" mat-header-cell *matHeaderCellDef>ID</mat-header-cell>
+                    <mat-cell mat-cell *matCellDef="let element">{{ element.equipmentId }}</mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="equipmentName">
+                    <mat-header-cell class="header" *matHeaderCellDef>Equipments</mat-header-cell>
+                    <mat-cell *matCellDef="let element">{{element.equipmentName}}</mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="actions">
+                    <mat-header-cell class="header" *matHeaderCellDef>Edit/Delete</mat-header-cell>
+                    <mat-cell *matCellDef="let element">
+                        <button mat-icon-button (click)="editEquipment(element)"
+                            style="margin-right: 5px;"><mat-icon>edit</mat-icon></button>
+                        <button type="button" mat-icon-button color="warn"
+                            (click)="equipmetDelete(element)"><mat-icon>delete</mat-icon></button>
+                    </mat-cell>
+                </ng-container>
+
+                <mat-header-row *matHeaderRowDef="equipmentsColumns"></mat-header-row>
+                <mat-row *matRowDef="let row; columns: equipmentsColumns"></mat-row>
+            </mat-table>
+            <mat-paginator class="paginator" [pageSizeOptions]="[5, 10, 25, 100]" [pageSize]="5" showFirstLastButtons
+                #equipmentPaginator></mat-paginator>
+        </mat-card-content>
+        <div>
+            <form [formGroup]="equipmentsForm" (ngSubmit)="saveEquipment()">
+                <div>                 
+                    <mat-form-field class="f-w">
+                        <mat-label>Training Session</mat-label>
+                        <mat-select formControlName="trainingSessionId">
+                            <mat-option *ngFor="let trainingSession of trainingSessions"
+                                [value]="trainingSession.trainingSessionId">
+                                {{ trainingSession.title }}
+                            </mat-option>
+                        </mat-select>
+                        <mat-error
+                            *ngIf="equipmentsControls['trainingSessionId'].touched && equipmentsControls['trainingSessionId'].hasError('required')" style="color: white;">
+                             Session is <strong>required</strong>
+                        </mat-error>
+                    </mat-form-field>
+
+
+                    <mat-form-field class="f-w">
+                        <mat-label>Equipment Name</mat-label>
+                        <input matInput type="text" formControlName="equipmentName" />
+                        <mat-error *ngIf="equipmentsControls['equipmentName'].hasError('required')" style="color: white;">
+                            Equipment is <strong>required</strong>
+                        </mat-error>
+                    </mat-form-field>
+                    <div class="p-f-w">
+                        <button class="backbtn" type="button" mat-raised-button (click)="resetForms()">Reset the
+                            Form</button>
+                        <button class="savebtn" type="submit" mat-raised-button>Save to database</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </mat-card>
+
+    <!--Category-->
+    <mat-card class="full-card coachSpecializatons">
+        <mat-card-header>
+            <div mat-card-avatar>
+                <img src="../../../../assets/my-qr-code-svgrepo-com.svg" style="width: 30px" />
+            </div>
+            <mat-card-title class="header">Coach Specializatons</mat-card-title>
+            <mat-card-subtitle>List of Coach Specializatons</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <mat-table [dataSource]="coachSpecializatonDataSource" matSort>
+
+                <ng-container matColumnDef="coachSpecializationId">
+                    <mat-header-cell class="header" mat-header-cell *matHeaderCellDef>ID</mat-header-cell>
+                    <mat-cell mat-cell *matCellDef="let element">{{ element.coachSpecializationId }}</mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="specializedIn">
+                    <mat-header-cell class="header" *matHeaderCellDef>Specialized In</mat-header-cell>
+                    <mat-cell *matCellDef="let element">{{element.specializedIn}}</mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="actions">
+                    <mat-header-cell class="header" *matHeaderCellDef>Edit/Delete</mat-header-cell>
+                    <mat-cell *matCellDef="let element">
+                        <button mat-icon-button (click)="editCoachSpecialization(element)"
+                            style="margin-right: 5px;"><mat-icon>edit</mat-icon></button>
+                        <button type="button" mat-icon-button color="warn"
+                            (click)="deleteCoachSpecialization(element)"><mat-icon>delete</mat-icon></button>
+                    </mat-cell>
+                </ng-container>
+
+                <mat-header-row *matHeaderRowDef="coachSpecializatonColumns"></mat-header-row>
+                <mat-row *matRowDef="let row; columns: coachSpecializatonColumns"></mat-row>
+            </mat-table>
+            <mat-paginator class="paginator" [pageSizeOptions]="[5, 10, 25, 100]" [pageSize]="5" showFirstLastButtons
+                #coachSpecializatonsPaginator></mat-paginator>
+        </mat-card-content>
+        <div>
+            <form [formGroup]="coachSpecializatonsForm" (ngSubmit)="saveCoachSpecialization()">
+                <div>
+                    <mat-form-field class="f-w">
+                        <mat-label>Training Session</mat-label>
+                        <mat-select formControlName="coachId">
+                            <mat-option *ngFor="let coach of coaches"
+                                [value]="coach.coachId">
+                                {{ coach.coachName }}
+                            </mat-option>
+                        </mat-select>
+                        <mat-error
+                            *ngIf="coachSpecializatonControls['coachId'].touched && coachSpecializatonControls['coachId'].hasError('required')" style="color: white;">
+                             Coach is <strong>required</strong>
+                        </mat-error>
+                    </mat-form-field>
+                    <mat-form-field class="f-w">
+                        <mat-label>Specialization</mat-label>
+                        <input matInput type="text" formControlName="specializedIn" />
+                        <mat-error *ngIf="coachSpecializatonControls['specializedIn'].hasError('required')">
+                            Specialization is <strong>required</strong>
+                        </mat-error>
+                    </mat-form-field>
+
+                    <div class="p-f-w">
+                        <button class="backbtn" mat-raised-button (click)="resetForms()">Reset the Form</button>
+                        <button class="savebtn" type="submit" mat-raised-button>Save to database</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </mat-card>
+</div>

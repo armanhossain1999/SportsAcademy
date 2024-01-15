@@ -1,0 +1,105 @@
+<!-- event-list.component.html -->
+<mat-card class="full-card">
+    <mat-card-header>
+      <div class="avater" mat-card-avatar ><img src="../../../../assets/events-calendar-svgrepo-com.svg" style="width: 40px;" /></div>
+      <mat-card-title style="font-weight: bold;">Events</mat-card-title>
+      <mat-card-subtitle style="color: white;">List of events</mat-card-subtitle>
+     
+        <!-- <mat-button-toggle-group appearance="legacy" name="fontStyle" aria-label="Font Style">
+          <button class="btn btn-primary btn-sm" ><mat-icon>add</mat-icon></button>
+          <mat-button-toggle [routerLink]="['/event-add']" aria-label="Event" [matMenuTriggerFor]="menu" >Event</mat-button-toggle>
+          <mat-button-toggle [routerLink]="['/manager-add']" aria-label="Manager" [matMenuTriggerFor]="menu" >Manager</mat-button-toggle>
+          <mat-button-toggle [routerLink]="['/manager-events-add']" aria-label="ManagerEvent">Manager Event</mat-button-toggle>
+  
+        </mat-button-toggle-group>     -->
+  
+        <!-- <button mat-raised-button [matMenuTriggerFor]="menu" class="menu-button" style="width:200px; height: 40px; margin-right: 10px;">
+          <mat-icon>add</mat-icon>Create new
+        </button>
+   -->
+        <!-- <mat-menu #menu="matMenu" class="matMenu">
+          <a mat-menu-item [routerLink]="['/event-add']" aria-label="Event" class="subMenu"><mat-icon>person_add</mat-icon>Event</a>
+          <a mat-menu-item [routerLink]="['/manager-add']" aria-label="Manager" class="subMenu"><mat-icon>group_add</mat-icon>Manager</a>
+          <a mat-menu-item [routerLink]="['/manager-events-add']" aria-label="ManagerEvent" class="subMenu"><mat-icon>group_add</mat-icon>Manager Event</a>
+          <a mat-menu-item [routerLink]="['/selectionPanel-add']" aria-label="SelectionPanel" class="subMenu"><mat-icon>event</mat-icon>Selection Panel</a>
+        </mat-menu> -->
+
+        <!-- <mat-menu #menu="matMenu" class="matMenu">
+          <a mat-menu-item [routerLink]="['/event-add']" aria-label="Event" class="subMenu"><mat-icon>event</mat-icon>Event</a>
+        </mat-menu> -->
+  
+      <div class="input-group mb-4" style="width: 400px;">
+        <input type="text" class="form-control" matInput placeholder="Search" [(ngModel)]="searchTerm" (input)="applyFilter()" style="border: 1px solid #ced4da; border-radius: 5px;" />
+        <button class="btn btn-secondary"><mat-icon>search</mat-icon></button>   
+      </div>
+  
+      
+    </mat-card-header>
+   
+   
+    <mat-card-content>
+      <mat-table *ngIf="dataSource" [dataSource]="dataSource" matSort multiTemplateDataRows>
+        
+        <!-- <ng-container matColumnDef="expand">
+          <mat-header-cell class="header" *matHeaderCellDef>Details</mat-header-cell>
+          <mat-cell *matCellDef="let element">
+            <button mat-icon-button aria-label="expand row"
+              (click)="expandedElement = expandedElement === element ? null : element; $event.stopPropagation()">
+              <mat-icon *ngIf="expandedElement !== element">chevron_right</mat-icon>
+              <mat-icon *ngIf="expandedElement === element">expand_more</mat-icon>
+            </button>
+          </mat-cell>
+        </ng-container> -->
+  
+        <ng-container matColumnDef="picture">
+          <mat-header-cell class="header" *matHeaderCellDef>Picture</mat-header-cell>
+          <mat-cell *matCellDef="let element"><img src="{{imagePath}}/{{element.picture}}"
+              style="width: 40px;"></mat-cell>
+        </ng-container>
+  
+        <ng-container matColumnDef="eventName">
+          <mat-header-cell class="header" *matHeaderCellDef mat-sort-header>Event Name</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{element.eventName}}</mat-cell>
+        </ng-container>
+  
+        <ng-container matColumnDef="managerName">
+          <mat-header-cell class="header" *matHeaderCellDef>Manager</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{getManagerName(element.managerId)}}</mat-cell>
+        </ng-container>      
+  
+        <ng-container matColumnDef="selectionPanelName">
+          <mat-header-cell class="header" *matHeaderCellDef>Selection Panel</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{getSelectionPanelName(element.selectionPanelId)}}</mat-cell>
+        </ng-container>      
+        
+        <ng-container matColumnDef="startDate">
+          <mat-header-cell class="header" *matHeaderCellDef mat-sort-header>Start Date</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{ element.startDate | date: 'dd-MM-yyyy' }}</mat-cell>
+        </ng-container>
+  
+        <ng-container matColumnDef="endDate">
+          <mat-header-cell class="header" *matHeaderCellDef mat-sort-header>End Date</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{ element.endDate | date: 'dd-MM-yyyy' }}</mat-cell>
+        </ng-container>
+  
+        <ng-container matColumnDef="location">
+          <mat-header-cell class="header" *matHeaderCellDef mat-sort-header>Location</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{element.location}}</mat-cell>
+        </ng-container>
+  
+        <ng-container matColumnDef="actions">
+          <mat-header-cell class="header" *matHeaderCellDef>Edit/Delete</mat-header-cell>
+          <mat-cell *matCellDef="let element">
+            <button mat-icon-button [routerLink]="['/event-edit',element.eventId]" style="margin-right: 5px;"><mat-icon>edit</mat-icon></button>
+            <!-- <button type="button" mat-icon-button color="warn" (click)="confirmDelete(element)"><mat-icon>delete</mat-icon></button> -->
+          </mat-cell>
+        </ng-container>
+  
+        <mat-header-row *matHeaderRowDef="columns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: columns"></mat-row>
+        <!-- <mat-row *matRowDef="let row; columns: ['events']" style="width: 100%;" [class]="row == expandedElement ? 'expanded' : 'collapsed'"></mat-row> -->
+      </mat-table>
+      <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" [pageSize]="5" showFirstLastButtons></mat-paginator>
+    </mat-card-content>
+  </mat-card>
+  

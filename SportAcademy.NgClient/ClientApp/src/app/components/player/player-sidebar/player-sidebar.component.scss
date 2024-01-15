@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Icons');
+
+.academy{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    .name{
+        color: white;
+        font-size: 20px;
+    }
+    .name:hover{
+      color: red;
+  }
+    .user{
+        margin-top: 10px;
+        color:  #ffffff;
+    }
+}
+.menu-head{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+  
+  .menu-button {
+    display: flex;
+    justify-content: start;
+    margin-left:20px ;
+    margin-bottom: 10px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+  }
+  .menu-button mat-icon {
+     display: flex;
+     margin-left:20px ;
+     justify-content: start;
+    color: rgb(0, 0, 0);  
+  }
+  span{
+    color: rgb(0, 0, 0);  
+    font-weight: bold;
+  }
+  
+  .menu-button:hover {
+    background-color: rgb(255, 43, 32)
+  }

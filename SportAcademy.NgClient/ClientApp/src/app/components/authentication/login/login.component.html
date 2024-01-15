@@ -1,0 +1,38 @@
+<div class="login-container">
+  <div class="form-container mat-elevation-z8">
+      <div class="form-header mat-elevation-z9">
+          <mat-toolbar color="warn" style="text-align: center;">Login</mat-toolbar>
+      </div>
+      <form class="form" #loginForm="ngForm" (ngSubmit)="login(loginForm)">
+          <mat-form-field class="f-w" >
+              <mat-label>Username</mat-label>
+              <input matInput name="username" [(ngModel)]="data.username" #username="ngModel" required >
+              <mat-error>
+                <div *ngIf="!username.pristine && username.errors">Username required</div>
+              </mat-error>
+            </mat-form-field>
+            <mat-form-field class="f-w" >
+              <mat-label>Passwod</mat-label>
+              <input matInput name="password" [(ngModel)]="data.password" #password="ngModel" required >
+              <mat-error>
+                <div *ngIf="!password.pristine && password.errors">Password required</div>
+              </mat-error>
+            </mat-form-field>
+            <div style="text-align: start;">
+              Don't have an account?
+            </div>
+            <div class="f-w" style="display:flex;justify-content: space-between;">
+              <button [routerLink]="['/register']" mat-raised-button type="submit" style="background-color: white; color: black; width: 180px;">Register</button>
+              <button  mat-raised-button type="submit" style="background-color: white; color: black; width: 180px;">Login</button>
+            </div>
+            <div style="text-align: center; margin: 20px auto; ">
+              ________ or Login using another way ________
+            </div>              
+          <div class="f-w" style="margin-top: 10px;">
+            <div id="google-btn" class="google-btn" style="margin-bottom: 10px;"></div>
+             <button [routerLink]="['/google-login']" mat-raised-button type="submit" style="background-color: rgb(79, 79, 79); color: rgb(255, 255, 255); width: 370px; ">Continue with Facebook</button>
+          </div>
+      </form>
+  </div> 
+</div>
+

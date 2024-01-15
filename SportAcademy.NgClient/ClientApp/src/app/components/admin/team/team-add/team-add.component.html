@@ -1,0 +1,56 @@
+<mat-card class="form-card">
+    <mat-card-header class="custom-card-header">
+        <mat-card-title class="custom-card-title">Add Team</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <form [formGroup]="teamForm" (ngSubmit)="save()">
+
+            <mat-form-field appearance="outline" class="f-w">
+                <mat-label>Sports</mat-label>
+                <mat-select formControlName="sportId">
+                    <mat-option *ngFor="let sport of sports" [value]="sport.sportId">
+                        {{ sport.sportsName }}
+                    </mat-option>
+                </mat-select>
+                <mat-error *ngIf="f['sportId'].touched && f['sportId'].hasError('required')">
+                    Sports is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline" class="f-w">
+                <mat-label>Team Name</mat-label>
+                <input matInput type="text" formControlName="teamName" />
+                <mat-error *ngIf="f['teamName'].hasError('required')">Team Name is
+                    <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline" class="f-w">
+                <mat-label>Captain</mat-label>
+                <input matInput type="text" formControlName="captain" />
+                <mat-error *ngIf="f['captain'].hasError('required')">Captain is
+                    <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline" class="f-w">
+                <mat-label>Team Logo</mat-label>
+                <input matInput type="text" formControlName="teamLogo" [readonly]="image != null" />
+                <mat-icon matSuffix (click)="uploader.click()" style="cursor: pointer;">image</mat-icon>
+                <mat-error *ngIf="f['teamLogo'].hasError('required')">Team Logo is
+                    <strong>required</strong></mat-error>
+            </mat-form-field>
+
+            <!-- Add other form controls based on your Team model -->
+
+            <!-- ... (remaining form controls) ... -->
+
+            <div class="p-f-w">
+                <button mat-raised-button [routerLink]="['/team-list']" color="warn">Back to List</button>
+                <button type="submit" mat-raised-button color="primary">Save to Database</button>
+            </div>
+
+        </form>
+    </mat-card-content>
+</mat-card>
+<input type="file" #uploader hidden="true" (change)="onFileSelect($event)" />

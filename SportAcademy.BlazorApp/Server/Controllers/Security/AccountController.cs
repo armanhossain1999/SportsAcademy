@@ -23,7 +23,7 @@ namespace SportAcademy.BlazorApp.Server.Controllers.Security
             this.config = config;
             this.db = db;
         }
-        [Route("register")]
+        [Route("Register")]
         [HttpPost]
         public async Task<ActionResult> Register(RegisterViewModel model)
         {

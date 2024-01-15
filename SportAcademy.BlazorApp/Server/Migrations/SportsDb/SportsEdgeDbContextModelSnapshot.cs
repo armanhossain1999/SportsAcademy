@@ -8,7 +8,7 @@ using SportAcademy.BlazorApp.Shared.Models;
 
 #nullable disable
 
-namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
+namespace SportAcademy.BlazorApp.Server.migrations.SportsDb
 {
     [DbContext(typeof(SportsEdgeDbContext))]
     partial class SportsEdgeDbContextModelSnapshot : ModelSnapshot
@@ -90,35 +90,35 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                         new
                         {
                             AttendanceId = 1,
-                            Date = new DateTime(2023, 12, 8, 0, 0, 0, 0, DateTimeKind.Local),
+                            Date = new DateTime(2023, 12, 24, 0, 0, 0, 0, DateTimeKind.Local),
                             IsPresent = true,
                             TrainingSessionId = 1
                         },
                         new
                         {
                             AttendanceId = 2,
-                            Date = new DateTime(2024, 1, 8, 0, 0, 0, 0, DateTimeKind.Local),
+                            Date = new DateTime(2024, 1, 24, 0, 0, 0, 0, DateTimeKind.Local),
                             IsPresent = true,
                             TrainingSessionId = 2
                         },
                         new
                         {
                             AttendanceId = 3,
-                            Date = new DateTime(2024, 2, 8, 0, 0, 0, 0, DateTimeKind.Local),
+                            Date = new DateTime(2024, 2, 24, 0, 0, 0, 0, DateTimeKind.Local),
                             IsPresent = true,
                             TrainingSessionId = 3
                         },
                         new
                         {
                             AttendanceId = 4,
-                            Date = new DateTime(2024, 3, 8, 0, 0, 0, 0, DateTimeKind.Local),
+                            Date = new DateTime(2024, 3, 24, 0, 0, 0, 0, DateTimeKind.Local),
                             IsPresent = true,
                             TrainingSessionId = 4
                         },
                         new
                         {
                             AttendanceId = 5,
-                            Date = new DateTime(2024, 4, 8, 0, 0, 0, 0, DateTimeKind.Local),
+                            Date = new DateTime(2024, 4, 24, 0, 0, 0, 0, DateTimeKind.Local),
                             IsPresent = true,
                             TrainingSessionId = 5
                         });
@@ -223,7 +223,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                             CoachName = "Coach Smith",
                             CoachTypeId = 1,
                             Email = "coach.smith@example.com",
-                            JoinDate = new DateTime(2023, 12, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(3206),
+                            JoinDate = new DateTime(2023, 12, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(7740),
                             Phone = "987-654-3210",
                             Picture = "coach1.jpg"
                         },
@@ -234,7 +234,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                             CoachName = "Coach Johnson",
                             CoachTypeId = 2,
                             Email = "coach.johnson@example.com",
-                            JoinDate = new DateTime(2023, 12, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(3214),
+                            JoinDate = new DateTime(2023, 12, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(7744),
                             Phone = "123-456-7890",
                             Picture = "coach2.jpg"
                         },
@@ -245,7 +245,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                             CoachName = "Coach Davis",
                             CoachTypeId = 3,
                             Email = "coach.davis@example.com",
-                            JoinDate = new DateTime(2023, 12, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(3218),
+                            JoinDate = new DateTime(2023, 12, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(7786),
                             Phone = "555-222-3333",
                             Picture = "coach3.jpg"
                         },
@@ -256,7 +256,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                             CoachName = "Coach Miller",
                             CoachTypeId = 4,
                             Email = "coach.miller@example.com",
-                            JoinDate = new DateTime(2023, 12, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(3222),
+                            JoinDate = new DateTime(2023, 12, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(7788),
                             Phone = "111-999-7777",
                             Picture = "coach4.jpg"
                         },
@@ -267,7 +267,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                             CoachName = "Coach Wilson",
                             CoachTypeId = 5,
                             Email = "coach.wilson@example.com",
-                            JoinDate = new DateTime(2023, 12, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(3229),
+                            JoinDate = new DateTime(2023, 12, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(7790),
                             Phone = "444-888-6666",
                             Picture = "coach5.jpg"
                         });
@@ -497,45 +497,45 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                             CourseId = 1,
                             CourseName = "Sports Management",
                             Description = "Advanced course in sports management",
-                            EndDate = new DateTime(2024, 5, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(5902),
+                            EndDate = new DateTime(2024, 5, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8374),
                             Semester = "Fall 2023",
-                            StartDate = new DateTime(2023, 11, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(5897)
+                            StartDate = new DateTime(2023, 11, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8372)
                         },
                         new
                         {
                             CourseId = 2,
                             CourseName = "Sports Nutrition",
                             Description = "Understanding nutrition for athletic performance",
-                            EndDate = new DateTime(2024, 6, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(5911),
+                            EndDate = new DateTime(2024, 6, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8376),
                             Semester = "Fall 2023",
-                            StartDate = new DateTime(2024, 1, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(5906)
+                            StartDate = new DateTime(2024, 1, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8375)
                         },
                         new
                         {
                             CourseId = 3,
                             CourseName = "Sports Psychology",
                             Description = "Psychological aspects of sports and performance",
-                            EndDate = new DateTime(2024, 7, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(5920),
+                            EndDate = new DateTime(2024, 7, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8378),
                             Semester = "Fall 2023",
-                            StartDate = new DateTime(2024, 2, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(5918)
+                            StartDate = new DateTime(2024, 2, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8377)
                         },
                         new
                         {
                             CourseId = 4,
                             CourseName = "Sports Medicine",
                             Description = "Medical aspects of sports and athlete care",
-                            EndDate = new DateTime(2024, 8, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(5927),
+                            EndDate = new DateTime(2024, 8, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8380),
                             Semester = "Fall 2023",
-                            StartDate = new DateTime(2024, 3, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(5924)
+                            StartDate = new DateTime(2024, 3, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8379)
                         },
                         new
                         {
                             CourseId = 5,
                             CourseName = "Coaching Strategies",
                             Description = "Strategies for effective coaching in sports",
-                            EndDate = new DateTime(2024, 9, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(5936),
+                            EndDate = new DateTime(2024, 9, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8382),
                             Semester = "Fall 2023",
-                            StartDate = new DateTime(2024, 4, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(5934)
+                            StartDate = new DateTime(2024, 4, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8381)
                         });
                 });
 
@@ -699,61 +699,61 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                         {
                             EventId = 1,
                             Description = "Intensive training for the upcoming season",
-                            EndDate = new DateTime(2023, 12, 15, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(5240),
+                            EndDate = new DateTime(2023, 12, 31, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8209),
                             EventName = "Training Camp",
                             Location = "Sports Complex",
                             ManagerId = 1,
-                            Picture = "event1.jpg",
+                            Picture = "Fortuna Sittard.jpg",
                             SelectionPanelId = 1,
-                            StartDate = new DateTime(2023, 12, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(5234)
+                            StartDate = new DateTime(2023, 12, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8207)
                         },
                         new
                         {
                             EventId = 2,
                             Description = "Building team cohesion and communication",
-                            EndDate = new DateTime(2024, 1, 10, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(5269),
+                            EndDate = new DateTime(2024, 1, 26, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8221),
                             EventName = "Team Building Workshop",
                             Location = "Conference Center",
                             ManagerId = 1,
-                            Picture = "event2.jpg",
+                            Picture = "JMS CRICKET ACADEMY.jpg",
                             SelectionPanelId = 1,
-                            StartDate = new DateTime(2024, 1, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(5260)
+                            StartDate = new DateTime(2024, 1, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8218)
                         },
                         new
                         {
                             EventId = 3,
                             Description = "Friendly match to assess team performance",
-                            EndDate = new DateTime(2024, 2, 9, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(5283),
+                            EndDate = new DateTime(2024, 2, 25, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8223),
                             EventName = "Scrimmage Match",
                             Location = "Stadium",
                             ManagerId = 1,
-                            Picture = "event3.jpg",
+                            Picture = "Cricket Ground Equipment.jpg",
                             SelectionPanelId = 1,
-                            StartDate = new DateTime(2024, 2, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(5278)
+                            StartDate = new DateTime(2024, 2, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8223)
                         },
                         new
                         {
                             EventId = 4,
                             Description = "Educating players on injury prevention techniques",
-                            EndDate = new DateTime(2024, 3, 10, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(5296),
+                            EndDate = new DateTime(2024, 3, 26, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8226),
                             EventName = "Injury Prevention Workshop",
                             Location = "Training Facility",
                             ManagerId = 1,
-                            Picture = "event4.jpg",
+                            Picture = "Cricket Ground Equipment.jpg",
                             SelectionPanelId = 1,
-                            StartDate = new DateTime(2024, 3, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(5291)
+                            StartDate = new DateTime(2024, 3, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8225)
                         },
                         new
                         {
                             EventId = 5,
                             Description = "Planning team strategies for the upcoming matches",
-                            EndDate = new DateTime(2024, 4, 9, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(5308),
+                            EndDate = new DateTime(2024, 4, 25, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8228),
                             EventName = "Team Strategy Session",
                             Location = "Team Meeting Room",
                             ManagerId = 1,
-                            Picture = "event5.jpg",
+                            Picture = "Cricket Ground Equipment.jpg",
                             SelectionPanelId = 1,
-                            StartDate = new DateTime(2024, 4, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(5304)
+                            StartDate = new DateTime(2024, 4, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8227)
                         });
                 });
 
@@ -790,7 +790,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                         new
                         {
                             ExamId = 1,
-                            ExamDate = new DateTime(2024, 1, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(6441),
+                            ExamDate = new DateTime(2024, 1, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8561),
                             ExamName = "Sports Science",
                             ExamResultId = 1,
                             Result = 85.5
@@ -798,7 +798,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                         new
                         {
                             ExamId = 2,
-                            ExamDate = new DateTime(2024, 2, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(6451),
+                            ExamDate = new DateTime(2024, 2, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8565),
                             ExamName = "Nutrition Fundamentals",
                             ExamResultId = 2,
                             Result = 92.299999999999997
@@ -806,7 +806,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                         new
                         {
                             ExamId = 3,
-                            ExamDate = new DateTime(2024, 3, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(6462),
+                            ExamDate = new DateTime(2024, 3, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8566),
                             ExamName = "Psychological Assessment",
                             ExamResultId = 3,
                             Result = 78.900000000000006
@@ -814,7 +814,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                         new
                         {
                             ExamId = 4,
-                            ExamDate = new DateTime(2024, 4, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(6465),
+                            ExamDate = new DateTime(2024, 4, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8568),
                             ExamName = "Sports Injury Management",
                             ExamResultId = 4,
                             Result = 89.099999999999994
@@ -822,7 +822,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                         new
                         {
                             ExamId = 5,
-                            ExamDate = new DateTime(2024, 5, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(6496),
+                            ExamDate = new DateTime(2024, 5, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(8569),
                             ExamName = "Coaching Philosophies",
                             ExamResultId = 5,
                             Result = 94.700000000000003
@@ -1021,7 +1021,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                             ManagerId = 1,
                             Address = "123 Main Street",
                             Email = "john.manager@example.com",
-                            JoinDate = new DateTime(2023, 12, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(2660),
+                            JoinDate = new DateTime(2023, 12, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(7566),
                             ManagerName = "John Manager",
                             Phone = "123-456-7890",
                             Picture = "manager1.jpg"
@@ -1031,7 +1031,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                             ManagerId = 2,
                             Address = "456 Broad Avenue",
                             Email = "alice.admin@example.com",
-                            JoinDate = new DateTime(2023, 12, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(2696),
+                            JoinDate = new DateTime(2023, 12, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(7586),
                             ManagerName = "Alice Administrator",
                             Phone = "987-654-3210",
                             Picture = "manager2.jpg"
@@ -1041,7 +1041,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                             ManagerId = 3,
                             Address = "789 Pine Lane",
                             Email = "bob.lead@example.com",
-                            JoinDate = new DateTime(2023, 12, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(2703),
+                            JoinDate = new DateTime(2023, 12, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(7587),
                             ManagerName = "Bob Team Lead",
                             Phone = "555-123-4567",
                             Picture = "manager3.jpg"
@@ -1051,7 +1051,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                             ManagerId = 4,
                             Address = "890 Oak Street",
                             Email = "eva.coordinator@example.com",
-                            JoinDate = new DateTime(2023, 12, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(2710),
+                            JoinDate = new DateTime(2023, 12, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(7589),
                             ManagerName = "Eva Coordinator",
                             Phone = "111-222-3333",
                             Picture = "manager4.jpg"
@@ -1061,7 +1061,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                             ManagerId = 5,
                             Address = "567 Elm Road",
                             Email = "chris.supervisor@example.com",
-                            JoinDate = new DateTime(2023, 12, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(2717),
+                            JoinDate = new DateTime(2023, 12, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(7590),
                             ManagerName = "Chris Supervisor",
                             Phone = "444-555-6666",
                             Picture = "manager5.jpg"
@@ -1121,7 +1121,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                             Address = "789 Elm Street",
                             Designation = "Team Doctor",
                             Email = "dr.johnson@example.com",
-                            JoinDate = new DateTime(2023, 12, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(3590),
+                            JoinDate = new DateTime(2023, 12, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(7843),
                             MedicalAdvisorName = "Dr. Johnson",
                             Phone = "555-123-4567",
                             Picture = "advisor1.jpg"
@@ -1132,7 +1132,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                             Address = "456 Maple Avenue",
                             Designation = "Sports Physio",
                             Email = "dr.smith@example.com",
-                            JoinDate = new DateTime(2023, 12, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(3598),
+                            JoinDate = new DateTime(2023, 12, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(7847),
                             MedicalAdvisorName = "Dr. Smith",
                             Phone = "555-987-6543",
                             Picture = "advisor2.jpg"
@@ -1143,7 +1143,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                             Address = "123 Oak Street",
                             Designation = "Nutritionist",
                             Email = "dr.anderson@example.com",
-                            JoinDate = new DateTime(2023, 12, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(3605),
+                            JoinDate = new DateTime(2023, 12, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(7849),
                             MedicalAdvisorName = "Dr. Anderson",
                             Phone = "555-345-6789",
                             Picture = "advisor3.jpg"
@@ -1154,7 +1154,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                             Address = "789 Pine Avenue",
                             Designation = "Psychologist",
                             Email = "dr.williams@example.com",
-                            JoinDate = new DateTime(2023, 12, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(3613),
+                            JoinDate = new DateTime(2023, 12, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(7854),
                             MedicalAdvisorName = "Dr. Williams",
                             Phone = "555-678-9012",
                             Picture = "advisor4.jpg"
@@ -1165,7 +1165,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                             Address = "101 Cedar Lane",
                             Designation = "Rehab Specialist",
                             Email = "dr.davis@example.com",
-                            JoinDate = new DateTime(2023, 12, 8, 18, 12, 27, 741, DateTimeKind.Local).AddTicks(3618),
+                            JoinDate = new DateTime(2023, 12, 24, 18, 31, 41, 38, DateTimeKind.Local).AddTicks(7855),
                             MedicalAdvisorName = "Dr. Davis",
                             Phone = "555-234-5678",
                             Picture = "advisor5.jpg"
@@ -1226,8 +1226,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                         .IsRequired()
                         .HasColumnType("date");
 
-                    b.Property<int?>("CategoryId")
-                        .IsRequired()
+                    b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
                     b.Property<string>("Email")
@@ -2235,7 +2234,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                             TrainingSessionId = 1,
                             CoachId = 1,
                             Description = "Training session to prepare for the season",
-                            SessionTime = new DateTime(2023, 12, 9, 8, 12, 27, 741, DateTimeKind.Local).AddTicks(5433),
+                            SessionTime = new DateTime(2023, 12, 25, 8, 31, 41, 38, DateTimeKind.Local).AddTicks(8263),
                             Title = "Pre-Season Training"
                         },
                         new
@@ -2243,7 +2242,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                             TrainingSessionId = 2,
                             CoachId = 2,
                             Description = "Focus on agility and overall conditioning",
-                            SessionTime = new DateTime(2024, 1, 9, 10, 12, 27, 741, DateTimeKind.Local).AddTicks(5439),
+                            SessionTime = new DateTime(2024, 1, 25, 10, 31, 41, 38, DateTimeKind.Local).AddTicks(8266),
                             Title = "Agility and Conditioning"
                         },
                         new
@@ -2251,7 +2250,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                             TrainingSessionId = 3,
                             CoachId = 3,
                             Description = "Drills to improve tactical understanding",
-                            SessionTime = new DateTime(2024, 2, 9, 9, 12, 27, 741, DateTimeKind.Local).AddTicks(5443),
+                            SessionTime = new DateTime(2024, 2, 25, 9, 31, 41, 38, DateTimeKind.Local).AddTicks(8316),
                             Title = "Tactical Drills"
                         },
                         new
@@ -2259,7 +2258,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                             TrainingSessionId = 4,
                             CoachId = 4,
                             Description = "Specialized training for speed and power",
-                            SessionTime = new DateTime(2024, 3, 9, 8, 12, 27, 741, DateTimeKind.Local).AddTicks(5447),
+                            SessionTime = new DateTime(2024, 3, 25, 8, 31, 41, 38, DateTimeKind.Local).AddTicks(8318),
                             Title = "Speed and Power Training"
                         },
                         new
@@ -2267,7 +2266,7 @@ namespace SportAcademy.BlazorApp.Server.Migrations.SportsDb
                             TrainingSessionId = 5,
                             CoachId = 1,
                             Description = "Focus on player recovery and injury prevention",
-                            SessionTime = new DateTime(2024, 4, 9, 11, 12, 27, 741, DateTimeKind.Local).AddTicks(5503),
+                            SessionTime = new DateTime(2024, 4, 25, 11, 31, 41, 38, DateTimeKind.Local).AddTicks(8320),
                             Title = "Recovery Session"
                         });
                 });

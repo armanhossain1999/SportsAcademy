@@ -1,0 +1,45 @@
+<mat-card>
+    <mat-card-header>
+        <div mat-card-avatar>
+            <img src="../../../../assets/manager-avatar-svgrepo-com.svg" style="width: 40px;" />
+          </div>
+            <mat-card-title>Coach Info</mat-card-title>
+            <mat-card-subtitle></mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+        <section class="example-container">
+            <mat-table  [dataSource]="coachDataSource">
+                <ng-container matColumnDef="coachName">
+                    <mat-header-cell *matHeaderCellDef>Coach Name</mat-header-cell>
+                    <mat-cell *matCellDef="let element">{{element.coachName}}</mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="joinDate">
+                    <mat-header-cell *matHeaderCellDef>Join Date</mat-header-cell>
+                    <mat-cell *matCellDef="let element">{{element.joinDate | date:'yyyy-MM-dd'}}</mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="email">
+                    <mat-header-cell *matHeaderCellDef>Email</mat-header-cell>
+                    <mat-cell *matCellDef="let element">{{element.email}}</mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="phone">
+                    <mat-header-cell *matHeaderCellDef>Phone</mat-header-cell>
+                    <mat-cell *matCellDef="let element">{{element.phone }}</mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="address">
+                    <mat-header-cell *matHeaderCellDef>Address</mat-header-cell>
+                    <mat-cell *matCellDef="let element">{{element.address}}</mat-cell>
+                </ng-container>               
+
+                <mat-header-row *matHeaderRowDef="coachColumns sticky: true"></mat-header-row>
+                <mat-row *matRowDef="let row;columns:coachColumns"></mat-row>
+            </mat-table>
+          </section>
+          <!-- <div mat-dialog-actions style="justify-content: flex-end;">
+            <button mat-raised-button color="warn" [mat-dialog-close]="false">Ok</button>
+        </div>  -->
+    </mat-card-content>
+</mat-card>

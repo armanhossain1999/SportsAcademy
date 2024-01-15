@@ -1,0 +1,139 @@
+<mat-card class="full-card" style="margin-top: 18px; margin-bottom: 20px;">
+  <mat-card-header>
+    <div mat-card-avatar>
+      <img src="../../../../assets/bar_chart_FILL0_wght400_GRAD0_opsz24.svg" style="width: 35px;" />
+    </div>
+    <mat-card-title style="font-weight: bold;">PlayerStatictics</mat-card-title>
+    <mat-card-subtitle>Player Statictics Details</mat-card-subtitle>
+  </mat-card-header>
+
+  <mat-card-content>
+    <!-- Batting Section -->
+    <div class="table-section">
+      <h4 style="font-weight: bold; display: flex; background-color: lightgray; justify-content: center;">Batting</h4>
+      <mat-table [dataSource]="dataSource" matSort>
+        <!-- ... Your batting column definitions ... -->
+        <ng-container matColumnDef="matches">
+          <mat-header-cell class="header" *matHeaderCellDef>Matches</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{element.matches}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="innings">
+          <mat-header-cell class="header" *matHeaderCellDef>Innings</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{element.innings}}</mat-cell>
+        </ng-container>
+                
+        <ng-container matColumnDef="runs">
+          <mat-header-cell class="header" *matHeaderCellDef>Runs</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{element.runs}}</mat-cell>
+        </ng-container>        
+
+        <ng-container matColumnDef="balls">
+          <mat-header-cell class="header" *matHeaderCellDef>Balls</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{element.balls}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="average">
+          <mat-header-cell class="header" *matHeaderCellDef>Avg</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{element.average}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="fifty">
+          <mat-header-cell class="header" *matHeaderCellDef>50s</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{element.fifty}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="hundred">
+          <mat-header-cell class="header" *matHeaderCellDef>100s</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{element.hundred}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="sixs">
+          <mat-header-cell class="header" *matHeaderCellDef>6s</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{element.sixs}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="fours">
+          <mat-header-cell class="header" *matHeaderCellDef>4s</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{element.fours}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="highest">
+          <mat-header-cell class="header" *matHeaderCellDef>Highest</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{element.highest}}</mat-cell>
+        </ng-container>
+     
+
+        <ng-container matColumnDef="ducks">
+          <mat-header-cell class="header" *matHeaderCellDef>Ducks</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{element.ducks}}</mat-cell>
+        </ng-container>
+        
+        <ng-container matColumnDef="actions">
+          <mat-header-cell class="header" *matHeaderCellDef>Action</mat-header-cell>
+          <mat-cell *matCellDef="let element">
+            <button mat-icon-button [routerLink]="['/event-edit', element.eventId]" style="margin-right: 5px;"><mat-icon>edit</mat-icon></button>
+          </mat-cell>
+        </ng-container>
+        <mat-header-row *matHeaderRowDef="battingColumns; sticky: true"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: battingColumns"></mat-row>
+      </mat-table>     
+    </div>
+  </mat-card-content>
+</mat-card>
+
+<mat-card class="full-card" style="margin-top: 18px; margin-bottom: 20px;">
+  <mat-card-header>
+    <div mat-card-avatar>
+      <img src="../../../../assets/bar_chart_FILL0_wght400_GRAD0_opsz24.svg" style="width: 35px;" />
+    </div>
+    <mat-card-title style="font-weight: bold;">PlayerStatictics</mat-card-title>
+    <mat-card-subtitle>Player Statictics Details</mat-card-subtitle>
+  </mat-card-header>
+
+  <mat-card-content> 
+    <!-- Bowling Section -->
+    <div class="table-section">
+      <h4 style="font-weight: bold; display: flex; background-color: lightgray; justify-content: center;">Bowling</h4>
+      <mat-table [dataSource]="dataSource" matSort>
+
+        <ng-container matColumnDef="matches">
+          <mat-header-cell class="header" *matHeaderCellDef>Matches</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{element.matches}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="innings">
+          <mat-header-cell class="header" *matHeaderCellDef>Innings</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{element.innings}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="wicket">
+          <mat-header-cell class="header" *matHeaderCellDef>Wickets</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{element.wicket}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="maidens">
+          <mat-header-cell class="header" *matHeaderCellDef>Maidens</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{element.maidens}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="economy">
+          <mat-header-cell class="header" *matHeaderCellDef>Eco</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{element.economy}}</mat-cell>
+        </ng-container>
+
+        
+        <ng-container matColumnDef="actions">
+          <mat-header-cell class="header" *matHeaderCellDef>Action</mat-header-cell>
+          <mat-cell *matCellDef="let element">
+            <button mat-icon-button [routerLink]="['/event-edit', element.eventId]"><mat-icon>edit</mat-icon></button>
+          </mat-cell>
+        </ng-container>
+
+        <mat-header-row *matHeaderRowDef="bowlingColumns; sticky: true"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: bowlingColumns"></mat-row>
+      </mat-table>
+    </div>
+  </mat-card-content>
+  
+</mat-card>

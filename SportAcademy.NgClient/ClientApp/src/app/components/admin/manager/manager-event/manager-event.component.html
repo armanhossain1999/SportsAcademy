@@ -1,0 +1,69 @@
+<mat-card class="full-card" style="margin-top: 18px; margin-bottom: 20px;">
+    <mat-card-header>
+      <div mat-card-avatar>
+        <img src="../../../../assets/events-calendar-svgrepo-com.svg" style="width: 40px;" />
+      </div>
+      <mat-card-title style="font-weight: bold;">Event</mat-card-title>
+      <mat-card-subtitle>List of Event Details</mat-card-subtitle>
+    </mat-card-header>
+  
+    <!-- Add any buttons or actions if needed -->
+    
+    <mat-card-content>
+      <div class="table-section">
+        <h4 style="font-weight: bold; display: flex; background-color: lightgray; justify-content: center;">Events</h4>
+             <div class="example-container">
+        <mat-table [dataSource]="dataSource" matSort>
+          <!-- Define your columns similar to the purchase details -->
+          <ng-container matColumnDef="eventName">
+            <mat-header-cell class="header" *matHeaderCellDef>Event Name</mat-header-cell>
+            <mat-cell *matCellDef="let element">{{element.eventName}}</mat-cell>
+          </ng-container>
+
+          <!-- <ng-container matColumnDef="managerName">
+            <mat-header-cell class="header" *matHeaderCellDef mat-sort-header>Name</mat-header-cell>
+            <mat-cell *matCellDef="let element">{{element.managerName}}</mat-cell>
+          </ng-container> -->
+          
+          <ng-container matColumnDef="startDate">
+            <mat-header-cell class="header" *matHeaderCellDef>Start Date</mat-header-cell>
+            <mat-cell *matCellDef="let element">{{element.startDate | date:'yyyy-MM-dd'}}</mat-cell>
+          </ng-container>
+          <ng-container matColumnDef="endDate">
+            <mat-header-cell class="header" *matHeaderCellDef mat-sort-header>End Date</mat-header-cell>
+            <mat-cell *matCellDef="let element">{{element.endDate | date: 'yyyy-MM-dd'}}</mat-cell>
+          </ng-container>
+
+          <!-- <ng-container matColumnDef="description">
+            <mat-header-cell class="header" *matHeaderCellDef mat-sort-header>Description</mat-header-cell>
+            <mat-cell *matCellDef="let element">{{element.description}}</mat-cell>
+          </ng-container> -->
+          
+          <ng-container matColumnDef="location">
+            <mat-header-cell class="header" *matHeaderCellDef mat-sort-header>Location</mat-header-cell>
+            <mat-cell *matCellDef="let element">{{element.location}}</mat-cell>
+          </ng-container>
+          <!-- Add more columns based on your Event model -->
+          <ng-container matColumnDef="selectionPanel">
+            <mat-header-cell class="header" *matHeaderCellDef mat-sort-header>Selection Panel</mat-header-cell>
+            <mat-cell *matCellDef="let element"><a mat-button [routerLink]="['/selectionPanel-list']"><mat-icon>open_in_new</mat-icon></a></mat-cell>
+          </ng-container>
+  
+          <ng-container matColumnDef="actions">
+            <mat-header-cell class="header" *matHeaderCellDef>Edit/Delete</mat-header-cell>
+            <mat-cell *matCellDef="let element">
+              <button mat-icon-button [routerLink]="['/event-edit', element.eventId]" style="margin-right: 5px;"><mat-icon>edit</mat-icon></button>
+              <button type="button" mat-icon-button color="warn"
+                (click)="confirmDelete(element)"><mat-icon>delete</mat-icon></button>
+            </mat-cell>
+          </ng-container>
+  
+          <!-- Define header row and data row -->
+          <mat-header-row *matHeaderRowDef="columns; sticky: true"></mat-header-row>
+          <mat-row *matRowDef="let row; columns: columns"></mat-row>
+        </mat-table>
+      </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+  

@@ -2811,23 +2811,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Arman Hossain\\.nuget\\packages\\": {},
+    "C:\\Users\\LAB104-05\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\SportAcademy.BlazorApp.Client.csproj",
+      "projectUniqueName": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\SportAcademy.BlazorApp.Client.csproj",
       "projectName": "SportAcademy.BlazorApp.Client",
-      "projectPath": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\SportAcademy.BlazorApp.Client.csproj",
-      "packagesPath": "C:\\Users\\Arman Hossain\\.nuget\\packages\\",
-      "outputPath": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\obj\\",
+      "projectPath": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\SportAcademy.BlazorApp.Client.csproj",
+      "packagesPath": "C:\\Users\\LAB104-05\\.nuget\\packages\\",
+      "outputPath": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Arman Hossain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LAB104-05\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2843,8 +2843,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\SportAcademy\\SportAcademy.BlazorApp\\Shared\\SportAcademy.BlazorApp.Shared.csproj": {
-              "projectPath": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Shared\\SportAcademy.BlazorApp.Shared.csproj"
+            "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Shared\\SportAcademy.BlazorApp.Shared.csproj": {
+              "projectPath": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Shared\\SportAcademy.BlazorApp.Shared.csproj"
             }
           }
         }

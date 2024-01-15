@@ -1,0 +1,39 @@
+<div class="navbar">
+    <div class="top">
+    </div>
+    <div class="academy">
+        <h3 [routerLink]="['/home']" class="name" style="cursor: pointer;">SportsEdge</h3>
+        <p class="user">{{ authService.userName }}</p>
+    </div>
+    <div class="menu">
+        <div class="menu-head">
+            <p>______Dashboard______</p>
+        </div>
+        <div class="menu-item">
+            <button mat-button class="menu-button" [routerLink]="['/staff-dashboard']">
+                <mat-icon>dashboard</mat-icon>
+                <span>Home</span>
+            </button>         
+            <button mat-button class="menu-button" [routerLink]="['/staff-event-list']">
+                <mat-icon>event_note</mat-icon>
+                <span>Events</span>
+            </button>
+            <button mat-button class="menu-button" [routerLink]="['/staff-selectionPanel-list']">
+                <mat-icon>event_note</mat-icon>
+                <span>Selection Panel</span>
+            </button>
+            <button mat-button class="menu-button" [routerLink]="['/staff-team-list']">
+                <mat-icon>pages</mat-icon>
+                <span>Teams</span>
+            </button>
+            <button mat-button class="menu-button" [routerLink]="['/staff-player-list']">
+                <mat-icon>groups</mat-icon>
+                <span>Players</span>
+            </button>
+            <button mat-button class="menu-button" [routerLink]="['/settings-list']">
+                <mat-icon>settings_applications</mat-icon>
+                <span>Settings</span>
+            </button>
+        </div>
+    </div>
+</div>

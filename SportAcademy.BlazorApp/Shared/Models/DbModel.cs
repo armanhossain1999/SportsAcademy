@@ -1040,7 +1040,7 @@ namespace SportAcademy.BlazorApp.Shared.Models
                     Location = "Sports Complex",
                     SelectionPanelId = 1,
                     ManagerId = 1,
-                    Picture = "event1.jpg"
+                    Picture = "Fortuna Sittard.jpg"
                 },
                 new Event
                 {
@@ -1052,7 +1052,7 @@ namespace SportAcademy.BlazorApp.Shared.Models
                     Location = "Conference Center",
                     SelectionPanelId = 1,
                     ManagerId = 1,
-                    Picture = "event2.jpg"
+                    Picture = "JMS CRICKET ACADEMY.jpg"
                 },
                 new Event
                 {
@@ -1064,7 +1064,7 @@ namespace SportAcademy.BlazorApp.Shared.Models
                     Location = "Stadium",
                     SelectionPanelId = 1,
                     ManagerId = 1,
-                    Picture = "event3.jpg"
+                    Picture = "Cricket Ground Equipment.jpg"
                 },
                 new Event
                 {
@@ -1076,7 +1076,7 @@ namespace SportAcademy.BlazorApp.Shared.Models
                     Location = "Training Facility",
                     SelectionPanelId = 1,
                     ManagerId = 1,
-                    Picture = "event4.jpg"
+                    Picture = "Cricket Ground Equipment.jpg"
                 },
                 new Event
                 {
@@ -1088,7 +1088,7 @@ namespace SportAcademy.BlazorApp.Shared.Models
                     Location = "Team Meeting Room",
                     SelectionPanelId = 1,
                     ManagerId = 1,
-                    Picture = "event5.jpg"
+                    Picture = "Cricket Ground Equipment.jpg"
                 }
             );
 

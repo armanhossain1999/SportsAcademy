@@ -1,199 +1,199 @@
 {
   "Files": [
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\obj\\Debug\\net7.0\\compressed\\rgbl585dbp.gz",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\obj\\Debug\\net7.0\\compressed\\s7r7ryqn08.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\obj\\Debug\\net7.0\\scopedcss\\bundle\\SportAcademy.BlazorApp.Client.styles.css",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\obj\\Debug\\net7.0\\scopedcss\\bundle\\SportAcademy.BlazorApp.Client.styles.css",
       "PackagePath": "staticwebassets\\SportAcademy.BlazorApp.Client.styles.css"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Buses\\Arrival Maintenance.jpg",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Buses\\Arrival Maintenance.jpg",
       "PackagePath": "staticwebassets\\Buses\\Arrival Maintenance.jpg"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Buses\\Arrival _ Zero-emission solutions (1).jpg",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Buses\\Arrival _ Zero-emission solutions (1).jpg",
       "PackagePath": "staticwebassets\\Buses\\Arrival _ Zero-emission solutions (1).jpg"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Buses\\Arrival _ Zero-emission solutions (2).jpg",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Buses\\Arrival _ Zero-emission solutions (2).jpg",
       "PackagePath": "staticwebassets\\Buses\\Arrival _ Zero-emission solutions (2).jpg"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Buses\\Arrival _ Zero-emission solutions.jpg",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Buses\\Arrival _ Zero-emission solutions.jpg",
       "PackagePath": "staticwebassets\\Buses\\Arrival _ Zero-emission solutions.jpg"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Buses\\Comil Campione DD Volvo 8x2 en Fetransrio 2014.jpg",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Buses\\Comil Campione DD Volvo 8x2 en Fetransrio 2014.jpg",
       "PackagePath": "staticwebassets\\Buses\\Comil Campione DD Volvo 8x2 en Fetransrio 2014.jpg"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Buses\\FUTURISTIC CONCEPT LUXURY CARAVAN.jpg",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Buses\\FUTURISTIC CONCEPT LUXURY CARAVAN.jpg",
       "PackagePath": "staticwebassets\\Buses\\FUTURISTIC CONCEPT LUXURY CARAVAN.jpg"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Buses\\LT256.jpg",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Buses\\LT256.jpg",
       "PackagePath": "staticwebassets\\Buses\\LT256.jpg"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Buses\\Premium Vector _ Public transport indonesian bus vector.jpg",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Buses\\Premium Vector _ Public transport indonesian bus vector.jpg",
       "PackagePath": "staticwebassets\\Buses\\Premium Vector _ Public transport indonesian bus vector.jpg"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Buses\\Russian trolleybus PKTS-6281 _Admiral_ (ПКТС-6281 _Адмирал_).jpg",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Buses\\Russian trolleybus PKTS-6281 _Admiral_ (ПКТС-6281 _Адмирал_).jpg",
       "PackagePath": "staticwebassets\\Buses\\Russian trolleybus PKTS-6281 _Admiral_ (ПКТС-6281 _Адмирал_).jpg"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Buses\\download.jpg",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Buses\\download.jpg",
       "PackagePath": "staticwebassets\\Buses\\download.jpg"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Images\\Cricket Ground Equipment.jpg",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Images\\Cricket Ground Equipment.jpg",
       "PackagePath": "staticwebassets\\Images\\Cricket Ground Equipment.jpg"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Images\\Début des travaux au stade du Castres Olympique • OStadium_com.jpg",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Images\\Début des travaux au stade du Castres Olympique • OStadium_com.jpg",
       "PackagePath": "staticwebassets\\Images\\Début des travaux au stade du Castres Olympique • OStadium_com.jpg"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Images\\Fortuna Sittard.jpg",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Images\\Fortuna Sittard.jpg",
       "PackagePath": "staticwebassets\\Images\\Fortuna Sittard.jpg"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Images\\Gallery of Sports Park Stozice _ SADAR + VUGA  - 8 (1).jpg",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Images\\Gallery of Sports Park Stozice _ SADAR + VUGA  - 8 (1).jpg",
       "PackagePath": "staticwebassets\\Images\\Gallery of Sports Park Stozice _ SADAR + VUGA  - 8 (1).jpg"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Images\\Gallery of Sports Park Stozice _ SADAR + VUGA  - 8.jpg",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Images\\Gallery of Sports Park Stozice _ SADAR + VUGA  - 8.jpg",
       "PackagePath": "staticwebassets\\Images\\Gallery of Sports Park Stozice _ SADAR + VUGA  - 8.jpg"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Images\\JMS CRICKET ACADEMY.jpg",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Images\\JMS CRICKET ACADEMY.jpg",
       "PackagePath": "staticwebassets\\Images\\JMS CRICKET ACADEMY.jpg"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Images\\Stadium du Littoral _ Olgga Architects.jpg",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Images\\Stadium du Littoral _ Olgga Architects.jpg",
       "PackagePath": "staticwebassets\\Images\\Stadium du Littoral _ Olgga Architects.jpg"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Images\\TENNIS HOUSE - Chris Clout Design.jpg",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Images\\TENNIS HOUSE - Chris Clout Design.jpg",
       "PackagePath": "staticwebassets\\Images\\TENNIS HOUSE - Chris Clout Design.jpg"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Images\\Warwick School - Multi-Use Non Turf Cricket Practice Facility Construction.jpg",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Images\\Warwick School - Multi-Use Non Turf Cricket Practice Facility Construction.jpg",
       "PackagePath": "staticwebassets\\Images\\Warwick School - Multi-Use Non Turf Cricket Practice Facility Construction.jpg"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Images\\download.jpg",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Images\\download.jpg",
       "PackagePath": "staticwebassets\\Images\\download.jpg"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\athlete.png",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\athlete.png",
       "PackagePath": "staticwebassets\\Pictures\\athlete.png"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\balls-sports.png",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\balls-sports.png",
       "PackagePath": "staticwebassets\\Pictures\\balls-sports.png"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\bar-chart.png",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\bar-chart.png",
       "PackagePath": "staticwebassets\\Pictures\\bar-chart.png"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\calendar.png",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\calendar.png",
       "PackagePath": "staticwebassets\\Pictures\\calendar.png"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\call_FILL0_wght400_GRAD0_opsz24.png",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\call_FILL0_wght400_GRAD0_opsz24.png",
       "PackagePath": "staticwebassets\\Pictures\\call_FILL0_wght400_GRAD0_opsz24.png"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\category.png",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\category.png",
       "PackagePath": "staticwebassets\\Pictures\\category.png"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\coachspecial.png",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\coachspecial.png",
       "PackagePath": "staticwebassets\\Pictures\\coachspecial.png"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\credit-card.png",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\credit-card.png",
       "PackagePath": "staticwebassets\\Pictures\\credit-card.png"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\cricketformat.png",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\cricketformat.png",
       "PackagePath": "staticwebassets\\Pictures\\cricketformat.png"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\equipment.png",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\equipment.png",
       "PackagePath": "staticwebassets\\Pictures\\equipment.png"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\football-team.png",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\football-team.png",
       "PackagePath": "staticwebassets\\Pictures\\football-team.png"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\id-card.png",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\id-card.png",
       "PackagePath": "staticwebassets\\Pictures\\id-card.png"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\office-worker.png",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\office-worker.png",
       "PackagePath": "staticwebassets\\Pictures\\office-worker.png"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\person.png",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\person.png",
       "PackagePath": "staticwebassets\\Pictures\\person.png"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\playerrole.png",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\playerrole.png",
       "PackagePath": "staticwebassets\\Pictures\\playerrole.png"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\running.png",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\running.png",
       "PackagePath": "staticwebassets\\Pictures\\running.png"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\send_FILL0_wght400_GRAD0_opsz24.png",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\send_FILL0_wght400_GRAD0_opsz24.png",
       "PackagePath": "staticwebassets\\Pictures\\send_FILL0_wght400_GRAD0_opsz24.png"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\sportall.png",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\sportall.png",
       "PackagePath": "staticwebassets\\Pictures\\sportall.png"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\student-avatar-user-profile-icon.jpg",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\student-avatar-user-profile-icon.jpg",
       "PackagePath": "staticwebassets\\Pictures\\student-avatar-user-profile-icon.jpg"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\trainingsession.png",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\trainingsession.png",
       "PackagePath": "staticwebassets\\Pictures\\trainingsession.png"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\video_call_FILL0_wght400_GRAD0_opsz24.png",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\Pictures\\video_call_FILL0_wght400_GRAD0_opsz24.png",
       "PackagePath": "staticwebassets\\Pictures\\video_call_FILL0_wght400_GRAD0_opsz24.png"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\css\\app.css",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\favicon.ico",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\icon-192.png",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\index.html",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\scripts\\scripts.js",
+      "Id": "H:\\C-Sharp\\SportsEdge\\SportAcademy AiO v1.7\\SportAcademy\\SportAcademy.BlazorApp\\Client\\wwwroot\\scripts\\scripts.js",
       "PackagePath": "staticwebassets\\scripts\\scripts.js"
     },
     {

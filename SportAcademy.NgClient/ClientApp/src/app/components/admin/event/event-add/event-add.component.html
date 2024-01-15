@@ -1,0 +1,146 @@
+<mat-card class="form-card">
+    <mat-card-header class="custom-card-header">
+        <mat-card-title class="custom-card-title">Add Event</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <form [formGroup]="eventForm" (ngSubmit)="save()">
+          <mat-form-field appearance="outline" class="f-w">
+            <mat-label>Manager</mat-label>
+            <mat-select formControlName="managerId" >
+              <mat-option *ngFor="let manager of managers" [value]="manager.managerId">              
+                {{ manager.managerName }} 
+              </mat-option>
+            </mat-select>
+            <mat-error *ngIf="f['managerId'].touched && f['managerId'].hasError('required')">
+              Manager is <strong>required</strong>
+            </mat-error>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline" class="f-w">
+            <mat-label>Selecton Panel</mat-label>
+            <mat-select formControlName="selectionPanelId">
+              <mat-option *ngFor="let selectionPanel of selectionPanels" [value]="selectionPanel.selectionPanelId">
+                {{ selectionPanel.selectionPanelName }}
+              </mat-option>
+            </mat-select>
+            <mat-error *ngIf="f['selectionPanelId'].touched && f['selectionPanelId'].hasError('required')">
+              Selector Name is <strong>required</strong>
+            </mat-error>
+          </mat-form-field>          
+               
+        <mat-form-field appearance="outline" class="f-w">
+          <mat-label>Event Name</mat-label>
+          <input matInput type="text" formControlName="eventName" />
+          <mat-error *ngIf="f['eventName'].hasError('required')">Event Name is
+            <strong>required</strong></mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="f-w">
+          <mat-label>Event Picture</mat-label>
+          <input matInput type="text" formControlName="picture" [readonly]="image != null" />
+          <mat-icon matSuffix (click)="uploader.click()" style="cursor: pointer;">image</mat-icon>
+          <mat-error *ngIf="f['picture'].hasError('required')">Event Picture is
+            <strong>required</strong></mat-error>
+        </mat-form-field>
+        
+        <mat-form-field appearance="outline" class="f-w">
+          <mat-label>Start Date</mat-label>
+          <input matInput [matDatepicker]="startDatePicker" formControlName="startDate" />
+          <mat-datepicker-toggle matSuffix [for]="startDatePicker"></mat-datepicker-toggle>
+          <mat-datepicker #startDatePicker></mat-datepicker>
+          <mat-error *ngIf="f['startDate'].hasError('required')">Start Date is <strong>required</strong></mat-error>
+        </mat-form-field>
+  
+        <mat-form-field appearance="outline" class="f-w">
+          <mat-label>End Date</mat-label>
+          <input matInput [matDatepicker]="endDatePicker" formControlName="endDate" />
+          <mat-datepicker-toggle matSuffix [for]="endDatePicker"></mat-datepicker-toggle>
+          <mat-datepicker #endDatePicker></mat-datepicker>
+          <mat-error *ngIf="f['endDate'].hasError('required')">End Date is <strong>required</strong></mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="f-w">
+          <mat-label>Location</mat-label>
+          <input matInput type="text" formControlName="location" />
+          <mat-error *ngIf="f['location'].hasError('required')">Location is <strong>required</strong></mat-error>
+        </mat-form-field>
+  
+        <mat-form-field appearance="outline" class="f-w">
+          <mat-label>Description</mat-label>
+          <input matInput formControlName="description" />
+          <mat-error *ngIf="f['description'].hasError('required')">Description is <strong>required</strong></mat-error>
+        </mat-form-field>
+  
+        <div class="p-f-w">
+          <button mat-raised-button [routerLink]="['/event-list']" color="warn">Back to List</button>
+          <button type="submit"  mat-raised-button color="primary">Save to Database</button>
+        </div>
+  
+      </form>
+    </mat-card-content>
+  </mat-card>
+  <input type="file" #uploader hidden="true" (change)="onFileSelect($event)" />
+  
+ <!-- {{eventForm.value|json}}
+ {{eventForm.valid}} -->
+
+ <!-- Other Manager Details... -->
+
+            <!-- <div formArrayName="events">
+                <div *ngFor="let event of events.controls; let i = index" class="event-row">
+                    <mat-card-title>Event {{ i + 1 }}</mat-card-title>
+
+                    <mat-form-field class="f-w">
+                        <mat-label>Event Name</mat-label>
+                        <input matInput type="text" formControlName="eventName" />
+                        <mat-error *ngIf="events.controls[i].get('eventName')?.hasError('required')">Event Name is
+                            <strong>required</strong></mat-error>
+                    </mat-form-field>
+
+                    <mat-form-field class="f-w">
+                        <mat-label>Start Date</mat-label>
+                        <input matInput type="date" formControlName="startDate" />
+                        <mat-error *ngIf="events.controls[i].get('startDate')?.hasError('required')">Start Date is
+                            <strong>required</strong></mat-error>
+                    </mat-form-field>
+
+                    <mat-form-field class="f-w">
+                        <mat-label>End Date</mat-label>
+                        <input matInput type="date" formControlName="endDate" />
+                        <mat-error *ngIf="events.controls[i].get('endDate')?.hasError('required')">End Date is
+                            <strong>required</strong></mat-error>
+                    </mat-form-field>
+
+                    <mat-form-field class="f-w">
+                        <mat-label>Description</mat-label>
+                        <textarea matInput formControlName="description"></textarea>
+                        <mat-error *ngIf="events.controls[i].get('description')?.hasError('required')">Description is
+                            <strong>required</strong></mat-error>
+                    </mat-form-field>
+
+                    <mat-form-field class="f-w">
+                        <mat-label>Location</mat-label>
+                        <input matInput type="text" formControlName="location" />
+                        <mat-error *ngIf="events.controls[i].get('location')?.hasError('required')">Location is
+                            <strong>required</strong></mat-error>
+                    </mat-form-field>
+
+                    <mat-form-field class="f-w">
+                        <mat-label>Selection Panel ID</mat-label>
+                        <input matInput type="number" formControlName="selectionPanelId" />
+                        <mat-error *ngIf="events.controls[i].get('selectionPanelId')?.hasError('required')">Selection
+                            Panel ID is <strong>required</strong></mat-error>
+                    </mat-form-field>
+
+
+                    <button type="button" mat-icon-button (click)="removeEvent(i)">
+                        <mat-icon>delete</mat-icon>
+                    </button>
+                </div>
+            </div>
+
+            <div style="display: flex; align-items: center; justify-content: flex-start; margin-bottom: 15px;">
+                <mat-card-title>Events</mat-card-title>
+                <span class="spacer"></span>
+                <a mat-icon-button (click)="addEvent()" color="primary"><mat-icon>add</mat-icon></a>
+            </div> -->

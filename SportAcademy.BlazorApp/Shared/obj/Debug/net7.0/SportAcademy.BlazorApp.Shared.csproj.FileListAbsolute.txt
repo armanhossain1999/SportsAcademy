@@ -154,15 +154,3 @@ H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Shared\obj\Debug\net7.0\refint\SportAcademy.BlazorApp.Shared.dll
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Shared\obj\Debug\net7.0\SportAcademy.BlazorApp.Shared.pdb
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Shared\obj\Debug\net7.0\ref\SportAcademy.BlazorApp.Shared.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Shared\bin\Debug\net7.0\SportAcademy.BlazorApp.Shared.deps.json
-D:\SportAcademy\SportAcademy.BlazorApp\Shared\bin\Debug\net7.0\SportAcademy.BlazorApp.Shared.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Shared\bin\Debug\net7.0\SportAcademy.BlazorApp.Shared.pdb
-D:\SportAcademy\SportAcademy.BlazorApp\Shared\obj\Debug\net7.0\SportAcademy.BlazorApp.Shared.csproj.AssemblyReference.cache
-D:\SportAcademy\SportAcademy.BlazorApp\Shared\obj\Debug\net7.0\SportAcademy.BlazorApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
-D:\SportAcademy\SportAcademy.BlazorApp\Shared\obj\Debug\net7.0\SportAcademy.BlazorApp.Shared.AssemblyInfoInputs.cache
-D:\SportAcademy\SportAcademy.BlazorApp\Shared\obj\Debug\net7.0\SportAcademy.BlazorApp.Shared.AssemblyInfo.cs
-D:\SportAcademy\SportAcademy.BlazorApp\Shared\obj\Debug\net7.0\SportAcademy.BlazorApp.Shared.csproj.CoreCompileInputs.cache
-D:\SportAcademy\SportAcademy.BlazorApp\Shared\obj\Debug\net7.0\SportAcademy.BlazorApp.Shared.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Shared\obj\Debug\net7.0\refint\SportAcademy.BlazorApp.Shared.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Shared\obj\Debug\net7.0\SportAcademy.BlazorApp.Shared.pdb
-D:\SportAcademy\SportAcademy.BlazorApp\Shared\obj\Debug\net7.0\ref\SportAcademy.BlazorApp.Shared.dll

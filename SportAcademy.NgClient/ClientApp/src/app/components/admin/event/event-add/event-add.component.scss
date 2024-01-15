@@ -1,0 +1,36 @@
+.form-card {
+    max-height: 520px;
+    margin-top: 30px;
+    overflow: auto;
+    width: 65%;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.custom-card-title {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin: 0;
+    color: black;
+    
+}
+.f-w{
+    margin-top: 10px;
+}
+.managerList{
+    color: black;
+}
+.p-f-w {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+    .form-card {
+        width: 97%;
+        margin: 10px auto;
+    }
+}

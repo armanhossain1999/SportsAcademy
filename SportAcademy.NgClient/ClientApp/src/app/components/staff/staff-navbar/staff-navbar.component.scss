@@ -1,0 +1,38 @@
+mat-sidenav-container {
+    background: #ffffff;
+  }
+  
+  mat-sidenav {
+    background: linear-gradient(to bottom, #2d2d2d, rgb(18, 18, 18)); /* Gradient for the second card */
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    width: 230px;
+    height: 100%;
+  }
+  
+  mat-toolbar {
+    background: #ffffff;
+    height: 60px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    mat-icon {
+      color: #000000;
+      cursor: pointer;
+    }
+    justify-content: space-between;
+    .box {
+      display: flex;
+      align-items: center;
+      margin-top: 15px;
+      justify-content: center;
+    }
+  }
+  .matmenu{
+    margin: 0;
+  }
+  mat-sidenav-content {
+    height: 100vh;
+  
+    .main {
+      margin-left: 30px;
+    }
+  }
+  

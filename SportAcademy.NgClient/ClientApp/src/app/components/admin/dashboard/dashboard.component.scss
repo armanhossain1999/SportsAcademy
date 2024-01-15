@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.example-card {
+    width: 19%;
+    margin-bottom: 20px; 
+}
+mat-card-title{
+    font-weight: bold;
+}
+.example-card:nth-child(1) {
+    background: linear-gradient(to bottom, #4CAF50, #2196F3); /* Gradient for the first card */
+}
+
+.example-card:nth-child(2) {
+    background: linear-gradient(to bottom, #ffd045, #FF9800); /* Gradient for the second card */
+}
+
+.example-card:nth-child(3) {
+    background: linear-gradient(to bottom, #E91E63, #9C27B0); /* Gradient for the third card */
+}
+
+.example-card:nth-child(4) {
+    background: linear-gradient(to bottom, #a3c6ff, #ff0000); /* Gradient for the fourth card */
+}
+.example-card:nth-child(5) {
+    background: linear-gradient(to bottom, #4b4bff, #c6b5ff); /* Gradient for the first card */
+}
+/* Add more styles or adjust colors as needed */
+
+
+.columnchart {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.chart-container {
+    width: calc(50% - 20px); /* Two charts in a row with margin */
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.chart-container.full-width {
+    width: calc(100% - 20px); /* Full width for the third chart */
+    margin-right: 0;
+}
+.managertable{
+   width: 100%;
+   margin-bottom: 50px;
+}

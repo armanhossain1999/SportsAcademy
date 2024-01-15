@@ -1,9 +1,9 @@
 {
   "entryAssembly": "SportAcademy.BlazorApp.Client",
   "resources": {
-    "hash": "sha256-B1NwaLK+a+fQeqa2IZbJVAdxTn4n9cjzG700l/yUeYI=",
+    "hash": "sha256-dqJdGoOlZtIT3cYbGciH1ogQI3ioP9U93CSWuP1KMzc=",
     "runtime": {
-      "dotnet.7.0.14.wvwpy0m11w.js": "sha256-YWGUknGRzP/fgO6YjvCJKPVQNZAPEd6ll+rHfQEIW+I=",
+      "dotnet.7.0.14.w1vun13yd6.js": "sha256-YWGUknGRzP/fgO6YjvCJKPVQNZAPEd6ll+rHfQEIW+I=",
       "dotnet.timezones.blat": "sha256-t5xviiOQTfAsF0UDhmcyalKiaehUmf/sqJl97tmPM0M=",
       "dotnet.wasm": "sha256-Oyo/i3KkRvFfEKDQqn9DjK1HWx19Z6eCVCNsUFQPSJU=",
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -216,12 +216,12 @@
       "mscorlib.dll": "sha256-YcsJInaT/kw3Vrm+SESegPxvT/Lr9RE6rE/KnxWIIc0=",
       "netstandard.dll": "sha256-TztlSRjADgiEABbiAMdWZpHrUVd8wnRtQRAvlwmRP/4=",
       "System.Private.CoreLib.dll": "sha256-BAhrZ8Zg3cJKQipxdzqQo+9jtPkOkRx1ou3oIhDohtk=",
-      "SportAcademy.BlazorApp.Shared.dll": "sha256-BAJaflNtYisMLWBtMG+/JQUwpuSuvH0L6ww10BfNJPo=",
-      "SportAcademy.BlazorApp.Client.dll": "sha256-OEz7G4I0ew5sNoqk9Dl58H+4i7RdPmWSoNYHNtDuytc="
+      "SportAcademy.BlazorApp.Shared.dll": "sha256-35+C9oQEB7z+MZluXlGvyC9dd0dyGctU7rniADjXD1w=",
+      "SportAcademy.BlazorApp.Client.dll": "sha256-LUR6WPcgg8n8otjW9p5zilQyMEDcUQggoNsh1Agfhsk="
     },
     "pdb": {
-      "SportAcademy.BlazorApp.Shared.pdb": "sha256-Q+1fBEowP13U+Q0gu1AlOTFFEvY7NSF1ZOuYbrHQeUk=",
-      "SportAcademy.BlazorApp.Client.pdb": "sha256-tnJZmbF3sRKIiuVSeOcvJiMibwReQunUQcBazyAep8Q="
+      "SportAcademy.BlazorApp.Shared.pdb": "sha256-AQ5T0pCYyaBkmoL+JAAbcSVLEFBxHJ7conI2p9y9ixM=",
+      "SportAcademy.BlazorApp.Client.pdb": "sha256-0lBoOHohMFAsUQS0GgXisz1uPNgVqoKZpJnWEtShUOs="
     },
     "runtimeAssets": {
       "dotnet.wasm": {

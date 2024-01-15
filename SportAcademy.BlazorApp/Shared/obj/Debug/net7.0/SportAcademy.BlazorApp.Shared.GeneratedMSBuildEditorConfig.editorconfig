@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = SportAcademy.BlazorApp.Shared
-build_property.ProjectDir = D:\SportAcademy\SportAcademy.BlazorApp\Shared\
+build_property.ProjectDir = H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Shared\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

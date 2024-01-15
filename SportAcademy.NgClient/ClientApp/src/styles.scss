@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.header {
+    font-weight: bold;
+  }
+.form-card {
+    width: 90%;
+    margin: 10px auto;
+}
+.f-w
+{
+    width: 48%;
+    margin: 5px;
+}
+
+.save{   
+
+    cursor: pointer;   
+}
+
+.circle-image
+{
+    border: solid 1px lightgray;
+    width: 40px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .form-card {
+        width: 97%;
+        margin: 10px auto;
+    }
+}

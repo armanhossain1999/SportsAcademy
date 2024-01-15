@@ -1,0 +1,96 @@
+<mat-card class="form-card">
+    <mat-card-header class="custom-card-header" style="align-items: center;">
+      <div mat-card-avatar>
+        <img *ngIf="player.picture" src="{{imagePath}}/{{player.picture}}" class="circle-image" style="width: 50px;"/>
+      </div>
+      <mat-card-title class="custom-card-title" style="font-weight: bold;">Edit Player</mat-card-title>
+    </mat-card-header>
+    <mat-card-content style="margin-top: 10px;">
+      <form [formGroup]="playerForm" (ngSubmit)="save()">
+
+          <!-- <mat-form-field appearance="outline" class="f-w">
+            <mat-label>Team</mat-label>
+            <mat-select formControlName="teamId" >
+              <mat-option *ngFor="let team of teams" [value]="team.teamId">              
+                {{ team.teamName }} 
+              </mat-option>
+            </mat-select>
+            <mat-error *ngIf="f['teamId'].touched && f['teamId'].hasError('required')">
+              Team is <strong>required</strong>
+            </mat-error>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline" class="f-w">
+            <mat-label>Category</mat-label>
+            <mat-select formControlName="categoryId">
+              <mat-option *ngFor="let category of categories" [value]="category.categoryId">
+                {{ category.categoryName }}
+              </mat-option>
+            </mat-select>
+            <mat-error *ngIf="f['categoryId'].touched && f['categoryId'].hasError('required')">
+              Category is <strong>required</strong>
+            </mat-error>
+          </mat-form-field>           -->
+               
+        <mat-form-field appearance="outline" class="f-w">
+          <mat-label>Player Name</mat-label>
+          <input matInput type="text" formControlName="playerName" />
+          <mat-error *ngIf="f['playerName'].hasError('required')">Player Name is
+            <strong>required</strong></mat-error>
+        </mat-form-field>
+
+        <!-- <mat-form-field appearance="outline" class="f-w">
+            <mat-label>Rg. No</mat-label>
+            <input matInput type="text" formControlName="registrationNumber" />
+            <mat-error *ngIf="f['registrationNumber'].hasError('required')">Registration Number is
+              <strong>required</strong></mat-error>
+          </mat-form-field> -->
+
+        <mat-form-field appearance="outline" class="f-w">
+          <mat-label>Picture</mat-label>
+          <input matInput type="text" formControlName="picture" [readonly]="image != null" />
+          <mat-icon matSuffix (click)="uploader.click()" style="cursor: pointer;">image</mat-icon>
+          <mat-error *ngIf="f['picture'].hasError('required')">Picture is
+            <strong>required</strong></mat-error>
+        </mat-form-field>
+        
+        <mat-form-field appearance="outline" class="f-w">
+          <mat-label>Birth Date</mat-label>
+          <input matInput [matDatepicker]="birthDatePicker" formControlName="birthDate" />
+          <mat-datepicker-toggle matSuffix [for]="birthDatePicker"></mat-datepicker-toggle>
+          <mat-datepicker #birthDatePicker></mat-datepicker>
+          <mat-error *ngIf="f['birthDate'].hasError('required')">Birth Date is <strong>required</strong></mat-error>
+        </mat-form-field>     
+  
+        <mat-form-field appearance="outline" class="f-w">
+            <mat-label>Email</mat-label>
+            <input matInput type="email" formControlName="email" />
+            <mat-error *ngIf="f['email'].hasError('required')">Email is <strong>required</strong></mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="f-w">
+            <mat-label>Phone</mat-label>
+            <input matInput type="tel" formControlName="phone" />
+            <mat-error *ngIf="f['phone'].hasError('required')">Phone is <strong>required</strong></mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="f-w">
+            <mat-label>Address</mat-label>
+            <input type="text" matInput formControlName="address"/>
+            <mat-error *ngIf="f['address'].hasError('required')">Address is <strong>required</strong></mat-error>
+        </mat-form-field>
+  
+        <div class="p-f-w">
+          <button mat-raised-button [routerLink]="['/player-list']" color="warn">Back to List</button>
+          <button type="submit"  mat-raised-button color="primary">Save to Database</button>
+        </div>
+  
+      </form>
+    </mat-card-content>
+  </mat-card>
+  <input type="file" #uploader hidden="true" (change)="onFileSelect($event)" />
+  
+ {{playerForm.value|json}}
+ {{playerForm.valid}}
+
+              

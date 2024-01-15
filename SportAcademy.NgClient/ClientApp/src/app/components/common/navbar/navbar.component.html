@@ -1,0 +1,94 @@
+<mat-sidenav-container class="container">
+  <mat-sidenav #sidebar mode='over' opened>
+    <app-sidebar></app-sidebar>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div class="content">
+      <div class="toolbar">
+
+        <mat-toolbar>
+
+          <div class="home-toggle-search">
+            <mat-icon (click)="toggleSidebar()">menu</mat-icon>
+          </div>
+          <button mat-button [matMenuTriggerFor]="controller" style="font-weight: bold;"> Click here to control globally</button>
+
+          <mat-menu #controller="matMenu">
+            <button mat-menu-item [matMenuTriggerFor]="vertebrates">View</button>
+            <button mat-menu-item [matMenuTriggerFor]="invertebrates">Create</button>
+
+          </mat-menu>
+
+          <mat-menu #vertebrates="matMenu">
+            <button mat-menu-item [matMenuTriggerFor]="fish" [routerLink]="['/manager-list']">Manager</button>
+            <button mat-menu-item [matMenuTriggerFor]="amphibians" [routerLink]="['/event-list']">Event</button>
+            <button mat-menu-item [matMenuTriggerFor]="reptiles"[routerLink]="['/selectionPanel-list']">Selection Panel</button>
+            <button mat-menu-item [matMenuTriggerFor]="reptiles" [routerLink]="['/team-list']">Teams</button>
+            <button mat-menu-item [matMenuTriggerFor]="reptiles" [routerLink]="['/player-list']">Player</button>
+            <button mat-menu-item [matMenuTriggerFor]="reptiles" [routerLink]="['/palayerState-list']">Player State</button>
+            <button mat-menu-item [matMenuTriggerFor]="reptiles">Medical Advisor</button>
+            <button mat-menu-item [matMenuTriggerFor]="reptiles"[routerLink]="['/settings-list']">Player Role</button>
+
+          </mat-menu>
+
+          <mat-menu #invertebrates="matMenu">
+            <button mat-menu-item [routerLink]="['/manager-add']">Manager</button>
+            <button mat-menu-item [routerLink]="['/event-add']">Event</button>
+            <button mat-menu-item [routerLink]="['/selectionPanel-add']">Selection Panel</button>
+            <button mat-menu-item [routerLink]="['/team-add']">Teams</button>
+            <button mat-menu-item [routerLink]="['/player-add']">Player</button>
+            <button mat-menu-item [routerLink]="['/playerState-add']">Player State</button>
+            <button mat-menu-item [routerLink]="['/medicalAdvisor-add']">Medical Advisor</button>
+            <button mat-menu-item [routerLink]="['/admission-add']">Admission</button>
+          </mat-menu>
+
+          <mat-menu #fish="matMenu">
+            <button mat-menu-item>Baikal oilfish</button>
+            <button mat-menu-item>Bala shark</button>
+            <button mat-menu-item>Ballan wrasse</button>
+            <button mat-menu-item>Bamboo shark</button>
+            <button mat-menu-item>Banded killifish</button>
+          </mat-menu>
+
+          <mat-menu #amphibians="matMenu">
+            <button mat-menu-item>Sonoran desert toad</button>
+            <button mat-menu-item>Western toad</button>
+            <button mat-menu-item>Arroyo toad</button>
+            <button mat-menu-item>Yosemite toad</button>
+          </mat-menu>
+
+          <mat-menu #reptiles="matMenu">
+            <button mat-menu-item>Banded Day Gecko</button>
+            <button mat-menu-item>Banded Gila Monster</button>
+            <button mat-menu-item>Black Tree Monitor</button>
+            <button mat-menu-item>Blue Spiny Lizard</button>
+            <button mat-menu-item disabled>Velociraptor</button>
+          </mat-menu>
+
+
+          <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+            <mat-icon>3p</mat-icon>
+          </button>
+          <mat-menu #menu="matMenu">
+            <a mat-menu-item [routerLink]="['/profile']">
+              <mat-icon>person</mat-icon>
+              <span>Profile</span>
+            </a>
+            <a mat-menu-item [routerLink]="['/login']" *ngIf="!isLoggedIn">
+              <mat-icon>login</mat-icon>
+              <span>Login</span>
+            </a>
+            <button mat-menu-item (click)="logout()" *ngIf="isLoggedIn">
+              <mat-icon>logout</mat-icon>
+              <span>Logout</span>
+            </button>
+
+          </mat-menu>
+        </mat-toolbar>
+      </div>
+      <div class="main">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

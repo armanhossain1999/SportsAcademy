@@ -10536,7 +10536,6 @@ D:\R54-Kamrul-1272456\Final Project-2in1\SportAcademy AiO v1.7\SportAcademy\Spor
 D:\R54-Kamrul-1272456\Final Project-2in1\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\ref\SportAcademy.BlazorApp.Client.dll
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.14.utuf5dab4o.js
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\icudt_CJK.dat
@@ -10930,7 +10929,6 @@ H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.dll.gz
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Immutable.dll.gz
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\mscorlib.dll.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.14.utuf5dab4o.js.gz
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XDocument.dll.gz
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Data.DataSetExtensions.dll.gz
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Caching.Abstractions.dll.gz
@@ -11208,218 +11206,6 @@ H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\scopedcss\bundle\SportAcademy.BlazorApp.Client.styles.css
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\scopedcss\projectbundle\SportAcademy.BlazorApp.Client.bundle.scp.css
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\y3wci965ua.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\3z2oq2f9nd.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\kbglfisns6.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\wkhyvmebac.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ozgcri16zf.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\1gx9mp16m2.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\2fnbsjzsln.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\l6ifj8805i.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\grh3jqo21s.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\xwh9k79288.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\anz3slegae.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ldbxz8qisp.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\4rxpsuza3t.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\v3r0pf4e5g.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\4jr8qfhuzt.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\w59kkashs4.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ypo5057aj8.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\n6eeb2vrrk.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\4vl1o7lzkg.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\cok4q9xisa.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\b0gma5xmse.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\eoyxu8wsb2.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\fad1y7fqbp.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\u6z6u7ptvh.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\keqnwz1pn8.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\g39y5ihq7i.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\95wzwry0rn.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\h1wj9k6qht.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\vewojtvex0.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\eb5djoy2yb.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\g6w5djtz5o.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\d1tduwyxu7.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\k7uxqfcn56.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\rfhemifd74.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\zr2hnnrvp2.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\uhkiw6njnk.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\gzangfofvm.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\rvazv2bcou.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\8ywsdmk4te.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\x5085k4hfs.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\0zf7wjk9vy.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\vyp8wa3h28.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\blw5nnlwlw.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\lyr6c1jpas.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\mr0dbs6ukw.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\h8cushibvn.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\urwrpfa5yq.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\x5rkdb7qbf.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\kzp3ricoq7.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\rv7munqy4u.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\jkr97qeiq8.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\8358nbti7a.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\qptf9knfml.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\hp4imnb8rl.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\4areheekqh.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\yyapywmdul.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ctgt2hvnup.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\0gy0s3t9go.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\phnkbx7osa.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\cj2jhvvqj6.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\uy2hsg3fex.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\angoyq60mz.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\o1dz7afolg.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\o1qrxi49vu.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ia41x6vs0m.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\jkr4twllw8.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\tpxbw41dpw.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\alvbuiz0xs.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\yp68dn7vu6.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\z6ap9olhlr.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\34hkc87wzw.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\2fyifym0de.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\57x3rdxzi1.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\9m4yq1nnt7.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\jt0jn7gumi.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\uh7hfdevoo.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\dncc4ej0i7.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\qlsk9txhrg.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\8psjj9l1f5.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\jjsmrwbi7y.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\u5xu02dhbc.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\m7fm4q6xir.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\xt85dh7v59.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\edf1kd06et.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ni8jadm81n.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\thvve40p6m.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\234t4tehnx.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\fyzud8bjjw.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\8jmur6pax8.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\8d7ec78d6o.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\cqgxch0yjm.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\wuro64ide4.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\5hm9ykj9re.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\gic2ko65jh.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\kgkt9dzwl5.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\323qjjul2h.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\tnsle2ccuo.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\4jrribvczs.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\e0vpaqfuhi.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\e5gw8mgzxg.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\y37ccrd72b.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\bs6hdwtlp7.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\idtq14v0mx.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\8dayf42xtk.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\jkja23tvi1.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\6ne70vllai.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\s2p9vpls3m.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\26v7v1jr2o.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\kj0jkrh4qi.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\jp9wm4k2ey.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\mxc4n86izs.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\m1hyttj0sp.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\q9an31gm7j.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\py5u7xazjt.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\5v3xpvt28c.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\6jr1u7geqt.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\8q22l27tjm.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\vcj87cytud.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\rf3xtdp5n6.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\1spw6bywcw.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\x5u1vqlxth.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\x6aa8zcbno.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\f7uj8uob4y.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\p6jl7ffqz6.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\6wg3vcs64c.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\9hsrpacenh.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\wy8101t4b2.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\43qjtp88vf.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\dxer0ouchj.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\yujpjt0c3c.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ulx70dd5ky.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\6h2bs71yf6.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\n7jlasimr9.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\a7km5c6ega.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\a47gwzom9j.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\89pjx289hh.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\preo9ek8wz.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\3yr0j16amn.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\7ftt2p9hc6.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\3ygrmoixgn.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\xaexc7n2r4.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\csaqio7rnb.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\8siuv04pua.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\y59tj6ye2w.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\grfstdycod.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\eqpejzgvvh.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\f2we51x7hp.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\i8mctn48ma.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\v8avrodjez.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\b8a9e4p4ch.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\hocp77gpax.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\vyhvt7rwx7.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\hda9fvar5h.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ur4gjdc8ce.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\42bjqqgcac.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\goagcgoxi5.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\cq6r8onlmb.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ewvzd6uspv.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\d6j3vk9ypt.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\vobghnrze2.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\6pp4gwqqej.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\c03q4cf0gu.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\w8peji5w1g.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\05gozp0ss8.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\e8kshxqi16.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\eyqjq4cw96.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\gj59ya5j31.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\kysynafv6u.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\h01sgztshx.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\cndfq44utj.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\nxeji1lb4z.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ktfncnqcu9.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\3u2m4basas.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\glwckqk95p.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\h273mzrle5.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\o41533rz3k.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\q14ilyeuwm.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\mbrdte7bc8.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\l8hestydzf.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\pokja2vv4t.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\o3ydp1kf3v.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ysb3h1pc8x.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\6hak1ktnry.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\xzahlxxvml.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\f932lxcha6.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\2a8cyqjmbq.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\tddpqcj8q4.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\x9uxattakw.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\3n6toaphon.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\xuzs932k52.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\42jnsj3yfd.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\aub0vrhod7.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\rqkuejvrxo.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\2ebvm5c5oq.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\z0zf0uzmr9.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\uwccd9ztwl.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\bl7amanrf1.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\7w188twdq1.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\camyr1bzol.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\3z6mko7llw.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\kc88zt4h86.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\nxouj7pfzj.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\qv5cc4nvwu.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\us9ltiy929.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\4e8rk8l9z5.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\bw3ulcshi5.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\utuf5dab4o.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\l8ori3748r.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\coqef2yahq.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ax44p9ah63.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\c3n8skypay.gz
-H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\6ttdpha0lf.gz
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\sfh6xg2k3m.gz
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\5cqq3h3pdz.gz
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\wkam0pg5yh.gz
@@ -11430,899 +11216,217 @@ H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\refint\SportAcademy.BlazorApp.Client.dll
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\SportAcademy.BlazorApp.Client.pdb
 H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\ref\SportAcademy.BlazorApp.Client.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\icudt_CJK.dat
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\icudt_EFIGS.dat
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\icudt_no_CJK.dat
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Cryptography.Internal.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.CSharp.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.EntityFrameworkCore.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.EntityFrameworkCore.Relational.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Caching.Abstractions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Caching.Memory.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Http.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Identity.Core.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Identity.Stores.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Localization.Abstractions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Localization.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Options.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Registry.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\mscorlib.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\MudBlazor.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\netstandard.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.AppContext.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Buffers.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Concurrent.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Collections.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Immutable.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Collections.NonGeneric.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Specialized.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Annotations.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Primitives.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Configuration.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Console.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Core.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Data.Common.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Data.DataSetExtensions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Data.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Contracts.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Debug.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Process.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tools.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tracing.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.Primitives.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Dynamic.Runtime.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Asn1.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Tar.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Calendars.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Extensions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.Brotli.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.IsolatedStorage.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipelines.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Linq.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Expressions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Parallel.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Queryable.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Memory.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.Json.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.HttpListener.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.Mail.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.NameResolution.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.NetworkInformation.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.Ping.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.Primitives.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.Quic.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.Requests.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.Security.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.ServicePoint.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.Sockets.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebClient.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebProxy.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.Client.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.Vectors.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.ObjectModel.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Private.CoreLib.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Private.DataContractSerialization.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Private.Uri.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.Linq.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Extensions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Metadata.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Primitives.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Reader.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Resources.ResourceManager.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Writer.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Extensions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Handles.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.JavaScript.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Intrinsics.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Loader.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Numerics.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.AccessControl.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Claims.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.Windows.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.SecureString.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.ServiceModel.Web.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.ServiceProcess.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encodings.Web.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Text.Json.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Text.RegularExpressions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Channels.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Overlapped.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Thread.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.ThreadPool.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Timer.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.Local.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.ValueTuple.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Web.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Web.HttpUtility.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Windows.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Linq.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.ReaderWriter.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Serialization.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XDocument.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlDocument.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlSerializer.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\WindowsBase.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.14.wvwpy0m11w.js
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\SportAcademy.BlazorApp.Client.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\SportAcademy.BlazorApp.Client.pdb
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\SportAcademy.BlazorApp.Shared.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\SportAcademy.BlazorApp.Shared.pdb
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Console.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.Mail.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.IsolatedStorage.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Web.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Private.Uri.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Private.DataContractSerialization.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Process.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.Quic.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\SportAcademy.BlazorApp.Client.pdb.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.ServiceModel.Web.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Serialization.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.EntityFrameworkCore.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Concurrent.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.Local.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Data.DataSetExtensions.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Localization.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.EntityFrameworkCore.Abstractions.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Contracts.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Specialized.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Numerics.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebClient.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\MudBlazor.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\SportAcademy.BlazorApp.Shared.pdb.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Collections.NonGeneric.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Calendars.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlSerializer.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Overlapped.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Thread.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Primitives.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.Windows.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.AppContext.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Extensions.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Text.RegularExpressions.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Http.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Registry.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Data.Common.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Writer.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Metadata.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Parallel.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\WindowsBase.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Private.CoreLib.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.Brotli.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Queryable.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Linq.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tools.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Annotations.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Core.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Web.HttpUtility.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.NameResolution.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Cryptography.Internal.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.Vectors.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.EntityFrameworkCore.Relational.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.Client.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.ObjectModel.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.ReaderWriter.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Handles.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Linq.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.SecureString.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.HttpListener.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Configuration.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.Sockets.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.NetworkInformation.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Expressions.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Text.Json.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Dynamic.Runtime.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Windows.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Loader.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\SportAcademy.BlazorApp.Shared.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.Linq.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encodings.Web.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\mscorlib.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.ServicePoint.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\icudt_EFIGS.dat.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Resources.ResourceManager.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebProxy.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.Security.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Extensions.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Memory.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Debug.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Options.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Timer.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.ServiceProcess.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Collections.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Reader.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Asn1.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.Primitives.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Tar.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tracing.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\icudt_CJK.dat.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\netstandard.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.Json.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Claims.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Localization.Abstractions.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Identity.Stores.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Identity.Core.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Channels.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.ValueTuple.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Immutable.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlDocument.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Buffers.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.ThreadPool.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Data.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\SportAcademy.BlazorApp.Client.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.Ping.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XDocument.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.14.wvwpy0m11w.js.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Extensions.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Caching.Abstractions.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.Primitives.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Primitives.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.CSharp.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Caching.Memory.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.Requests.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.JavaScript.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipelines.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.AccessControl.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Intrinsics.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\icudt_no_CJK.dat.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\SportAcademy.BlazorApp.Client.staticwebassets.runtime.json
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\SportAcademy.BlazorApp.Client.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\SportAcademy.BlazorApp.Client.pdb
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.AspNetCore.Components.WebAssembly.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Extensions.Caching.Abstractions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Extensions.Caching.Memory.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Extensions.Configuration.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Extensions.Configuration.FileExtensions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Json.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Physical.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Extensions.FileSystemGlobbing.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Extensions.Http.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Extensions.Localization.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Extensions.Localization.Abstractions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.JSInterop.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.JSInterop.WebAssembly.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\MudBlazor.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.IO.Pipelines.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.CSharp.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.VisualBasic.Core.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.VisualBasic.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Win32.Primitives.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\Microsoft.Win32.Registry.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.AppContext.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Buffers.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Collections.Concurrent.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Collections.Immutable.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Collections.NonGeneric.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Collections.Specialized.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Collections.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.ComponentModel.Annotations.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.ComponentModel.DataAnnotations.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.ComponentModel.EventBasedAsync.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.ComponentModel.Primitives.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.ComponentModel.TypeConverter.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.ComponentModel.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Configuration.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Console.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Core.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Data.Common.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Data.DataSetExtensions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Data.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Diagnostics.Contracts.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Diagnostics.Debug.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Diagnostics.FileVersionInfo.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Diagnostics.Process.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Diagnostics.StackTrace.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Diagnostics.TextWriterTraceListener.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Diagnostics.Tools.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Diagnostics.TraceSource.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Diagnostics.Tracing.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Drawing.Primitives.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Drawing.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Dynamic.Runtime.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Formats.Asn1.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Formats.Tar.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Globalization.Calendars.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Globalization.Extensions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Globalization.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.IO.Compression.Brotli.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.IO.Compression.FileSystem.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.IO.Compression.ZipFile.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.IO.Compression.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.IO.FileSystem.AccessControl.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.IO.FileSystem.DriveInfo.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.IO.FileSystem.Primitives.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.IO.FileSystem.Watcher.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.IO.FileSystem.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.IO.IsolatedStorage.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.IO.MemoryMappedFiles.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.IO.Pipes.AccessControl.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.IO.Pipes.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.IO.UnmanagedMemoryStream.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.IO.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Linq.Expressions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Linq.Parallel.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Linq.Queryable.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Linq.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Memory.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Net.Http.Json.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Net.Http.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Net.HttpListener.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Net.Mail.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Net.NameResolution.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Net.NetworkInformation.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Net.Ping.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Net.Primitives.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Net.Quic.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Net.Requests.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Net.Security.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Net.ServicePoint.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Net.Sockets.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Net.WebClient.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Net.WebHeaderCollection.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Net.WebProxy.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Net.WebSockets.Client.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Net.WebSockets.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Net.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Numerics.Vectors.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Numerics.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.ObjectModel.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Private.DataContractSerialization.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Private.Uri.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Private.Xml.Linq.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Private.Xml.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Reflection.DispatchProxy.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Reflection.Emit.ILGeneration.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Reflection.Emit.Lightweight.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Reflection.Emit.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Reflection.Extensions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Reflection.Metadata.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Reflection.Primitives.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Reflection.TypeExtensions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Reflection.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Resources.Reader.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Resources.ResourceManager.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Resources.Writer.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Runtime.CompilerServices.Unsafe.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Runtime.CompilerServices.VisualC.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Runtime.Extensions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Runtime.Handles.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Runtime.InteropServices.JavaScript.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Runtime.InteropServices.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Runtime.Intrinsics.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Runtime.Loader.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Runtime.Numerics.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Runtime.Serialization.Formatters.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Runtime.Serialization.Json.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Runtime.Serialization.Primitives.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Runtime.Serialization.Xml.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Runtime.Serialization.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Runtime.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Security.AccessControl.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Security.Claims.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Security.Cryptography.Algorithms.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Security.Cryptography.Cng.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Security.Cryptography.Csp.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Security.Cryptography.Encoding.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Security.Cryptography.OpenSsl.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Security.Cryptography.Primitives.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Security.Cryptography.X509Certificates.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Security.Cryptography.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Security.Principal.Windows.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Security.Principal.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Security.SecureString.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Security.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.ServiceModel.Web.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.ServiceProcess.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Text.Encoding.CodePages.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Text.Encoding.Extensions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Text.Encoding.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Text.Encodings.Web.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Text.Json.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Text.RegularExpressions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Threading.Channels.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Threading.Overlapped.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Threading.Tasks.Dataflow.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Threading.Tasks.Extensions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Threading.Tasks.Parallel.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Threading.Tasks.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Threading.Thread.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Threading.ThreadPool.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Threading.Timer.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Threading.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Transactions.Local.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Transactions.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.ValueTuple.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Web.HttpUtility.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Web.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Windows.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Xml.Linq.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Xml.ReaderWriter.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Xml.Serialization.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Xml.XDocument.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Xml.XPath.XDocument.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Xml.XPath.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Xml.XmlDocument.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Xml.XmlSerializer.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Xml.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\WindowsBase.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\mscorlib.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\netstandard.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\System.Private.CoreLib.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\dotnet.js
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\dotnet.timezones.blat
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\dotnet.wasm
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\icudt_CJK.dat
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\icudt_EFIGS.dat
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\icudt_no_CJK.dat
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\SportAcademy.BlazorApp.Shared.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\SportAcademy.BlazorApp.Shared.pdb
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\SportAcademy.BlazorApp.Client.csproj.AssemblyReference.cache
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\SportAcademy.BlazorApp.Client.GeneratedMSBuildEditorConfig.editorconfig
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\SportAcademy.BlazorApp.Client.AssemblyInfoInputs.cache
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\SportAcademy.BlazorApp.Client.AssemblyInfo.cs
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\SportAcademy.BlazorApp.Client.csproj.CoreCompileInputs.cache
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\SportAcademy.BlazorApp.Client.MvcApplicationPartsAssemblyInfo.cache
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\blazor.build.boot-extension.json
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\blazor.boot.json
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\staticwebassets.build.json
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\staticwebassets.development.json
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\staticwebassets\msbuild.SportAcademy.BlazorApp.Client.Microsoft.AspNetCore.StaticWebAssets.props
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\staticwebassets\msbuild.build.SportAcademy.BlazorApp.Client.props
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.SportAcademy.BlazorApp.Client.props
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.SportAcademy.BlazorApp.Client.props
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\staticwebassets.pack.json
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\scopedcss\Pages\Events\EventAdd.razor.rz.scp.css
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\scopedcss\Pages\Events\EventEdit.razor.rz.scp.css
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\scopedcss\Pages\Events\EventList.razor.rz.scp.css
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\scopedcss\Pages\Managers\ManagerAdd.razor.rz.scp.css
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\scopedcss\Pages\Managers\ManagerEdit.razor.rz.scp.css
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\scopedcss\Pages\Managers\ManagerList.razor.rz.scp.css
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\scopedcss\bundle\SportAcademy.BlazorApp.Client.styles.css
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\scopedcss\projectbundle\SportAcademy.BlazorApp.Client.bundle.scp.css
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\rgbl585dbp.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\9p1ockh5wl.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ch2olnz8kb.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\rls34jbgie.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\c6eukuftae.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\e0kixmitpl.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\eg1b6mr7c6.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\5lxgrjpkrf.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\mgfevly7ob.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\8xwya0mr21.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\3y0zguge8e.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\4sps2e4yey.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\eyb5o4lh6t.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\x0iy7ckrk9.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\xtqmxmdyuw.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\iq5n0sw46a.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\k7dbz8p2sw.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\vrumxafguy.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\jzs846wlmj.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\137t6elb11.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\hn525wiljb.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\wqdfkttd0g.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\6v91tzajg2.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\dxap4fbh3f.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\r7s7uxukm4.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\9m22uyhxmi.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ueemd7foti.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\u0qk1w4wbw.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\4opyg8635s.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\u04kxdeu4k.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\6eust7yhjl.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\otbib8whtm.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\p1yo6hb7ae.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\q6576qbevj.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\35x52f5gh8.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\p3yhmnim8c.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\660d87hcf1.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\y6zdsaqct3.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\xcwl0cy3gw.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\dajk3x4wub.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\tca15odrgp.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\3i84l3bk6a.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\a4oudrg1y2.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\97u3oennk1.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\vfmiqejauo.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\45edtpu8x3.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\v8hwor1bb3.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\7mxk303599.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\55x9bijxl4.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\pwfws95cva.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\dvp7hjazn0.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ox2g017mgx.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\4dz3vcopci.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\95pazuqrk2.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\sohnvezq6n.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\8xfcfqsmlq.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\h9its8uh4f.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\0g9oo15jl1.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\dxzsopyqrz.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\a507c4vvgx.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\4l1ab22lc6.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\vl635aw8fa.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\4x5cfysbyk.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ozillad15y.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\t5nze1lxzh.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\wepwqtwnwh.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\2rkxabe8t4.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\rn6bvp2mr8.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\rpniaitmmg.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\d6sh8ly0ig.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\cyyi93h3pm.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\s7bytbfmk1.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\qhuxh2c8cl.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\xges08auji.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\irdp6mmwew.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\qc1ckjbzd2.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\s0n9noj2ui.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\7o1ql1y1ai.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\wwv46aza7j.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\9luainf408.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\c8cy32xc0o.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\u724bvf9ia.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\vvhb4z0ows.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ib9g1nu0x5.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\27gy7ow1ge.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\kv9slstf1k.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\sn7z83u8ah.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\qnrbkq14wx.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\swozmyb42m.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\0jzossb6sj.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\57hv0s9foz.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\80c319z5xh.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\za5sw7avcd.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\uv6fxljryb.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\r3awzp02bq.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\i7iqsog26x.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\av135dtsww.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\cbs1n7l69r.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\cu5rmgj747.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\om8pjawp9l.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\td2aq998v1.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ws6ftrqbm5.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\h6lkpqy17i.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\0j7nqdnjzy.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\e1ygfyyia4.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\hqhvb8efj8.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\wowsp1sdx4.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\x31ixq53hn.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\2uz9e3tm49.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\xyxrx0qh2d.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\mavdb3onnz.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ldl0sqv9qh.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\haow9gr3bn.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\5vcitk05lp.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\y6yok4iydh.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\m704x4nz3b.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\fecb7g1yd3.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\od9016cgj2.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\daehlsivx0.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\el5mfoje1l.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\tzegmwrej5.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\gefbxv13hs.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\1wraxyl61i.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\0u9ckcg20s.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\k36phi9ehq.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\0hynvvyng5.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\9lgzjxyvf5.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\rk1jzb3fmb.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\hm8oqnsqzp.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\4xvz6ecs63.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\9fuzzsvg3t.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\abzynm5koy.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\x7ow7r4q4r.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\4u2ah84p5v.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\lo1g5kxvbz.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\q180r08wio.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\lphcsn1poh.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\a6s98d7i0o.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\zvzqrkwfqe.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\1u66da885u.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\miacv2tlwy.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ghneuy1025.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\y3vicbi03v.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\1rlkr2oki5.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ir2mk189kf.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\zgb5bthfo5.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\k1in81lenb.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\5skh60snak.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\8krr8jz5da.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\7cx35aaraf.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\v3pzmlvck4.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\048aunsjf4.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\9ujlhiltif.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\s4svddi9hu.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\yxyycp7oj7.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\tvzjsiqy7p.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\1gxc5q4q2x.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\qqv5jrhi9e.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\56l3xhoktb.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\h3fa1r7kaa.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ovcv3m2cxd.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\m68bnxicby.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\8aqstqxsod.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\a7k0iz2ymy.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\97tf3qij27.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\017c07qkrf.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\h15vnc5vew.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\oyryils725.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\3k1g48ygb2.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\pruzs66oyx.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\zodl26ausa.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ft8p8zbw1r.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\7xmshztjnd.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\k3tk21or6q.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\iamt79xmbg.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\9gp3eq2zd7.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\uv52747yfj.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\8b6mieqny5.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\tctz8qsh4b.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ly5z05b1k5.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\6kjq2ao4qt.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\cbth4v5v3c.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\8bv4e66yzi.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\vic2hclgk4.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\pjotzpaidv.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\gavcmnntf4.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\46o76wj6k6.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\50hs8c0cwf.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\uvw947q0f1.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\e1a21rmqh0.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\0qrbih5bue.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\k0mbviqwne.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\gkx2lq2rw4.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\gekbpeh56b.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\3kicczuvxr.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\wsfk7c73v2.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\3y8l5lt82c.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\lgtls6u6m7.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\vf17q0xueb.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\7xtz0ik5mu.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\fliwoau1mt.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ieik24mufg.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\bh36tuxkrj.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\kz37c5fpls.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\sw0f2x1o01.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\bu9kkz1vo1.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\wvwpy0m11w.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\djndhelqpz.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\3xbwoea1pw.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\sld6kw0zik.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\lojy7snzkn.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\zznrr69cg9.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\k2ibll4pge.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\6cd0lwu1bw.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\wkam0pg5yh.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\3dcr5vtqb7.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\v5xmy37558.gz
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\SportAcademy.BlazorApp.Client.csproj.CopyComplete
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\SportAcademy.BlazorApp.Client.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\refint\SportAcademy.BlazorApp.Client.dll
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\SportAcademy.BlazorApp.Client.pdb
-D:\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\ref\SportAcademy.BlazorApp.Client.dll
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.14.w1vun13yd6.js
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.14.w1vun13yd6.js.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\s7r7ryqn08.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\q452nk75ft.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\8lo4y01yvg.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\homtprgj2x.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\pe0g99hrsv.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\o6pooyyi0v.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ngiwdcb4og.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\06i771k79o.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\f07a907zo7.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\rg44xjlwr5.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\whwlgxtf3n.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\1c0ff0vp2r.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ynriex60r3.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\x57c57iifb.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\p4k1fab2ft.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\7kbaofpnv1.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\0akrcmotis.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\1crzetog6b.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\at47oojw8k.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\wjt5y03b3f.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\z5mx3r35uv.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\c45hhoqosi.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\030ecqxw6z.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\2c1o2qdb0n.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\3xtxihm3wt.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\vw7vy88fz1.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\6mxm8n0xto.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\lpz2rzv0io.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\rfyj70tdk8.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\7m51be2s8y.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ocium17qq8.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ghyomzxb41.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\22wuf4kqna.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\a87ta477aw.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\scmg8pg96y.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\v7fq3e3wy0.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\6uo5odazx5.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\j7b8lfw90q.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\4yzzah9nb0.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\0igmb7w49b.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\3x240lf8oi.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\rrtr2km0bm.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\n7dg5uwyaz.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\7qntlitgnc.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\uekhe2kieo.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\tiatohqxg4.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\p8at09tvio.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\v5gnge9oc2.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\i1jyon5b1i.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\5vdd5dojwc.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ay83rwq6ft.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\09fu1kb0dr.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\9pu9dfca00.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\mq9khz9len.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\rf6qpny67t.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\480nfyo4fx.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\o5pz9h14ep.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\6n0b7rcyx6.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\72bzwbalvj.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\62urdxoxkc.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\v741naf9e2.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\7hrlvpxzov.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\poudxjr4tp.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\w4187um94w.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\2zbmleicc8.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\jdawidvh0p.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ucofr7po0i.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\cnaozyh2kp.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\islh6ta6s6.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\yz8eb5ghwb.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\cg9mnzkf18.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\g1rgetn41l.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\wdundamp1z.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\bqm2ul6bn4.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\n014kqontg.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ppf55ggdm1.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\q7032o0ipy.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\caq1y0l92v.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\lxw1hv5asv.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\mgr7bbks77.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ojwk8snspb.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\fibo07id8v.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\2yb24vyo56.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\zlcc213xj5.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ybcht4gyrz.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\77e1zp1605.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\na0tzfvcjm.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ewyzbhrtzm.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\fx44f6kr4h.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\r77jlguugq.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\j3fgzy568v.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ubhec3lf47.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\nt2enn345j.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\deo56519cb.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\2d37we2wqz.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\0ddpqrdrkt.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\5h5swqzkx1.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\871gcr3v38.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\no37juecl1.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\iqzlfuvopw.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\053fpk33su.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\fyqiut2hlw.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\xib9xr7ay9.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\5mcuaapxm9.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ued159zohe.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\cm8rjv1861.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ax9s2dhmzb.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\acdsghd4un.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\vcb32m975u.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\s91odbf9d8.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\eiq3q8l668.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\hj0fc33e9c.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\w5sqrdpyfy.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\zu0m0mlu75.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\cmdrxih8g6.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\8srl18lfsi.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\wt0xkziypr.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\uujqy17tz6.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\jwl0iulv2c.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\dg3mjgkjes.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\rycwxqrtvc.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\svzpwcx80p.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\b3lbian0yq.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\9nv2vb404k.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\c4wm9l4ohn.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\k0kdzh4gfx.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\di29fheny0.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ghawhc4y8j.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\tjmhxeuwrr.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\4gx9asbznn.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\g2bdluaks1.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\3kks59vohd.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\sih1bm15wf.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\mz37wxu41v.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\60dnfn7d9x.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\r4f67f33n6.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\r05tca5nj3.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\hs3zl67y63.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\8h854ksuxv.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\wsgedhh1l0.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\hpkvziszbr.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\zhqyucqo3o.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\qb86yslcdx.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\o8rdm1hkpe.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\lbuerijg78.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\34ie07dkvt.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\p4omkxxwzb.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\6jrqbnyqjs.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\pqyetjnv94.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\a8msf97y62.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\vjqfkgojdd.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\9o8rfk68n3.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\r9p891gs5s.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\qanuxudwru.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ur61jc4jj5.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\va8jdkurrm.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\7p4gx2rl9s.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\cgj96ygqk2.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\h3vs7oqv31.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\hgozu5jrlw.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\33qn91lkpx.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\qdck5jgsxq.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\l06dynzydb.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\z0cbrzmxdw.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\eqvxonbkx7.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\q9yrthgfuw.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\u0rss5lyvj.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\94ag5j20z9.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\d6z019lx20.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\l7ag65lq4y.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\r4i2bzj60p.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\hci5r6yo49.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\6hit594qmr.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\88goxlfsf9.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\m2yj55s12y.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\sp7nvzyjrd.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\fmqyaqpu9o.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\t1ki1ar2gw.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\6vqnwieszf.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\cgov6k6fhj.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\w1zr56xdim.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\0b5w7c2lho.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\eg7khjnuep.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\83orq77ven.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\qaxr8skic6.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\5rng96v1rw.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\b2cldmlec5.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\q36tg7p7pe.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\azxch0lhrt.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\1urpxsd37l.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\c32qh1cld6.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\b2h0bjliwi.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\tba8yo98io.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\80f0d9pwc1.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\utc3fwe7hp.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\erxnfh6nht.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\59atk4o9tw.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\1ts6cvoyzv.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\i60ldnep8i.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\99vqszlx6i.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\rvv5fvc2il.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\g33gbqbayf.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\bze41ic85w.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\n5amawr76i.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\xvlugnlqy1.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\ryx53lo38y.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\w1vun13yd6.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\1segpk17dq.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\x8cfqvtopi.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\o3wdn4y7pb.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\2tx2p5z3nc.gz
+H:\C-Sharp\SportsEdge\SportAcademy AiO v1.7\SportAcademy\SportAcademy.BlazorApp\Client\obj\Debug\net7.0\compressed\8nc6jpt3gf.gz

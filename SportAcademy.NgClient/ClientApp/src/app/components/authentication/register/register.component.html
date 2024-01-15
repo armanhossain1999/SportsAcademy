@@ -1,0 +1,56 @@
+<div class="login-container">
+    <div class="form-container mat-elevation-z8">
+      <div class="form-header mat-elevation-z9">
+        <mat-toolbar color="warn">Register</mat-toolbar>
+      </div>
+      <form class="form" #registerForm="ngForm" (ngSubmit)="register()">
+        <!-- Your registration form fields -->
+        <mat-form-field class="f-w">
+          <mat-label>Username</mat-label>
+          <input matInput name="username" [(ngModel)]="data.username" #username="ngModel" required>
+          <mat-error>
+            <div *ngIf="!username.pristine && username.errors">Username required</div>
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field class="f-w">
+          <mat-label>Email</mat-label>
+          <input matInput name="email" [(ngModel)]="data.email" #email="ngModel" required email>
+          <mat-error>
+            <div *ngIf="!email.pristine && email.errors">Invalid email</div>
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field class="f-w">
+          <mat-label>Password</mat-label>
+          <input matInput name="password" [(ngModel)]="data.password" #password="ngModel" required>
+          <mat-error>
+            <div *ngIf="!password.pristine && password.errors">Password required</div>
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field class="f-w">
+          <mat-label>Confirm Password</mat-label>
+          <input matInput name="confirmPassword" [(ngModel)]="data.confirmPassword" #confirmPassword="ngModel" required>
+          <mat-error>
+            <div *ngIf="!confirmPassword.pristine && confirmPassword.errors">Passwords must match</div>
+          </mat-error>
+        </mat-form-field>
+  
+        <!-- Your registration form buttons -->
+        <div style="text-align: end;">
+            Already have an account?
+        </div>
+        <div class="f-w" style="display:flex;justify-content: space-between;">
+          <button [disabled]="registerForm.invalid" mat-raised-button type="submit" style="background-color: white; color: black; width: 180px;">Register</button>
+          
+          <button [routerLink]="['/login']" mat-raised-button type="button" style="background-color: white; color: black; width: 180px;">Login</button>
+        </div>
+        <div style="text-align: center; margin: 20px auto;">
+            ______ or Register using another way_____
+        </div> 
+        <div class="f-w" style="margin-top: 10px;">
+          <div id="google-btn" class="google-btn" style="margin-bottom: 10px;"></div>
+          <button [routerLink]="['/facebook-register']" mat-raised-button type="submit" style="background-color: rgb(14, 51, 174); color: rgb(255, 255, 255); width: 370px;">Continue with Facebook</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  

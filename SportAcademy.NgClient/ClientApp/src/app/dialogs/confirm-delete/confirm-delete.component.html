@@ -1,0 +1,18 @@
+<!-- confirmation-delete.component.html -->
+<div class="confirmation-delete">
+  <mat-card>
+      <mat-card-header class="header" >
+          <mat-card-title style="font-weight: bold;">
+              <mat-icon>delete_forever</mat-icon>Confirm Deletion!!
+          </mat-card-title>
+      </mat-card-header>
+      <mat-card-content class="content">
+          <span style="font-weight: bold;">Are you sure you want to delete this item?</span>
+          <p>Note: This action cannot be undone.</p>
+      </mat-card-content>
+      <mat-card-actions class="buttons">
+          <button mat-raised-button (click)="onCancelClick()">Cancel</button>
+          <button mat-raised-button (click)="onConfirmClick()">Yes, Delete</button>
+      </mat-card-actions>
+  </mat-card>
+</div>

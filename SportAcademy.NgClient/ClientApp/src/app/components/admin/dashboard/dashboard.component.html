@@ -1,0 +1,88 @@
+<div class="header">
+    <!-- Cards with media area -->
+    <mat-card class="example-card" [routerLink]="['/event-list']" style="cursor: pointer;">
+        <mat-card-header>
+            <mat-card-title-group>
+                <mat-card-title>Events</mat-card-title>
+                <mat-card-subtitle>Small</mat-card-subtitle>
+               <img src="../../../../assets/events-calendar-svgrepo-com.svg" style="width: 30px;" />
+            </mat-card-title-group>
+        </mat-card-header>
+        <mat-card-content>
+            <h1>Total Events: {{ totalEvents }}</h1>
+        </mat-card-content>
+    </mat-card>
+
+     <!-- Cards with media area -->
+     <mat-card class="example-card" [routerLink]="['/team-list']" style="cursor: pointer;">
+        <mat-card-header>
+            <mat-card-title-group>
+                <mat-card-title>Teams</mat-card-title>
+                <mat-card-subtitle>Small</mat-card-subtitle>
+                <img src="../../../../assets/sports_esports_FILL0_wght400_GRAD0_opsz24.svg" style="width: 40px;" />
+            </mat-card-title-group>
+        </mat-card-header>
+        <mat-card-content>
+            <h1>Total Teams: {{ totalTeams }}</h1>
+        </mat-card-content>
+    </mat-card>
+
+     <!-- Cards with media area -->
+     <mat-card class="example-card" [routerLink]="['/player-list']" style="cursor: pointer;">
+        <mat-card-header>
+            <mat-card-title-group>
+                <mat-card-title>Players</mat-card-title>
+                <mat-card-subtitle>Small</mat-card-subtitle>
+               <img src="../../../../assets/sprint_FILL0_wght400_GRAD0_opsz24.svg" style="width: 40px;" />
+            </mat-card-title-group>
+        </mat-card-header>
+        <mat-card-content>
+            <h1>Total Players: {{ totalPlayers }}</h1>
+        </mat-card-content>
+    </mat-card>
+
+     <!-- Cards with media area -->
+     <mat-card class="example-card" [routerLink]="['/event-list']" style="cursor: pointer;">
+        <mat-card-header>
+            <mat-card-title-group>
+                <mat-card-title>Courses</mat-card-title>
+                <mat-card-subtitle>Small</mat-card-subtitle>
+                <img src="../../../../assets/subject_FILL0_wght400_GRAD0_opsz24.svg" style="width: 40px;" />
+            </mat-card-title-group>
+        </mat-card-header>
+        <mat-card-content>
+            <h1>Total Cources: {{ totalCourses }}</h1>
+        </mat-card-content>
+    </mat-card>
+
+    <!-- Cards with media area -->
+    <mat-card class="example-card" [routerLink]="['/coach-list']" style="cursor: pointer;">
+        <mat-card-header>
+            <mat-card-title-group>
+                <mat-card-title>Coaches</mat-card-title>
+                <mat-card-subtitle>Small</mat-card-subtitle>
+                <img src="../../../../assets/groups_FILL0_wght400_GRAD0_opsz24.svg" style="width: 40px;" />
+            </mat-card-title-group>
+        </mat-card-header>
+        <mat-card-content>
+            <h1>Total Coaches: {{ totalCoaches }}</h1>
+        </mat-card-content>
+    </mat-card>
+</div>
+
+
+<div class="columnchart">
+    <div class="chart-container" [routerLink]="['/event-list']" style="cursor: pointer;">
+        <canvasjs-chart [options]="chartOptions"></canvasjs-chart>
+    </div>
+    <div class="chart-container">
+        <canvasjs-chart [options]="chartOptions2"></canvasjs-chart>
+    </div>
+
+</div>
+<div class="managertable">
+    <app-player-list></app-player-list>
+</div>
+<div class="managertable">
+    <app-settings-list></app-settings-list>
+</div>

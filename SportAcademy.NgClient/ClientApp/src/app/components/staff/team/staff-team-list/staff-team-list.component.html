@@ -1,0 +1,96 @@
+<mat-card class="full-card">
+   
+    <mat-card-header>
+
+        <div mat-card-avatar><img src="../../../../assets/sports_esports_FILL0_wght400_GRAD0_opsz24.svg" style="width: 40px;" /></div>
+          <mat-card-title style="font-weight: bold;">Teams</mat-card-title>
+          <mat-card-subtitle>List of events</mat-card-subtitle> 
+
+        <!-- <mat-button-toggle-group appearance="legacy" name="fontStyle" aria-label="Font Style">
+          <button class="btn btn-primary btn-sm"><mat-icon>add</mat-icon></button>
+          <mat-button-toggle [routerLink]="['/team-add']" aria-label="Team">Team</mat-button-toggle>
+          <mat-button-toggle [routerLink]="['/player-add']" aria-label="Player">Player</mat-button-toggle>
+          <mat-button-toggle [routerLink]="['/playerState-add']" aria-label="PlayerState">Player State</mat-button-toggle>
+        </mat-button-toggle-group>    
+  
+  
+          <button mat-raised-button [matMenuTriggerFor]="menu" class="menu-button" style="width:200px; height: 40px; margin-right: 10px;">
+          <mat-icon>add</mat-icon>Create new
+        </button>         -->
+    
+      <div class="input-group mb-4" style="width: 400px; margin-right: 10px;">
+        <input type="text" class="form-control" matInput placeholder="Search" [(ngModel)]="searchTerm" (input)="applyFilter()" style="border: 1px solid #ced4da; border-radius: 5px;" />
+        <button class="btn btn-secondary"><mat-icon>search</mat-icon></button>   
+      </div>
+        
+      <!-- <mat-menu #menu="matMenu" class="matMenu">
+        <a mat-menu-item [routerLink]="['/team-add']" aria-label="Team" class="subMenu"><mat-icon>event</mat-icon>Team</a>
+        <a mat-menu-item [routerLink]="['/player-add']" aria-label="Manager" class="subMenu"><mat-icon>person_add</mat-icon>Player</a>
+        <a mat-menu-item [routerLink]="['/playerState-add']" aria-label="PlayerState" class="subMenu"><mat-icon>group_add</mat-icon>Player State</a>
+      </mat-menu>  -->
+
+    </mat-card-header>
+       
+    <mat-card-content>
+      <mat-table *ngIf="teamDataSource" [dataSource]="teamDataSource" matSort multiTemplateDataRows>
+        <ng-container matColumnDef="expand">
+          <mat-header-cell class="header" *matHeaderCellDef>Players</mat-header-cell>
+          <mat-cell *matCellDef="let element">
+            <button mat-icon-button aria-label="expand row"
+              (click)="expandedElement = expandedElement === element ? null : element; $event.stopPropagation()">
+              <mat-icon *ngIf="expandedElement !== element">chevron_right</mat-icon>
+              <mat-icon *ngIf="expandedElement === element">expand_more</mat-icon>
+            </button>
+          </mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="players">
+          <mat-cell *matCellDef="let element" [attr.colspan]="columns.length">
+            <div *ngIf="element == expandedElement" style="width: 100%;">
+              <app-team-player
+                [teamName]="element.teamName"               
+                [player]="element.players"
+              ></app-team-player>
+            </div>
+          </mat-cell>
+        </ng-container>     
+  
+        <ng-container matColumnDef="teamLogo">
+          <mat-header-cell class="header" *matHeaderCellDef>Team Logo</mat-header-cell>
+          <mat-cell *matCellDef="let element"><img src="{{imagePath}}/{{element.teamLogo}}" class="circle-image"
+              style="width: 40px;"></mat-cell>
+        </ng-container>
+  
+        <ng-container matColumnDef="teamName">
+          <mat-header-cell class="header" *matHeaderCellDef mat-sort-header>Team Name</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{element.teamName}}</mat-cell>
+        </ng-container>
+  
+        <ng-container matColumnDef="captain">
+          <mat-header-cell class="header" *matHeaderCellDef mat-sort-header>Captain</mat-header-cell>
+          <mat-cell *matCellDef="let element">{{element.captain}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="sportsName">
+          <mat-header-cell class="header" *matHeaderCellDef mat-sort-header>Sports</mat-header-cell>
+          <mat-cell *matCellDef="let element">
+            {{ getSportsName(element.sportsName)}}    
+          </mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="actions">
+          <mat-header-cell class="header" *matHeaderCellDef>Edit/Delete</mat-header-cell>
+          <mat-cell *matCellDef="let element">
+            <button mat-icon-button [routerLink]="['/team-edit',element.teamId]" style="margin-right: 5px;"><mat-icon>edit</mat-icon></button>
+            <button type="button" mat-icon-button color="warn" (click)="confirmDelete(element)"><mat-icon>delete</mat-icon></button>
+          </mat-cell>
+        </ng-container>
+  
+        <mat-header-row *matHeaderRowDef="columns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: columns"></mat-row>
+        <mat-row *matRowDef="let row; columns: ['players']" style="width: 100%;" [class]="row == expandedElement ? 'expanded' : 'collapsed'"></mat-row>
+      </mat-table>
+      <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" [pageSize]="5" showFirstLastButtons></mat-paginator>
+    </mat-card-content>
+  </mat-card>
+  

@@ -1,0 +1,92 @@
+<mat-card class="full-card" style="margin-top: 18px; margin-bottom: 20px;">
+    <mat-card-header>
+      <div mat-card-avatar>
+        <img src="../../../../assets/sprint_FILL0_wght400_GRAD0_opsz24.svg" style="width: 35px;" />
+      </div>
+      <mat-card-title style="font-weight: bold;">Players</mat-card-title>
+      <mat-card-subtitle>List of Players</mat-card-subtitle>
+    </mat-card-header>
+  
+    <!-- Add any buttons or actions if needed -->   
+    <mat-card-content>
+      <div class="example-container">
+        <mat-table [dataSource]="dataSource" matSort multiTemplateDataRows>
+
+          <!-- <ng-container matColumnDef="expand">
+            <mat-header-cell class="header" *matHeaderCellDef>Statictics</mat-header-cell>
+            <mat-cell *matCellDef="let element">
+              <button mat-icon-button aria-label="expand row"
+                (click)=" expandedElement = expandedElement === element ? null : element; $event.stopPropagation()">
+                <mat-icon *ngIf="expandedElement !== element">chevron_right</mat-icon>
+                <mat-icon *ngIf="expandedElement === element">expand_more</mat-icon>
+              </button>
+            </mat-cell>
+          </ng-container>
+
+          <ng-container matColumnDef="playerStatistic">
+            <mat-cell *matCellDef="let element" [attr.colspan]="columns.length">
+              <div *ngIf="element == expandedElement" style="width: 100%;">    
+                <app-player-player-statistics 
+                  [playerName]="element.playerName"
+                  [playerStatistic]="element.playerStatistics ?? []">
+                </app-player-player-statistics>
+              </div>
+            </mat-cell>
+          </ng-container> -->
+
+            <ng-container matColumnDef="picture">
+                <mat-header-cell class="header" *matHeaderCellDef>Picture</mat-header-cell>
+                <mat-cell *matCellDef="let element"><img src="{{imagePath}}/{{element.picture}}" class="circle-image"
+                    style="width: 40px;"></mat-cell>
+              </ng-container>
+             
+              <ng-container matColumnDef="playerName">
+                <mat-header-cell class="header" *matHeaderCellDef mat-sort-header>Name</mat-header-cell>
+                <mat-cell *matCellDef="let element">{{element.playerName}}</mat-cell>
+              </ng-container>
+
+              <ng-container matColumnDef="registrationNumber">
+                <mat-header-cell class="header" *matHeaderCellDef mat-sort-header>Rg.No</mat-header-cell>
+                <mat-cell *matCellDef="let element">{{element.registrationNumber}}</mat-cell>
+              </ng-container>
+
+              <ng-container matColumnDef="birthDate">
+                <mat-header-cell class="header" *matHeaderCellDef mat-sort-header>BirthDate</mat-header-cell>
+                <mat-cell *matCellDef="let element">{{ element.birthDate | date: 'dd-MM-yyyy' }}</mat-cell>
+              </ng-container>
+        
+              <ng-container matColumnDef="phone">
+                <mat-header-cell class="header" *matHeaderCellDef mat-sort-header>Phone</mat-header-cell>
+                <mat-cell *matCellDef="let element">{{element.phone}}</mat-cell>
+              </ng-container>
+        
+              <ng-container matColumnDef="email">
+                <mat-header-cell class="header" *matHeaderCellDef mat-sort-header>Email</mat-header-cell>
+                <mat-cell *matCellDef="let element">{{element.email}}</mat-cell>
+              </ng-container>
+                
+              <ng-container matColumnDef="address">
+                <mat-header-cell class="header" *matHeaderCellDef mat-sort-header>Address</mat-header-cell>
+                <mat-cell *matCellDef="let element">{{element.address}}</mat-cell>
+              </ng-container>
+  
+          <ng-container matColumnDef="actions">
+            <mat-header-cell class="header" *matHeaderCellDef>Edit/Delete</mat-header-cell>
+            <mat-cell *matCellDef="let element">
+              <button mat-icon-button [routerLink]="['/event-edit', element.eventId]" style="margin-right: 5px;"><mat-icon>edit</mat-icon></button>
+              <button type="button" mat-icon-button color="warn"
+                (click)="confirmDelete(element)"><mat-icon>delete</mat-icon></button>
+            </mat-cell>
+          </ng-container>
+  
+          <!-- Define header row and data row -->
+          <mat-header-row *matHeaderRowDef="columns; sticky: true"></mat-header-row>
+          <mat-row *matRowDef="let row; columns: columns"></mat-row>
+          <mat-row *matRowDef="let row; columns: ['playerStatistic']" style="width: 100%;"
+        [class]="row == expandedElement ? 'expanded' : 'collapsed'">
+      </mat-row>
+        </mat-table>
+      </div>
+    </mat-card-content>
+  </mat-card>
+  
